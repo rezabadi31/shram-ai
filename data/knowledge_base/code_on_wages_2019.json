@@ -1,0 +1,142 @@
+{
+  "summary": {
+    "code_id": "wages_2019",
+    "title": "The Code on Wages, 2019",
+    "act_number": "Act No. 29 of 2019",
+    "enactment_year": 2019,
+    "total_chapters": 9,
+    "total_sections": 69,
+    "primary_objective": "Amends and consolidates laws relating to wages and bonus and matters connected therewith; guarantees statutory minimum wages and timely payment to all employees across India.",
+    "enforcing_spheres": ["Central Sphere (Railways, Mines, Oilfields, Major Ports)", "State Sphere (Factories, Establishments)"],
+    "repealed_acts": [
+      "The Payment of Wages Act, 1936",
+      "The Minimum Wages Act, 1948",
+      "The Payment of Bonus Act, 1965",
+      "The Equal Remuneration Act, 1976"
+    ],
+    "mandatory_registers": [
+      "Form A - Register of Employees",
+      "Form B - Register of Wages",
+      "Form C - Register of Recovery / Deductions",
+      "Form D - Muster Roll / Attendance",
+      "Wage Slip (Rule 51)"
+    ]
+  },
+  "sections": [
+    {
+      "code_id": "wages_2019",
+      "code_name": "The Code on Wages, 2019",
+      "chapter_number": "Chapter II",
+      "chapter_title": "Minimum Wages",
+      "section_number": "Section 6",
+      "title": "Fixation of Minimum Rates of Wages",
+      "statutory_text": "The appropriate Government shall fix a minimum rate of wages for time work, piece work, and guaranteed time rate. The minimum wage shall be based on skill category (unskilled, semi-skilled, skilled, highly skilled), arduousness of work, and geographical area, and shall not be less than the national floor level minimum wage fixed by the Central Government.",
+      "keywords": ["minimum wage", "fixation", "time rate", "piece rate", "skill level", "floor wage"],
+      "thresholds": {
+        "criterion": "All wage-earning employees in all organized and unorganized establishments",
+        "applicability_limit": "Universal (1+ employee)",
+        "enforcing_authority": "Chief Labour Commissioner (Central) / State Labour Commissioners"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹50,000",
+        "subsequent_offense": "Imprisonment up to 3 months or fine up to ₹1,00,000 or both",
+        "imprisonment_term": "3 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form B - Register of Wages"],
+      "citation": "The Code on Wages, 2019, Sec. 6"
+    },
+    {
+      "code_id": "wages_2019",
+      "code_name": "The Code on Wages, 2019",
+      "chapter_number": "Chapter II",
+      "chapter_title": "Minimum Wages",
+      "section_number": "Section 8",
+      "title": "Payment of Minimum Rate of Wages",
+      "statutory_text": "Where an employee is employed in an establishment where minimum rates of wages have been fixed under this Code, the employer shall pay to every employee wages at a rate which shall not be less than the minimum rate of wages so fixed. No deduction other than permissible under Section 18 shall reduce wages below the statutory minimum rate.",
+      "keywords": ["payment of minimum wages", "non-payment", "underpayment", "statutory rate", "deduction ceiling"],
+      "thresholds": {
+        "criterion": "All establishments",
+        "applicability_limit": "Universal",
+        "enforcing_authority": "Labour Enforcement Officer / Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹50,000",
+        "subsequent_offense": "Fine up to ₹1,00,000 and imprisonment up to 3 months",
+        "imprisonment_term": "3 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form B - Register of Wages"],
+      "citation": "The Code on Wages, 2019, Sec. 8"
+    },
+    {
+      "code_id": "wages_2019",
+      "code_name": "The Code on Wages, 2019",
+      "chapter_number": "Chapter II",
+      "chapter_title": "Minimum Wages",
+      "section_number": "Section 14",
+      "title": "Wages for Overtime Work",
+      "statutory_text": "Where an employee whose minimum rate of wages has been fixed under this Code works on any day in excess of the number of hours constituting a normal working day, the employer shall pay him for every hour or for part of an hour so worked in excess at the overtime rate which shall not be less than twice the normal rate of wages.",
+      "keywords": ["overtime", "double rate", "working hours", "ot wages", "twice normal rate"],
+      "thresholds": {
+        "criterion": "Work performed beyond normal 8 hours/day or 48 hours/week",
+        "applicability_limit": "2x normal wage rate",
+        "enforcing_authority": "Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹50,000",
+        "subsequent_offense": "Fine up to ₹1,00,000 or imprisonment up to 3 months",
+        "imprisonment_term": "3 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form B - Register of Wages (Overtime Column)", "Form D - Attendance Register"],
+      "citation": "The Code on Wages, 2019, Sec. 14"
+    },
+    {
+      "code_id": "wages_2019",
+      "code_name": "The Code on Wages, 2019",
+      "chapter_number": "Chapter III",
+      "chapter_title": "Payment of Wages",
+      "section_number": "Section 18",
+      "title": "Deductions from Wages",
+      "statutory_text": "Notwithstanding anything contained in any other law for the time being in force, there shall be no deductions from the wages of an employee except those authorised under this Code (fines, absence from duty, house accommodation, recovery of advances, income tax, provident fund, insurance). The total amount of deductions which may be made in any wage period shall not exceed 50 per cent of such wages.",
+      "keywords": ["deductions", "deduction ceiling", "50 percent cap", "fines", "pf deduction", "unauthorized deduction"],
+      "thresholds": {
+        "criterion": "Aggregate deductions in any wage period",
+        "applicability_limit": "Maximum 50% of gross wages",
+        "enforcing_authority": "Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹20,000",
+        "subsequent_offense": "Fine up to ₹40,000 or imprisonment up to 1 month",
+        "imprisonment_term": "1 month",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form C - Register of Deductions / Fines"],
+      "citation": "The Code on Wages, 2019, Sec. 18"
+    },
+    {
+      "code_id": "wages_2019",
+      "code_name": "The Code on Wages, 2019",
+      "chapter_number": "Chapter VII",
+      "chapter_title": "Registers, Records and Returns",
+      "section_number": "Section 50",
+      "title": "Maintenance of Registers, Records and Wage Slips",
+      "statutory_text": "Every employer shall maintain a register containing the details of persons employed (Form A), muster roll (Form D), register of wages (Form B) and deductions (Form C) in such form and manner as prescribed, and shall issue wage slips to all employees electronically or physically in Form V.",
+      "keywords": ["maintenance of registers", "form a", "form b", "form d", "wage slip", "records"],
+      "thresholds": {
+        "criterion": "All establishments employing 1 or more workers",
+        "applicability_limit": "Mandatory registers",
+        "enforcing_authority": "Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹20,000",
+        "subsequent_offense": "Fine up to ₹40,000 or imprisonment up to 1 month",
+        "imprisonment_term": "1 month",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form A", "Form B", "Form C", "Form D", "Wage Slip"],
+      "citation": "The Code on Wages, 2019, Sec. 50"
+    }
+  ]
+}

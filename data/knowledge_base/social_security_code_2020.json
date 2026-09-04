@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "code_id": "ss_2020",
+    "title": "The Code on Social Security, 2020",
+    "act_number": "Act No. 36 of 2020",
+    "enactment_year": 2020,
+    "total_chapters": 14,
+    "total_sections": 164,
+    "primary_objective": "Amends and consolidates the laws relating to social security with the goal to extend social security to all employees and workers in the organized, unorganized, and gig/platform sectors.",
+    "enforcing_spheres": ["Employees' Provident Fund Organisation (EPFO)", "Employees' State Insurance Corporation (ESIC)", "State Social Security Boards"],
+    "repealed_acts": [
+      "The Employees' Compensation Act, 1923",
+      "The Employees' State Insurance Act, 1948",
+      "The Employees' Provident Funds and Miscellaneous Provisions Act, 1952",
+      "The Maternity Benefit Act, 1961",
+      "The Payment of Gratuity Act, 1972",
+      "The Building and Other Construction Workers' Welfare Cess Act, 1996",
+      "The Unorganised Workers' Social Security Act, 2008"
+    ],
+    "mandatory_registers": [
+      "EPFO Electronic Challan cum Return (ECR)",
+      "ESIC Contribution Register (Form 5)",
+      "Gratuity Form F (Nomination)",
+      "Maternity Benefit Register (Form 17)"
+    ]
+  },
+  "sections": [
+    {
+      "code_id": "ss_2020",
+      "code_name": "The Code on Social Security, 2020",
+      "chapter_number": "Chapter III",
+      "chapter_title": "Employees' Provident Fund",
+      "section_number": "Section 16",
+      "title": "Schemes and Applicability of Provident Fund",
+      "statutory_text": "The Central Government may frame the Employees' Provident Fund Scheme for establishing a provident fund for employees. The provisions of this Chapter shall apply to every establishment in which twenty or more persons are employed (as specified in the First Schedule). Employer contribution (12%) and employee contribution (12%) must be deposited by the 15th of the following calendar month.",
+      "keywords": ["provident fund", "epfo", "20 employees", "12 percent", "epf contribution", "ecr filing"],
+      "thresholds": {
+        "criterion": "Headcount of employees in establishment",
+        "applicability_limit": "20 or more employees",
+        "enforcing_authority": "Regional Provident Fund Commissioner (EPFO)"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹1,00,000 or imprisonment up to 1 to 3 years",
+        "subsequent_offense": "Imprisonment up to 3 years and fine of ₹2,00,000",
+        "imprisonment_term": "1 to 3 years",
+        "compoundable": false
+      },
+      "mandatory_registers": ["Electronic Challan cum Return (ECR)", "Form A Employee Register (UAN records)"],
+      "citation": "The Code on Social Security, 2020, Sec. 16"
+    },
+    {
+      "code_id": "ss_2020",
+      "code_name": "The Code on Social Security, 2020",
+      "chapter_number": "Chapter IV",
+      "chapter_title": "Employees' State Insurance Corporation",
+      "section_number": "Section 32",
+      "title": "All Employees to be Insured and ESIC Applicability",
+      "statutory_text": "Every establishment employing ten or more persons (other than seasonal factories) where wage ceiling does not exceed statutory wage ceiling (currently ₹21,000 per month) shall be covered under ESIC. Contributions comprise 3.25% by employer and 0.75% by employee, granting medical, sickness, and disability benefits.",
+      "keywords": ["esic", "health insurance", "10 employees", "esi contribution", "medical benefit", "wage ceiling 21000"],
+      "thresholds": {
+        "criterion": "Establishment headcount and employee wage ceiling",
+        "applicability_limit": "10 or more employees earning up to ₹21,000/month",
+        "enforcing_authority": "ESIC Regional Director"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹50,000 or imprisonment up to 1 year",
+        "subsequent_offense": "Imprisonment up to 2 years and fine up to ₹1,00,000",
+        "imprisonment_term": "1 to 2 years",
+        "compoundable": false
+      },
+      "mandatory_registers": ["ESIC Form 5 Contribution Register", "Form 7 Register of Employees"],
+      "citation": "The Code on Social Security, 2020, Sec. 32"
+    },
+    {
+      "code_id": "ss_2020",
+      "code_name": "The Code on Social Security, 2020",
+      "chapter_number": "Chapter V",
+      "chapter_title": "Gratuity",
+      "section_number": "Section 53",
+      "title": "Payment of Gratuity",
+      "statutory_text": "Gratuity shall be payable to an employee on the termination of his employment after he has rendered continuous service for not less than five years: Provided that the completion of continuous service of five years shall not be necessary where termination is due to death, disablement, or expiry of fixed-term employment (pro-rata gratuity eligible on completion of 1 year). Gratuity is calculated at 15 days wages per year of service, capped at ₹20,00,000.",
+      "keywords": ["gratuity", "5 years service", "fixed term employment", "15 days wages", "gratuity cap 20 lakh"],
+      "thresholds": {
+        "criterion": "Continuous employment duration",
+        "applicability_limit": "5 years (1 year for fixed-term workers)",
+        "enforcing_authority": "Controlling Authority under Payment of Gratuity"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹50,000 or imprisonment up to 6 months to 1 year",
+        "subsequent_offense": "Imprisonment up to 2 years",
+        "imprisonment_term": "6 months to 2 years",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form F - Notice of Nomination", "Gratuity Settlement Ledger"],
+      "citation": "The Code on Social Security, 2020, Sec. 53"
+    },
+    {
+      "code_id": "ss_2020",
+      "code_name": "The Code on Social Security, 2020",
+      "chapter_number": "Chapter VI",
+      "chapter_title": "Maternity Benefit",
+      "section_number": "Section 60",
+      "title": "Right to Payment of Maternity Benefit",
+      "statutory_text": "Every woman shall be entitled to the payment of maternity benefit at the rate of the average daily wage for the period of her actual absence up to a maximum of twenty-six weeks of which not more than eight weeks shall precede the expected delivery date, provided she has worked in the establishment for not less than eighty days in the twelve months preceding delivery.",
+      "keywords": ["maternity benefit", "26 weeks paid leave", "80 days work", "crèche facility", "nursing breaks"],
+      "thresholds": {
+        "criterion": "Woman worker with 80 days attendance in preceding 12 months",
+        "applicability_limit": "26 weeks paid maternity leave",
+        "enforcing_authority": "Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹50,000 or imprisonment up to 6 months",
+        "subsequent_offense": "Imprisonment up to 1 year and fine up to ₹1,00,000",
+        "imprisonment_term": "6 months to 1 year",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form 17 - Maternity Benefit Register"],
+      "citation": "The Code on Social Security, 2020, Sec. 60"
+    }
+  ]
+}

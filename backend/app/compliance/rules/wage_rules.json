@@ -1,0 +1,26 @@
+[
+  {
+    "rule_id": "WAGE-001",
+    "name": "Mandatory Wage Record Completeness",
+    "category": "Wages",
+    "description": "Every wage record must contain valid employee identification, wage rate, and net payable amount.",
+    "severity": "HIGH",
+    "statutory_reference": "Code on Wages 2019, Section 50",
+    "conditions": [
+      { "field": "employee_id", "operator": "not_empty" },
+      { "field": "wage_rate", "operator": "greater_than", "value": 0 },
+      { "field": "net_paid", "operator": "not_empty" }
+    ]
+  },
+  {
+    "rule_id": "WAGE-002",
+    "name": "Minimum Wage Compliance Floor",
+    "category": "Wages",
+    "description": "Wage paid per day must not be below the statutory floor or notified minimum wage.",
+    "severity": "HIGH",
+    "statutory_reference": "Code on Wages 2019, Section 6",
+    "conditions": [
+      { "field": "daily_rate", "operator": "greater_than_or_equal", "value": 350 }
+    ]
+  }
+]

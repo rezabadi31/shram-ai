@@ -1,0 +1,1001 @@
+establishment_id,name,state,district,industry_sector,hazardous_process,worker_count,contract_worker_ratio,female_worker_ratio,wage_violation_count,ot_violation_count,deduction_violation_count,missing_register_count,ghost_worker_count,uncompensated_worker_count,disbursement_mismatch_count,inspection_history_violations,grievance_complaint_count,ground_truth_risk_score,ground_truth_inspection_priority
+EST-0001,Bharat Fabrics & Garments,Uttar Pradesh,Noida,Automobile & Auto Components,True,52,0.534,0.078,1,2,0,0,0,0,0,0,0,54.9,MEDIUM
+EST-0002,Tata Synthetics Ltd,Gujarat,Surat,"Textile, Garments & Apparel",False,31,0.616,0.444,0,0,0,0,0,0,0,0,0,47.2,MEDIUM
+EST-0003,Vanguard Enterprises Pvt Ltd,Maharashtra,Thane,Electronics & Precision Fabrication,False,59,0.209,0.639,1,0,0,0,0,0,0,0,0,31.3,LOW
+EST-0004,Apex Engineering Works,Gujarat,Vadodara,Electronics & Precision Fabrication,False,69,0.52,0.71,0,0,0,0,0,0,0,0,0,23.9,LOW
+EST-0005,Delta Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,44,0.426,0.125,0,0,0,1,0,0,0,0,0,31.3,LOW
+EST-0006,Swastik Manufacturing Corp,Maharashtra,Pune,Warehousing & Supply Chain Logistics,False,82,0.825,0.098,0,0,0,0,0,0,0,0,0,42.5,LOW
+EST-0007,Vanguard Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,True,25,0.736,0.215,4,0,0,0,0,0,0,0,0,69.1,MEDIUM
+EST-0008,Vanguard Enterprises Pvt Ltd,Maharashtra,Thane,"Textile, Garments & Apparel",False,45,0.319,0.717,0,0,0,0,0,0,0,0,0,44.8,LOW
+EST-0009,Shakti Engineering Works,Haryana,Panipat,Electronics & Precision Fabrication,False,14,0.557,0.626,1,0,0,0,0,0,0,1,0,40.3,LOW
+EST-0010,Bharat Enterprises Pvt Ltd,Maharashtra,Thane,Automobile & Auto Components,True,31,0.412,0.13,0,0,0,0,0,0,0,0,0,38.7,LOW
+EST-0011,Apex Synthetics Ltd,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,17,0.318,0.086,0,0,0,0,0,0,0,0,0,43.5,LOW
+EST-0012,Pinnacle Engineering Works,Tamil Nadu,Sriperumbudur,Warehousing & Supply Chain Logistics,False,54,0.435,0.08,0,0,0,0,0,0,0,0,0,38.4,LOW
+EST-0013,Bharat Fabrics & Garments,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,172,0.344,0.306,0,2,0,0,0,0,0,3,0,51.3,MEDIUM
+EST-0014,Shakti Industries Ltd.,Haryana,Panipat,Food Processing & Agro Industries,True,112,0.364,0.159,0,0,0,0,0,0,0,0,0,33.0,LOW
+EST-0015,Surya Engineering Works,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,151,0.267,0.142,0,0,0,0,0,0,0,0,0,39.2,LOW
+EST-0016,Bharat Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,171,0.365,0.345,3,0,0,0,0,0,0,0,0,83.1,HIGH
+EST-0017,Pinnacle Synthetics Ltd,Haryana,Gurugram,Automobile & Auto Components,False,106,0.481,0.216,1,1,0,0,0,0,1,0,0,56.1,MEDIUM
+EST-0018,Tata Processing Co.,Haryana,Panipat,Construction & Infrastructure,True,223,0.818,0.12,3,0,0,0,0,0,0,0,0,89.6,HIGH
+EST-0019,Surya Industries Ltd.,Haryana,Gurugram,"Textile, Garments & Apparel",False,12,0.587,0.586,0,1,0,0,0,0,0,0,0,50.6,MEDIUM
+EST-0020,Delta Processing Co.,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,51,0.6,0.073,0,0,0,0,0,0,0,0,0,39.3,LOW
+EST-0021,Shakti Components India,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,336,0.669,0.523,0,0,0,0,0,0,0,0,0,27.8,LOW
+EST-0022,Shakti Processing Co.,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,28,0.37,0.237,0,0,0,0,0,0,0,0,0,62.1,MEDIUM
+EST-0023,Shakti Fabrics & Garments,Haryana,Gurugram,Chemical & Hazardous Processing,True,204,0.222,0.337,0,2,0,0,0,1,0,0,0,80.0,HIGH
+EST-0024,Hindustan Manufacturing Corp,Gujarat,Vadodara,"Textile, Garments & Apparel",False,29,0.748,0.698,0,5,0,0,0,0,0,0,0,77.8,HIGH
+EST-0025,Shakti Synthetics Ltd,Haryana,Panipat,Automobile & Auto Components,False,258,0.316,0.195,0,0,0,0,0,0,0,1,0,42.0,LOW
+EST-0026,Kalyan Synthetics Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,45,0.29,0.053,0,1,0,0,0,0,0,0,0,35.9,LOW
+EST-0027,Navkar Engineering Works,Maharashtra,Pune,Automobile & Auto Components,False,67,0.407,0.215,0,0,0,0,0,0,0,0,0,32.5,LOW
+EST-0028,Swastik Fabrics & Garments,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,51,0.733,0.241,0,0,0,0,0,0,0,0,0,61.9,MEDIUM
+EST-0029,Delta Enterprises Pvt Ltd,Maharashtra,Thane,Construction & Infrastructure,True,116,0.9,0.217,1,2,3,0,0,0,2,1,0,98.5,HIGH
+EST-0030,Vanguard Manufacturing Corp,Maharashtra,Thane,"Textile, Garments & Apparel",False,89,0.842,0.499,0,0,1,0,0,0,0,0,0,47.2,MEDIUM
+EST-0031,Surya Enterprises Pvt Ltd,Gujarat,Surat,Electronics & Precision Fabrication,False,179,0.414,0.495,0,1,0,0,0,0,0,0,0,33.9,LOW
+EST-0032,Swastik Industries Ltd.,Karnataka,Peenya,Automobile & Auto Components,False,129,0.316,0.191,0,0,0,0,0,0,0,1,0,35.3,LOW
+EST-0033,Swastik Synthetics Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,True,76,0.486,0.13,0,0,0,0,0,0,0,0,0,59.3,MEDIUM
+EST-0034,Hindustan Processing Co.,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,29,0.389,0.467,0,0,0,0,0,0,0,1,0,27.1,LOW
+EST-0035,Navkar Processing Co.,Maharashtra,Pune,Chemical & Hazardous Processing,True,213,0.36,0.311,0,0,0,0,0,0,0,0,0,63.3,MEDIUM
+EST-0036,Surya Processing Co.,Haryana,Gurugram,Construction & Infrastructure,True,224,0.346,0.237,0,1,0,0,0,0,0,0,0,70.9,HIGH
+EST-0037,Shree Engineering Works,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,914,0.75,0.312,1,0,1,0,0,0,0,0,0,56.5,MEDIUM
+EST-0038,Vanguard Processing Co.,Karnataka,Peenya,Warehousing & Supply Chain Logistics,True,75,0.213,0.097,0,0,0,0,0,0,0,0,0,37.6,LOW
+EST-0039,Delta Enterprises Pvt Ltd,Haryana,Gurugram,Electronics & Precision Fabrication,False,33,0.25,0.417,0,0,0,1,0,0,0,0,0,30.0,LOW
+EST-0040,Surya Enterprises Pvt Ltd,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,429,0.3,0.503,0,0,0,0,0,0,0,0,0,32.6,LOW
+EST-0041,Delta Fabrics & Garments,Gujarat,Surat,Electronics & Precision Fabrication,True,140,0.556,0.405,1,0,0,0,0,0,0,1,0,38.0,LOW
+EST-0042,Shree Processing Co.,Karnataka,Peenya,"Textile, Garments & Apparel",False,191,0.336,0.434,0,0,0,0,0,0,0,1,0,46.2,MEDIUM
+EST-0043,Hindustan Processing Co.,Haryana,Gurugram,Warehousing & Supply Chain Logistics,True,1296,0.606,0.159,0,3,0,0,0,0,0,0,0,60.7,MEDIUM
+EST-0044,Bharat Industries Ltd.,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,141,0.359,0.115,0,0,0,1,0,0,0,0,0,35.3,LOW
+EST-0045,Bharat Synthetics Ltd,Maharashtra,Pune,"Textile, Garments & Apparel",False,141,0.519,0.672,0,0,0,1,0,0,0,0,0,52.7,MEDIUM
+EST-0046,Kalyan Components India,Maharashtra,Pune,Construction & Infrastructure,False,138,0.676,0.215,7,0,0,0,0,0,0,0,0,98.5,HIGH
+EST-0047,Pinnacle Processing Co.,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,47,0.468,0.076,2,0,4,0,0,0,0,0,0,98.5,HIGH
+EST-0048,Navkar Fabrics & Garments,Uttar Pradesh,Kanpur,Automobile & Auto Components,True,48,0.68,0.16,0,2,0,0,0,0,0,0,0,43.2,LOW
+EST-0049,Swastik Industries Ltd.,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,16,0.309,0.661,0,0,0,0,0,0,0,0,0,22.3,LOW
+EST-0050,Shree Fabrics & Garments,Karnataka,Peenya,Automobile & Auto Components,False,70,0.384,0.083,0,0,0,0,0,0,0,0,0,31.4,LOW
+EST-0051,Tata Manufacturing Corp,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,140,0.549,0.119,2,0,0,0,0,0,0,0,0,75.3,HIGH
+EST-0052,Pinnacle Manufacturing Corp,Haryana,Gurugram,Automobile & Auto Components,False,257,0.502,0.152,0,0,0,0,0,0,0,0,0,42.5,LOW
+EST-0053,Surya Fabrics & Garments,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,26,0.418,0.276,0,2,0,0,0,0,0,0,0,44.2,LOW
+EST-0054,Premier Fabrics & Garments,Maharashtra,Thane,Construction & Infrastructure,True,234,0.475,0.136,0,0,1,0,0,0,0,0,0,66.3,MEDIUM
+EST-0055,Tata Synthetics Ltd,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,110,0.371,0.075,0,1,0,0,0,0,0,2,0,53.1,MEDIUM
+EST-0056,Apex Synthetics Ltd,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,117,0.542,0.155,0,0,0,0,0,0,0,1,0,46.5,MEDIUM
+EST-0057,Shree Components India,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,82,0.394,0.272,0,0,0,0,0,0,0,0,0,41.5,LOW
+EST-0058,Zenith Processing Co.,Karnataka,Peenya,Electronics & Precision Fabrication,False,28,0.63,0.738,0,0,1,0,0,0,0,0,0,30.0,LOW
+EST-0059,Tata Manufacturing Corp,Haryana,Gurugram,"Textile, Garments & Apparel",False,77,0.743,0.456,1,0,2,0,0,0,0,0,0,62.6,MEDIUM
+EST-0060,Vanguard Industries Ltd.,Maharashtra,Thane,Chemical & Hazardous Processing,True,60,0.561,0.192,0,0,0,0,0,0,0,2,0,68.9,MEDIUM
+EST-0061,Navkar Engineering Works,Haryana,Gurugram,Automobile & Auto Components,False,60,0.776,0.229,1,0,0,0,0,0,0,3,0,52.0,MEDIUM
+EST-0062,Bharat Components India,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,62,0.415,0.081,0,0,0,0,0,0,0,0,0,33.8,LOW
+EST-0063,Zenith Manufacturing Corp,Haryana,Panipat,Warehousing & Supply Chain Logistics,True,74,0.457,0.284,0,0,2,0,0,0,0,0,0,50.0,MEDIUM
+EST-0064,Swastik Enterprises Pvt Ltd,Haryana,Panipat,Chemical & Hazardous Processing,True,116,0.674,0.248,1,2,0,0,0,0,3,0,0,98.5,HIGH
+EST-0065,Zenith Industries Ltd.,Gujarat,Vadodara,Food Processing & Agro Industries,False,21,0.612,0.232,0,0,0,0,0,0,0,0,0,28.0,LOW
+EST-0066,Zenith Processing Co.,Maharashtra,Thane,Automobile & Auto Components,True,109,0.697,0.258,0,0,0,0,0,0,0,0,0,38.9,LOW
+EST-0067,Shree Fabrics & Garments,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,215,0.31,0.058,0,2,0,0,0,0,0,0,0,73.8,HIGH
+EST-0068,Shakti Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,36,0.672,0.215,2,1,0,0,0,0,2,2,0,98.5,HIGH
+EST-0069,Tata Fabrics & Garments,Maharashtra,Thane,Chemical & Hazardous Processing,True,37,0.364,0.232,0,2,0,0,0,0,0,0,0,74.1,HIGH
+EST-0070,Bharat Processing Co.,Haryana,Gurugram,Food Processing & Agro Industries,False,283,0.253,0.186,0,0,0,0,0,1,0,3,0,55.8,MEDIUM
+EST-0071,Sterling Enterprises Pvt Ltd,Haryana,Gurugram,"Textile, Garments & Apparel",False,49,0.401,0.615,2,0,0,0,0,0,0,0,0,60.5,MEDIUM
+EST-0072,Kalyan Processing Co.,Maharashtra,Pune,Automobile & Auto Components,False,64,0.314,0.315,0,0,0,0,0,0,0,0,0,31.6,LOW
+EST-0073,Swastik Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,93,0.533,0.206,4,4,0,0,0,0,0,0,0,98.5,HIGH
+EST-0074,Bharat Synthetics Ltd,Haryana,Panipat,Electronics & Precision Fabrication,False,61,0.217,0.609,1,0,0,0,0,0,0,0,0,35.7,LOW
+EST-0075,Vanguard Industries Ltd.,Haryana,Gurugram,"Textile, Garments & Apparel",False,115,0.462,0.576,0,0,0,0,0,0,0,0,0,49.0,MEDIUM
+EST-0076,Kalyan Synthetics Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,279,0.312,0.291,0,0,0,1,0,0,0,0,0,40.6,LOW
+EST-0077,Delta Synthetics Ltd,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,76,0.586,0.319,0,0,0,0,1,0,0,0,0,49.7,MEDIUM
+EST-0078,Swastik Manufacturing Corp,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,174,0.225,0.091,0,0,1,0,0,0,0,0,0,67.0,MEDIUM
+EST-0079,Navkar Industries Ltd.,Gujarat,Surat,Chemical & Hazardous Processing,True,102,0.335,0.349,1,0,0,0,0,0,0,3,0,78.8,HIGH
+EST-0080,Delta Manufacturing Corp,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,213,0.234,0.106,0,0,0,0,0,0,0,0,0,33.2,LOW
+EST-0081,Pinnacle Enterprises Pvt Ltd,Haryana,Gurugram,Food Processing & Agro Industries,False,69,0.41,0.149,0,0,0,0,0,0,0,0,0,33.4,LOW
+EST-0082,Navkar Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,63,0.322,0.665,0,0,0,0,0,0,0,0,0,25.2,LOW
+EST-0083,Sterling Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,True,31,0.586,0.184,0,1,0,0,0,0,0,0,0,42.6,LOW
+EST-0084,Shree Industries Ltd.,Haryana,Gurugram,Chemical & Hazardous Processing,True,45,0.4,0.322,1,0,0,0,0,0,0,0,0,70.3,HIGH
+EST-0085,Bharat Industries Ltd.,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,298,0.434,0.454,2,0,1,0,0,0,0,0,0,51.6,MEDIUM
+EST-0086,Apex Engineering Works,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,True,146,0.528,0.137,0,0,1,0,0,0,0,0,0,42.8,LOW
+EST-0087,Apex Manufacturing Corp,Gujarat,Surat,Chemical & Hazardous Processing,True,112,0.558,0.095,2,3,1,0,0,0,0,0,0,97.9,HIGH
+EST-0088,Shree Processing Co.,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,122,0.412,0.218,3,4,3,0,5,0,0,2,0,98.5,HIGH
+EST-0089,Sterling Fabrics & Garments,Haryana,Gurugram,Construction & Infrastructure,True,39,0.364,0.324,0,0,0,0,0,0,0,0,0,63.6,MEDIUM
+EST-0090,Vanguard Processing Co.,Haryana,Gurugram,Food Processing & Agro Industries,False,300,0.483,0.188,0,0,0,1,0,0,0,0,0,41.7,LOW
+EST-0091,Apex Industries Ltd.,Maharashtra,Thane,Electronics & Precision Fabrication,False,36,0.357,0.616,0,0,0,0,0,0,0,0,0,21.1,LOW
+EST-0092,Shakti Manufacturing Corp,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,43,0.463,0.347,1,0,0,0,0,0,0,0,0,45.9,MEDIUM
+EST-0093,Shakti Synthetics Ltd,Haryana,Panipat,Electronics & Precision Fabrication,True,160,0.498,0.711,0,4,0,0,1,0,0,0,0,63.0,MEDIUM
+EST-0094,Kalyan Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,41,0.607,0.659,0,0,1,0,0,0,0,0,0,30.8,LOW
+EST-0095,Swastik Processing Co.,Gujarat,Vadodara,Automobile & Auto Components,False,79,0.355,0.236,0,0,0,0,0,0,0,0,0,33.5,LOW
+EST-0096,Bharat Fabrics & Garments,Maharashtra,Thane,Automobile & Auto Components,True,58,0.227,0.081,1,0,0,0,0,0,0,0,0,44.0,LOW
+EST-0097,Zenith Components India,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,42,0.286,0.285,0,0,0,0,0,0,0,0,0,27.1,LOW
+EST-0098,Pinnacle Components India,Maharashtra,Pune,Construction & Infrastructure,True,157,0.808,0.11,6,0,1,0,0,0,0,0,0,98.5,HIGH
+EST-0099,Zenith Industries Ltd.,Karnataka,Peenya,"Textile, Garments & Apparel",False,277,0.389,0.678,0,0,0,0,0,0,0,0,0,46.6,MEDIUM
+EST-0100,Kalyan Components India,Karnataka,Peenya,Construction & Infrastructure,True,110,0.531,0.157,0,6,0,0,0,0,0,0,0,98.5,HIGH
+EST-0101,Vanguard Processing Co.,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,57,0.579,0.076,0,0,0,0,0,0,0,0,0,31.8,LOW
+EST-0102,Shree Fabrics & Garments,Haryana,Panipat,Chemical & Hazardous Processing,True,28,0.506,0.216,0,2,0,0,0,0,0,0,0,71.6,HIGH
+EST-0103,Bharat Engineering Works,Haryana,Gurugram,Construction & Infrastructure,False,14,0.356,0.129,0,0,0,0,0,0,0,0,0,63.8,MEDIUM
+EST-0104,Zenith Fabrics & Garments,Haryana,Panipat,Food Processing & Agro Industries,False,361,0.453,0.092,1,0,0,0,0,0,0,0,0,41.8,LOW
+EST-0105,Premier Industries Ltd.,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,79,0.463,0.263,0,2,0,0,0,0,0,0,0,72.0,HIGH
+EST-0106,Hindustan Fabrics & Garments,Karnataka,Bengaluru Urban,Automobile & Auto Components,True,27,0.429,0.139,0,0,0,0,0,0,0,1,0,39.7,LOW
+EST-0107,Shakti Manufacturing Corp,Gujarat,Vadodara,Electronics & Precision Fabrication,False,178,0.565,0.459,0,1,0,0,0,0,0,1,0,34.3,LOW
+EST-0108,Surya Manufacturing Corp,Maharashtra,Pune,Chemical & Hazardous Processing,True,22,0.562,0.131,1,3,0,1,0,0,0,1,0,96.3,HIGH
+EST-0109,Sterling Enterprises Pvt Ltd,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,166,0.756,0.214,2,0,0,0,0,0,2,0,0,76.9,HIGH
+EST-0110,Surya Fabrics & Garments,Haryana,Gurugram,"Textile, Garments & Apparel",False,31,0.516,0.507,0,1,0,0,0,0,0,0,0,53.5,MEDIUM
+EST-0111,Surya Processing Co.,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,29,0.271,0.09,0,0,0,0,0,0,0,0,0,37.2,LOW
+EST-0112,Premier Engineering Works,Haryana,Gurugram,Food Processing & Agro Industries,False,199,0.357,0.23,0,0,0,0,0,0,0,0,0,30.1,LOW
+EST-0113,Navkar Industries Ltd.,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,605,0.462,0.317,0,0,0,0,0,0,0,0,0,73.9,HIGH
+EST-0114,Shree Industries Ltd.,Maharashtra,Thane,Automobile & Auto Components,False,83,0.563,0.235,0,0,1,0,0,0,0,0,0,41.4,LOW
+EST-0115,Shakti Engineering Works,Maharashtra,Thane,Chemical & Hazardous Processing,True,68,0.271,0.262,0,4,0,0,0,0,0,0,1,87.2,HIGH
+EST-0116,Bharat Synthetics Ltd,Maharashtra,Thane,Electronics & Precision Fabrication,True,150,0.707,0.526,1,0,1,0,0,0,1,0,0,45.6,MEDIUM
+EST-0117,Apex Components India,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,47,0.37,0.636,0,0,0,0,0,0,0,0,0,43.5,LOW
+EST-0118,Premier Industries Ltd.,Maharashtra,Thane,Food Processing & Agro Industries,False,62,0.587,0.349,0,0,0,0,1,0,0,0,0,43.5,LOW
+EST-0119,Bharat Components India,Maharashtra,Pune,Chemical & Hazardous Processing,True,526,0.422,0.349,0,3,0,0,0,0,0,0,0,79.8,HIGH
+EST-0120,Kalyan Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,93,0.27,0.168,0,0,2,0,0,0,0,0,0,47.0,MEDIUM
+EST-0121,Tata Processing Co.,Gujarat,Vadodara,Electronics & Precision Fabrication,True,55,0.183,0.414,0,0,0,0,0,0,0,3,0,33.2,LOW
+EST-0122,Premier Engineering Works,Haryana,Gurugram,Electronics & Precision Fabrication,True,132,0.221,0.429,0,0,6,0,0,0,0,1,0,61.5,MEDIUM
+EST-0123,Premier Industries Ltd.,Maharashtra,Thane,Automobile & Auto Components,False,26,0.335,0.114,0,0,0,0,0,0,0,0,0,31.5,LOW
+EST-0124,Surya Components India,Gujarat,Surat,Construction & Infrastructure,False,90,0.624,0.213,0,0,0,0,0,0,0,0,0,67.2,MEDIUM
+EST-0125,Delta Synthetics Ltd,Maharashtra,Pune,Electronics & Precision Fabrication,False,111,0.667,0.696,1,0,0,0,0,0,0,0,0,31.0,LOW
+EST-0126,Navkar Manufacturing Corp,Haryana,Panipat,Food Processing & Agro Industries,False,80,0.805,0.11,2,0,0,0,0,0,0,0,0,49.9,MEDIUM
+EST-0127,Kalyan Enterprises Pvt Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,False,57,0.491,0.145,0,0,0,0,0,0,0,0,0,59.0,MEDIUM
+EST-0128,Navkar Manufacturing Corp,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,162,0.771,0.293,0,0,0,0,0,0,0,0,0,43.7,LOW
+EST-0129,Pinnacle Processing Co.,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,125,0.572,0.315,0,0,0,0,0,0,0,0,0,42.4,LOW
+EST-0130,Bharat Synthetics Ltd,Maharashtra,Pune,Chemical & Hazardous Processing,True,55,0.186,0.246,0,0,4,0,0,0,0,0,0,80.3,HIGH
+EST-0131,Navkar Engineering Works,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,30,0.31,0.194,0,0,0,0,0,0,0,0,0,63.2,MEDIUM
+EST-0132,Kalyan Manufacturing Corp,Gujarat,Surat,Automobile & Auto Components,True,60,0.228,0.219,1,1,0,0,0,0,0,0,0,53.2,MEDIUM
+EST-0133,Delta Engineering Works,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,78,0.346,0.637,0,1,3,0,0,0,0,0,0,49.9,MEDIUM
+EST-0134,Surya Fabrics & Garments,Haryana,Gurugram,"Textile, Garments & Apparel",False,31,0.268,0.582,0,1,0,0,0,0,0,0,0,51.7,MEDIUM
+EST-0135,Hindustan Fabrics & Garments,Maharashtra,Thane,Automobile & Auto Components,False,172,0.584,0.235,0,0,0,0,0,0,0,0,0,37.3,LOW
+EST-0136,Delta Enterprises Pvt Ltd,Gujarat,Surat,Chemical & Hazardous Processing,True,26,0.304,0.183,0,0,0,0,0,0,0,1,0,63.2,MEDIUM
+EST-0137,Bharat Manufacturing Corp,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,156,0.305,0.087,0,0,1,0,0,0,0,1,0,41.0,LOW
+EST-0138,Navkar Industries Ltd.,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,66,0.582,0.056,0,0,2,0,0,0,0,0,0,43.4,LOW
+EST-0139,Swastik Components India,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,75,0.472,0.35,0,0,0,0,0,0,0,0,0,38.7,LOW
+EST-0140,Pinnacle Fabrics & Garments,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,24,0.341,0.292,0,0,0,0,0,0,0,0,0,44.0,LOW
+EST-0141,Kalyan Components India,Gujarat,Surat,Construction & Infrastructure,False,186,0.619,0.332,0,1,0,0,0,0,0,0,0,74.3,HIGH
+EST-0142,Shree Engineering Works,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,35,0.667,0.305,3,5,3,0,0,0,0,0,0,98.5,HIGH
+EST-0143,Premier Manufacturing Corp,Haryana,Gurugram,Food Processing & Agro Industries,False,31,0.514,0.051,1,1,0,0,0,0,0,0,0,43.6,LOW
+EST-0144,Tata Synthetics Ltd,Maharashtra,Pune,Food Processing & Agro Industries,True,181,0.145,0.144,1,0,3,0,0,0,0,0,0,50.6,MEDIUM
+EST-0145,Tata Manufacturing Corp,Haryana,Panipat,Chemical & Hazardous Processing,True,67,0.226,0.16,0,2,0,3,0,0,0,0,0,80.2,HIGH
+EST-0146,Shakti Processing Co.,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,55,0.251,0.248,0,0,1,0,0,0,0,0,0,37.6,LOW
+EST-0147,Tata Synthetics Ltd,Gujarat,Surat,Electronics & Precision Fabrication,True,124,0.839,0.717,0,0,1,0,0,0,0,0,0,28.4,LOW
+EST-0148,Hindustan Manufacturing Corp,Haryana,Panipat,Automobile & Auto Components,False,43,0.325,0.149,0,0,0,0,0,0,0,0,0,34.2,LOW
+EST-0149,Kalyan Processing Co.,Haryana,Panipat,Chemical & Hazardous Processing,True,282,0.355,0.098,1,0,0,0,0,0,0,0,0,77.3,HIGH
+EST-0150,Delta Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Construction & Infrastructure,True,223,0.788,0.312,2,1,0,0,0,0,1,0,0,92.1,HIGH
+EST-0151,Delta Processing Co.,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,80,0.177,0.12,0,0,0,0,0,0,0,0,0,31.2,LOW
+EST-0152,Shakti Industries Ltd.,Maharashtra,Thane,Construction & Infrastructure,True,18,0.54,0.335,0,0,0,0,0,0,0,0,0,61.9,MEDIUM
+EST-0153,Bharat Synthetics Ltd,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,45,0.656,0.572,0,0,0,0,1,0,0,0,0,54.5,MEDIUM
+EST-0154,Shakti Industries Ltd.,Gujarat,Vadodara,Automobile & Auto Components,False,143,0.661,0.209,4,0,0,0,0,0,0,0,0,68.1,MEDIUM
+EST-0155,Pinnacle Components India,Karnataka,Peenya,Food Processing & Agro Industries,False,60,0.328,0.291,1,0,0,0,0,0,0,0,0,38.9,LOW
+EST-0156,Tata Fabrics & Garments,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,12,0.301,0.666,0,0,0,0,0,0,0,0,0,45.3,MEDIUM
+EST-0157,Bharat Enterprises Pvt Ltd,Haryana,Gurugram,Electronics & Precision Fabrication,False,111,0.282,0.642,1,1,1,0,0,0,0,0,0,42.4,LOW
+EST-0158,Apex Components India,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,True,223,0.147,0.311,0,0,0,0,0,0,0,0,0,60.8,MEDIUM
+EST-0159,Navkar Processing Co.,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,18,0.341,0.595,1,0,0,0,0,0,2,0,0,70.8,HIGH
+EST-0160,Sterling Enterprises Pvt Ltd,Haryana,Panipat,Electronics & Precision Fabrication,False,149,0.244,0.588,0,0,0,0,0,0,0,0,0,27.6,LOW
+EST-0161,Hindustan Synthetics Ltd,Uttar Pradesh,Noida,Automobile & Auto Components,False,35,0.432,0.325,0,0,2,0,0,0,0,0,0,48.2,MEDIUM
+EST-0162,Shree Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,86,0.365,0.081,0,0,0,0,0,0,0,0,0,62.0,MEDIUM
+EST-0163,Premier Synthetics Ltd,Tamil Nadu,Coimbatore,Automobile & Auto Components,True,43,0.663,0.171,0,0,0,0,1,0,0,0,0,45.3,MEDIUM
+EST-0164,Shree Fabrics & Garments,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,162,0.48,0.167,0,5,1,0,0,0,0,2,0,98.5,HIGH
+EST-0165,Bharat Components India,Maharashtra,Thane,Automobile & Auto Components,False,226,0.622,0.244,0,0,0,0,0,0,0,0,0,38.5,LOW
+EST-0166,Shree Fabrics & Garments,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,113,0.63,0.12,0,1,1,0,0,0,0,0,0,73.3,HIGH
+EST-0167,Vanguard Components India,Gujarat,Vadodara,"Textile, Garments & Apparel",False,48,0.403,0.57,1,0,0,0,0,0,0,0,0,56.3,MEDIUM
+EST-0168,Kalyan Engineering Works,Uttar Pradesh,Noida,Automobile & Auto Components,False,305,0.693,0.27,0,0,0,0,0,0,0,0,0,37.3,LOW
+EST-0169,Premier Manufacturing Corp,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,158,0.501,0.415,3,0,0,2,0,0,0,0,1,81.6,HIGH
+EST-0170,Zenith Components India,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,115,0.667,0.205,2,0,0,0,0,0,0,1,0,47.9,MEDIUM
+EST-0171,Pinnacle Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,77,0.383,0.239,1,0,3,0,0,0,1,0,0,94.8,HIGH
+EST-0172,Premier Processing Co.,Maharashtra,Thane,"Textile, Garments & Apparel",False,155,0.469,0.653,0,0,0,0,0,0,0,0,0,41.8,LOW
+EST-0173,Apex Enterprises Pvt Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,14,0.271,0.179,0,0,0,0,0,0,0,0,0,32.7,LOW
+EST-0174,Shakti Manufacturing Corp,Karnataka,Peenya,Automobile & Auto Components,False,17,0.227,0.052,0,0,0,0,0,0,0,0,0,34.3,LOW
+EST-0175,Shakti Fabrics & Garments,Maharashtra,Thane,"Textile, Garments & Apparel",False,38,0.554,0.593,0,1,0,0,0,0,0,0,0,53.9,MEDIUM
+EST-0176,Vanguard Processing Co.,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,24,0.608,0.167,0,0,0,0,0,0,0,0,0,41.8,LOW
+EST-0177,Navkar Industries Ltd.,Haryana,Gurugram,Food Processing & Agro Industries,False,117,0.561,0.23,0,0,0,0,0,0,0,0,0,30.7,LOW
+EST-0178,Shree Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,106,0.368,0.339,0,0,0,0,0,0,0,0,0,35.1,LOW
+EST-0179,Swastik Processing Co.,Gujarat,Surat,Food Processing & Agro Industries,False,412,0.364,0.085,1,0,0,0,0,0,0,1,0,45.5,MEDIUM
+EST-0180,Pinnacle Enterprises Pvt Ltd,Maharashtra,Thane,Construction & Infrastructure,True,89,0.5,0.329,2,0,0,0,0,0,0,0,0,85.6,HIGH
+EST-0181,Bharat Industries Ltd.,Haryana,Panipat,Food Processing & Agro Industries,False,182,0.68,0.105,0,0,0,0,0,0,0,0,0,32.9,LOW
+EST-0182,Hindustan Processing Co.,Tamil Nadu,Coimbatore,Construction & Infrastructure,True,122,0.58,0.131,0,0,0,0,0,0,0,0,0,65.6,MEDIUM
+EST-0183,Vanguard Enterprises Pvt Ltd,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,421,0.68,0.176,3,0,0,0,0,0,0,0,0,68.2,MEDIUM
+EST-0184,Hindustan Processing Co.,Gujarat,Surat,Construction & Infrastructure,True,131,0.622,0.155,0,1,0,0,0,0,0,0,0,73.2,HIGH
+EST-0185,Kalyan Fabrics & Garments,Haryana,Panipat,Automobile & Auto Components,False,24,0.523,0.171,0,0,0,0,0,0,0,1,0,41.2,LOW
+EST-0186,Premier Components India,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,True,39,0.735,0.079,0,0,0,0,0,0,0,2,0,47.1,MEDIUM
+EST-0187,Navkar Processing Co.,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,100,0.231,0.589,0,0,0,0,0,0,0,0,0,45.5,MEDIUM
+EST-0188,Navkar Synthetics Ltd,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,True,78,0.395,0.091,1,0,0,0,0,0,0,0,0,49.3,MEDIUM
+EST-0189,Sterling Engineering Works,Maharashtra,Pune,Food Processing & Agro Industries,False,60,0.273,0.129,0,1,0,0,0,0,0,1,0,42.5,LOW
+EST-0190,Shree Manufacturing Corp,Haryana,Gurugram,"Textile, Garments & Apparel",False,72,0.59,0.408,0,0,0,0,0,0,0,0,0,45.0,MEDIUM
+EST-0191,Apex Synthetics Ltd,Gujarat,Vadodara,Construction & Infrastructure,True,40,0.602,0.342,0,6,7,0,0,0,0,2,1,98.5,HIGH
+EST-0192,Hindustan Fabrics & Garments,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,78,0.216,0.288,0,0,2,0,0,0,0,0,0,42.2,LOW
+EST-0193,Zenith Processing Co.,Maharashtra,Thane,"Textile, Garments & Apparel",False,17,0.238,0.444,4,0,0,0,0,0,0,0,1,83.9,HIGH
+EST-0194,Navkar Processing Co.,Haryana,Panipat,Food Processing & Agro Industries,False,46,0.416,0.216,0,0,0,0,0,0,0,1,0,36.2,LOW
+EST-0195,Shree Components India,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,19,0.265,0.079,0,3,0,0,0,0,0,0,0,78.7,HIGH
+EST-0196,Vanguard Enterprises Pvt Ltd,Maharashtra,Pune,Chemical & Hazardous Processing,True,202,0.245,0.288,1,1,0,0,0,0,0,0,0,75.8,HIGH
+EST-0197,Zenith Components India,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,378,0.602,0.288,0,1,0,0,0,0,0,0,0,55.0,MEDIUM
+EST-0198,Shakti Synthetics Ltd,Gujarat,Vadodara,Construction & Infrastructure,True,116,0.792,0.184,2,0,0,0,0,0,0,1,0,82.2,HIGH
+EST-0199,Swastik Manufacturing Corp,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,True,27,0.343,0.505,0,0,0,0,0,0,0,0,0,26.6,LOW
+EST-0200,Navkar Industries Ltd.,Maharashtra,Thane,Food Processing & Agro Industries,True,180,0.208,0.175,0,0,1,0,0,0,0,0,0,31.3,LOW
+EST-0201,Surya Synthetics Ltd,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,True,81,0.554,0.201,0,0,1,0,0,0,0,0,0,35.5,LOW
+EST-0202,Tata Engineering Works,Haryana,Panipat,Construction & Infrastructure,True,48,0.815,0.16,0,2,0,0,0,0,0,2,0,82.9,HIGH
+EST-0203,Surya Enterprises Pvt Ltd,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,29,0.346,0.128,2,1,1,0,0,0,1,0,0,97.2,HIGH
+EST-0204,Kalyan Fabrics & Garments,Maharashtra,Pune,Automobile & Auto Components,False,64,0.546,0.076,4,0,0,1,0,0,0,0,0,71.4,HIGH
+EST-0205,Apex Fabrics & Garments,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,91,0.2,0.122,5,0,0,0,0,0,0,0,0,98.5,HIGH
+EST-0206,Shakti Manufacturing Corp,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,137,0.24,0.694,0,3,0,0,0,0,0,0,0,64.9,MEDIUM
+EST-0207,Tata Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,False,121,0.253,0.564,0,0,0,0,0,0,0,0,0,28.4,LOW
+EST-0208,Tata Engineering Works,Haryana,Gurugram,"Textile, Garments & Apparel",False,79,0.554,0.533,1,0,0,0,0,0,0,0,0,56.1,MEDIUM
+EST-0209,Kalyan Industries Ltd.,Maharashtra,Pune,"Textile, Garments & Apparel",False,96,0.257,0.69,0,0,0,0,0,0,0,0,0,46.8,MEDIUM
+EST-0210,Surya Components India,Maharashtra,Thane,"Textile, Garments & Apparel",False,64,0.618,0.488,0,0,0,0,0,0,0,0,0,44.1,LOW
+EST-0211,Zenith Components India,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,True,87,0.448,0.065,2,0,0,0,0,0,0,0,0,49.5,MEDIUM
+EST-0212,Vanguard Engineering Works,Karnataka,Peenya,Construction & Infrastructure,True,104,0.384,0.236,0,0,0,0,0,1,0,0,0,77.7,HIGH
+EST-0213,Shree Industries Ltd.,Gujarat,Surat,Chemical & Hazardous Processing,True,40,0.495,0.275,0,0,3,0,0,0,0,0,0,72.0,HIGH
+EST-0214,Shakti Engineering Works,Gujarat,Surat,Chemical & Hazardous Processing,True,170,0.473,0.346,1,1,0,0,0,0,0,0,0,71.9,HIGH
+EST-0215,Navkar Engineering Works,Karnataka,Peenya,"Textile, Garments & Apparel",False,100,0.68,0.596,0,0,1,0,0,0,0,0,0,48.7,MEDIUM
+EST-0216,Bharat Manufacturing Corp,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,False,265,0.215,0.31,0,0,0,0,0,0,0,0,0,36.4,LOW
+EST-0217,Bharat Engineering Works,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,96,0.275,0.21,1,0,0,0,0,0,0,0,0,41.5,LOW
+EST-0218,Navkar Engineering Works,Gujarat,Vadodara,Construction & Infrastructure,True,85,0.376,0.29,0,0,0,0,0,0,0,1,0,65.8,MEDIUM
+EST-0219,Surya Engineering Works,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,149,0.471,0.19,0,0,0,0,0,0,0,0,0,38.2,LOW
+EST-0220,Premier Enterprises Pvt Ltd,Gujarat,Vadodara,Electronics & Precision Fabrication,True,54,0.197,0.73,0,0,0,0,0,0,0,0,0,28.2,LOW
+EST-0221,Kalyan Industries Ltd.,Maharashtra,Pune,Automobile & Auto Components,False,30,0.576,0.109,0,0,2,0,0,0,0,0,0,41.8,LOW
+EST-0222,Premier Processing Co.,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,49,0.579,0.25,0,0,0,0,0,0,0,1,0,44.8,LOW
+EST-0223,Hindustan Components India,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,39,0.447,0.214,0,0,0,0,0,0,0,0,0,30.4,LOW
+EST-0224,Shree Processing Co.,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,20,0.307,0.609,0,0,0,0,0,0,0,0,0,42.1,LOW
+EST-0225,Bharat Manufacturing Corp,Karnataka,Peenya,Electronics & Precision Fabrication,False,125,0.552,0.505,0,0,0,0,0,0,0,0,0,25.7,LOW
+EST-0226,Kalyan Manufacturing Corp,Karnataka,Peenya,Food Processing & Agro Industries,False,63,0.544,0.102,1,0,0,0,0,0,0,0,0,35.7,LOW
+EST-0227,Shakti Manufacturing Corp,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,14,0.439,0.104,0,0,0,0,0,0,0,0,0,37.9,LOW
+EST-0228,Shakti Synthetics Ltd,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,78,0.4,0.134,1,0,1,0,0,0,0,0,0,74.1,HIGH
+EST-0229,Pinnacle Industries Ltd.,Karnataka,Peenya,Automobile & Auto Components,False,74,0.632,0.327,0,0,0,0,0,0,0,0,0,36.0,LOW
+EST-0230,Shree Manufacturing Corp,Gujarat,Surat,Construction & Infrastructure,True,86,0.473,0.228,1,0,1,0,0,0,0,0,0,82.0,HIGH
+EST-0231,Delta Components India,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,False,136,0.383,0.625,0,0,0,0,0,0,0,0,0,25.3,LOW
+EST-0232,Kalyan Processing Co.,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,38,0.418,0.209,0,0,0,0,0,0,0,0,0,42.4,LOW
+EST-0233,Kalyan Processing Co.,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,398,0.581,0.104,0,0,0,0,0,0,0,0,0,41.2,LOW
+EST-0234,Tata Enterprises Pvt Ltd,Maharashtra,Thane,Automobile & Auto Components,False,114,0.2,0.34,0,0,0,0,0,0,0,0,0,38.4,LOW
+EST-0235,Shakti Synthetics Ltd,Gujarat,Surat,Electronics & Precision Fabrication,False,16,0.266,0.47,0,0,0,0,0,0,0,0,0,23.1,LOW
+EST-0236,Shree Fabrics & Garments,Maharashtra,Pune,Automobile & Auto Components,True,80,0.239,0.167,1,0,0,0,0,0,0,0,0,42.6,LOW
+EST-0237,Delta Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,368,0.441,0.432,0,0,0,0,0,0,0,0,0,27.5,LOW
+EST-0238,Hindustan Synthetics Ltd,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,68,0.327,0.288,0,4,0,0,0,0,0,1,0,90.7,HIGH
+EST-0239,Premier Manufacturing Corp,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,True,128,0.9,0.236,2,1,0,0,0,0,1,0,0,67.5,MEDIUM
+EST-0240,Pinnacle Components India,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,False,92,0.694,0.086,0,0,0,0,0,0,0,0,0,65.9,MEDIUM
+EST-0241,Delta Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,14,0.32,0.112,0,0,0,0,0,0,0,0,0,35.0,LOW
+EST-0242,Navkar Synthetics Ltd,Maharashtra,Thane,Warehousing & Supply Chain Logistics,True,62,0.557,0.112,0,3,0,0,1,0,0,0,0,73.1,HIGH
+EST-0243,Hindustan Industries Ltd.,Haryana,Panipat,Automobile & Auto Components,True,182,0.582,0.148,0,0,0,0,0,0,0,0,0,34.9,LOW
+EST-0244,Tata Processing Co.,Haryana,Gurugram,"Textile, Garments & Apparel",False,38,0.377,0.411,0,0,0,0,0,0,0,0,0,42.3,LOW
+EST-0245,Zenith Engineering Works,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,12,0.628,0.224,0,0,0,2,0,0,0,0,0,37.8,LOW
+EST-0246,Hindustan Processing Co.,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,80,0.595,0.484,0,1,0,0,0,0,0,0,0,28.1,LOW
+EST-0247,Zenith Synthetics Ltd,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,152,0.552,0.139,0,0,0,0,0,0,0,0,0,63.7,MEDIUM
+EST-0248,Sterling Industries Ltd.,Maharashtra,Pune,Food Processing & Agro Industries,False,33,0.332,0.263,4,0,0,0,0,0,0,1,0,66.8,MEDIUM
+EST-0249,Shakti Fabrics & Garments,Gujarat,Surat,Food Processing & Agro Industries,False,28,0.415,0.298,0,0,0,0,0,0,0,1,0,30.7,LOW
+EST-0250,Navkar Enterprises Pvt Ltd,Haryana,Gurugram,"Textile, Garments & Apparel",False,37,0.458,0.503,0,0,0,0,0,0,0,1,0,46.9,MEDIUM
+EST-0251,Pinnacle Components India,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,113,0.471,0.187,0,0,0,0,0,0,0,1,0,41.2,LOW
+EST-0252,Zenith Manufacturing Corp,Gujarat,Surat,Construction & Infrastructure,False,125,0.712,0.121,0,0,0,0,0,0,0,0,0,62.3,MEDIUM
+EST-0253,Bharat Components India,Gujarat,Surat,Automobile & Auto Components,False,93,0.273,0.327,0,0,0,0,0,0,0,0,0,33.6,LOW
+EST-0254,Tata Engineering Works,Karnataka,Peenya,Warehousing & Supply Chain Logistics,True,473,0.273,0.343,1,0,0,0,0,0,0,0,0,49.6,MEDIUM
+EST-0255,Navkar Processing Co.,Gujarat,Vadodara,Chemical & Hazardous Processing,False,148,0.622,0.092,0,0,0,0,0,1,0,0,0,66.7,MEDIUM
+EST-0256,Swastik Components India,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,33,0.541,0.198,0,1,0,0,0,0,0,0,0,49.3,MEDIUM
+EST-0257,Bharat Enterprises Pvt Ltd,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,174,0.521,0.49,0,0,0,0,0,0,0,0,0,42.2,LOW
+EST-0258,Surya Synthetics Ltd,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,41,0.338,0.078,0,0,0,0,0,0,0,0,0,41.5,LOW
+EST-0259,Sterling Manufacturing Corp,Maharashtra,Thane,Food Processing & Agro Industries,False,56,0.316,0.234,0,0,0,0,0,0,0,0,0,26.6,LOW
+EST-0260,Delta Synthetics Ltd,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,52,0.465,0.307,0,0,1,0,0,0,0,0,0,42.3,LOW
+EST-0261,Apex Processing Co.,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,True,38,0.401,0.112,0,0,2,0,0,0,0,0,0,41.8,LOW
+EST-0262,Shree Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,583,0.655,0.051,0,0,0,0,0,0,0,0,0,31.9,LOW
+EST-0263,Shakti Engineering Works,Gujarat,Vadodara,Construction & Infrastructure,False,84,0.459,0.158,1,0,0,0,0,0,0,0,0,77.4,HIGH
+EST-0264,Shree Processing Co.,Haryana,Gurugram,"Textile, Garments & Apparel",True,224,0.592,0.637,0,0,0,0,0,0,0,0,0,42.6,LOW
+EST-0265,Vanguard Components India,Haryana,Gurugram,Automobile & Auto Components,False,128,0.378,0.17,0,0,0,0,0,0,0,0,0,31.9,LOW
+EST-0266,Delta Engineering Works,Gujarat,Surat,Construction & Infrastructure,True,101,0.679,0.096,0,0,0,0,0,0,0,0,0,64.9,MEDIUM
+EST-0267,Pinnacle Industries Ltd.,Gujarat,Surat,Food Processing & Agro Industries,False,24,0.332,0.217,0,1,0,0,0,0,0,0,0,37.3,LOW
+EST-0268,Delta Processing Co.,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,90,0.327,0.28,0,0,0,0,0,0,0,0,0,31.0,LOW
+EST-0269,Shakti Synthetics Ltd,Haryana,Gurugram,Automobile & Auto Components,True,275,0.353,0.256,0,0,0,0,0,0,0,0,0,39.4,LOW
+EST-0270,Delta Industries Ltd.,Maharashtra,Pune,Warehousing & Supply Chain Logistics,False,254,0.696,0.151,0,0,0,0,0,0,0,0,0,47.8,MEDIUM
+EST-0271,Tata Fabrics & Garments,Maharashtra,Thane,Electronics & Precision Fabrication,False,50,0.549,0.496,0,0,0,0,1,0,0,0,0,35.5,LOW
+EST-0272,Swastik Processing Co.,Haryana,Gurugram,Construction & Infrastructure,False,141,0.729,0.248,0,0,1,0,0,0,0,0,0,71.8,HIGH
+EST-0273,Tata Synthetics Ltd,Maharashtra,Pune,Food Processing & Agro Industries,False,75,0.592,0.323,0,0,0,0,0,0,0,0,0,32.4,LOW
+EST-0274,Delta Components India,Gujarat,Surat,Construction & Infrastructure,True,24,0.82,0.285,4,0,4,0,0,0,0,0,1,98.5,HIGH
+EST-0275,Hindustan Fabrics & Garments,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,80,0.523,0.292,0,0,0,0,0,0,0,0,0,41.6,LOW
+EST-0276,Shakti Processing Co.,Maharashtra,Thane,Chemical & Hazardous Processing,True,40,0.156,0.249,0,0,0,0,0,0,0,0,0,58.9,MEDIUM
+EST-0277,Vanguard Processing Co.,Uttar Pradesh,Noida,Automobile & Auto Components,False,13,0.275,0.317,0,0,0,0,0,0,0,1,0,41.6,LOW
+EST-0278,Shakti Synthetics Ltd,Haryana,Panipat,Construction & Infrastructure,True,146,0.525,0.058,1,2,0,0,0,0,0,0,1,92.6,HIGH
+EST-0279,Shakti Synthetics Ltd,Karnataka,Peenya,Warehousing & Supply Chain Logistics,True,46,0.371,0.075,0,2,0,0,0,0,0,0,0,49.8,MEDIUM
+EST-0280,Tata Fabrics & Garments,Maharashtra,Thane,Construction & Infrastructure,True,115,0.684,0.334,2,4,0,0,0,0,0,0,0,98.5,HIGH
+EST-0281,Tata Engineering Works,Tamil Nadu,Coimbatore,Construction & Infrastructure,True,127,0.429,0.322,1,0,0,0,0,0,0,0,0,71.5,HIGH
+EST-0282,Apex Industries Ltd.,Maharashtra,Thane,Food Processing & Agro Industries,False,59,0.341,0.161,0,0,0,0,0,0,0,0,0,27.1,LOW
+EST-0283,Shakti Manufacturing Corp,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,48,0.553,0.179,0,2,0,0,0,0,0,0,0,51.9,MEDIUM
+EST-0284,Premier Industries Ltd.,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,True,34,0.274,0.182,0,0,1,0,0,0,0,1,0,41.0,LOW
+EST-0285,Tata Industries Ltd.,Gujarat,Surat,Food Processing & Agro Industries,False,88,0.189,0.058,0,0,0,0,0,0,0,0,0,27.2,LOW
+EST-0286,Delta Processing Co.,Maharashtra,Thane,Construction & Infrastructure,True,105,0.443,0.334,0,0,0,1,0,0,0,0,0,71.0,HIGH
+EST-0287,Kalyan Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,68,0.484,0.086,0,1,0,0,0,0,0,0,0,35.9,LOW
+EST-0288,Swastik Components India,Haryana,Gurugram,Construction & Infrastructure,True,28,0.527,0.342,0,2,0,0,0,0,0,1,0,79.4,HIGH
+EST-0289,Navkar Engineering Works,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,True,85,0.4,0.221,0,1,1,0,0,0,0,1,0,53.4,MEDIUM
+EST-0290,Premier Processing Co.,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,104,0.329,0.082,0,0,0,0,0,0,0,0,0,40.8,LOW
+EST-0291,Sterling Components India,Haryana,Panipat,Chemical & Hazardous Processing,True,132,0.236,0.058,0,2,0,0,0,0,0,0,0,68.9,MEDIUM
+EST-0292,Premier Processing Co.,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,60,0.675,0.264,0,0,0,0,0,0,0,0,0,39.9,LOW
+EST-0293,Delta Engineering Works,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,157,0.41,0.332,1,0,0,0,0,0,0,0,0,49.8,MEDIUM
+EST-0294,Kalyan Components India,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,359,0.453,0.135,0,0,0,0,0,0,0,0,0,61.4,MEDIUM
+EST-0295,Swastik Synthetics Ltd,Maharashtra,Pune,Chemical & Hazardous Processing,False,111,0.455,0.118,0,0,0,0,0,0,0,0,0,63.2,MEDIUM
+EST-0296,Hindustan Industries Ltd.,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,246,0.171,0.688,0,0,0,0,0,0,0,0,0,25.0,LOW
+EST-0297,Hindustan Manufacturing Corp,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,True,112,0.423,0.519,0,2,1,0,0,0,0,0,0,41.3,LOW
+EST-0298,Sterling Industries Ltd.,Haryana,Gurugram,Construction & Infrastructure,False,56,0.602,0.282,0,3,0,0,0,0,0,0,2,92.4,HIGH
+EST-0299,Navkar Synthetics Ltd,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,41,0.706,0.287,0,0,0,0,0,0,0,0,0,38.7,LOW
+EST-0300,Surya Fabrics & Garments,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,34,0.687,0.212,2,0,0,0,0,0,0,1,0,64.5,MEDIUM
+EST-0301,Bharat Processing Co.,Haryana,Panipat,Chemical & Hazardous Processing,True,59,0.511,0.295,0,0,0,0,1,0,0,0,0,71.3,HIGH
+EST-0302,Shakti Manufacturing Corp,Maharashtra,Thane,Automobile & Auto Components,False,76,0.433,0.129,0,0,0,0,0,0,0,0,0,36.7,LOW
+EST-0303,Hindustan Engineering Works,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,True,76,0.672,0.083,0,0,0,0,1,0,0,0,0,50.4,MEDIUM
+EST-0304,Zenith Processing Co.,Gujarat,Surat,"Textile, Garments & Apparel",False,78,0.317,0.446,1,0,0,0,0,0,0,1,0,56.2,MEDIUM
+EST-0305,Premier Fabrics & Garments,Maharashtra,Pune,Warehousing & Supply Chain Logistics,False,398,0.461,0.087,0,1,0,0,0,0,0,2,0,56.4,MEDIUM
+EST-0306,Tata Engineering Works,Maharashtra,Pune,Chemical & Hazardous Processing,True,92,0.328,0.152,0,0,4,0,0,0,0,1,0,81.2,HIGH
+EST-0307,Zenith Industries Ltd.,Haryana,Gurugram,Warehousing & Supply Chain Logistics,True,104,0.294,0.147,2,0,0,0,0,0,0,0,0,53.5,MEDIUM
+EST-0308,Shakti Enterprises Pvt Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,78,0.24,0.172,1,3,0,0,0,0,0,2,0,60.5,MEDIUM
+EST-0309,Navkar Manufacturing Corp,Haryana,Panipat,Electronics & Precision Fabrication,False,76,0.301,0.579,1,0,0,0,0,0,0,0,0,34.4,LOW
+EST-0310,Pinnacle Fabrics & Garments,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,30,0.391,0.09,0,0,0,0,0,0,0,0,0,39.1,LOW
+EST-0311,Shree Industries Ltd.,Maharashtra,Thane,Electronics & Precision Fabrication,False,74,0.358,0.684,0,0,0,0,0,0,0,0,0,26.7,LOW
+EST-0312,Navkar Engineering Works,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,37,0.288,0.109,0,2,0,0,0,0,0,0,0,47.5,MEDIUM
+EST-0313,Zenith Enterprises Pvt Ltd,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,135,0.757,0.057,0,1,0,0,0,0,0,0,0,38.8,LOW
+EST-0314,Shakti Fabrics & Garments,Gujarat,Vadodara,Construction & Infrastructure,True,25,0.61,0.15,0,0,0,0,0,0,0,0,0,61.5,MEDIUM
+EST-0315,Bharat Processing Co.,Uttar Pradesh,Noida,Automobile & Auto Components,False,73,0.252,0.121,1,0,0,2,0,0,0,0,0,53.0,MEDIUM
+EST-0316,Premier Industries Ltd.,Tamil Nadu,Coimbatore,Automobile & Auto Components,True,37,0.591,0.079,0,1,0,0,0,0,0,0,0,39.7,LOW
+EST-0317,Bharat Processing Co.,Uttar Pradesh,Noida,Electronics & Precision Fabrication,True,86,0.127,0.717,1,0,0,0,0,0,0,0,0,34.7,LOW
+EST-0318,Surya Manufacturing Corp,Gujarat,Vadodara,Chemical & Hazardous Processing,True,72,0.582,0.218,0,0,0,0,0,0,0,0,0,61.5,MEDIUM
+EST-0319,Pinnacle Fabrics & Garments,Karnataka,Peenya,Food Processing & Agro Industries,False,70,0.261,0.27,0,1,0,0,0,0,0,0,0,32.9,LOW
+EST-0320,Tata Synthetics Ltd,Gujarat,Surat,Construction & Infrastructure,False,47,0.65,0.056,0,0,1,0,0,1,0,0,0,82.5,HIGH
+EST-0321,Shakti Enterprises Pvt Ltd,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,41,0.594,0.722,0,0,0,0,0,0,0,0,0,45.1,MEDIUM
+EST-0322,Tata Enterprises Pvt Ltd,Karnataka,Peenya,Construction & Infrastructure,True,593,0.335,0.162,0,1,0,0,0,0,0,0,0,76.6,HIGH
+EST-0323,Apex Engineering Works,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,48,0.236,0.727,0,0,0,0,0,0,0,0,0,24.7,LOW
+EST-0324,Shakti Processing Co.,Karnataka,Peenya,Chemical & Hazardous Processing,True,75,0.419,0.244,0,0,0,0,0,0,0,0,0,56.3,MEDIUM
+EST-0325,Tata Synthetics Ltd,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,19,0.34,0.213,2,0,0,0,0,0,0,0,0,80.9,HIGH
+EST-0326,Kalyan Engineering Works,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,False,16,0.321,0.561,0,0,0,0,0,0,0,0,0,24.0,LOW
+EST-0327,Surya Fabrics & Garments,Karnataka,Peenya,Electronics & Precision Fabrication,False,54,0.333,0.408,0,0,2,0,0,0,0,0,0,35.9,LOW
+EST-0328,Tata Components India,Haryana,Gurugram,Construction & Infrastructure,True,28,0.44,0.101,0,2,0,0,0,0,0,0,0,77.2,HIGH
+EST-0329,Sterling Industries Ltd.,Haryana,Panipat,Automobile & Auto Components,True,69,0.649,0.31,0,2,0,0,0,0,0,0,0,48.5,MEDIUM
+EST-0330,Bharat Manufacturing Corp,Gujarat,Surat,"Textile, Garments & Apparel",False,51,0.341,0.562,0,0,0,0,0,0,0,0,0,44.1,LOW
+EST-0331,Vanguard Manufacturing Corp,Tamil Nadu,Coimbatore,Construction & Infrastructure,True,40,0.543,0.325,0,0,0,0,0,0,0,0,0,67.1,MEDIUM
+EST-0332,Premier Manufacturing Corp,Gujarat,Vadodara,Construction & Infrastructure,True,39,0.32,0.274,0,0,3,0,0,0,0,0,0,76.5,HIGH
+EST-0333,Vanguard Processing Co.,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,True,148,0.297,0.073,0,0,0,0,0,0,0,0,0,42.7,LOW
+EST-0334,Hindustan Components India,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,134,0.302,0.323,0,0,0,0,0,1,0,1,0,55.3,MEDIUM
+EST-0335,Apex Components India,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,89,0.553,0.437,0,0,0,0,0,0,0,1,0,48.3,MEDIUM
+EST-0336,Hindustan Manufacturing Corp,Karnataka,Peenya,Construction & Infrastructure,True,54,0.451,0.09,2,0,0,0,0,0,0,0,0,83.9,HIGH
+EST-0337,Bharat Engineering Works,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,39,0.397,0.111,1,1,0,0,0,0,0,0,0,40.8,LOW
+EST-0338,Navkar Industries Ltd.,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,18,0.276,0.29,0,2,0,0,0,0,0,0,0,48.4,MEDIUM
+EST-0339,Surya Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,28,0.348,0.457,0,0,0,0,0,0,0,1,0,48.8,MEDIUM
+EST-0340,Kalyan Manufacturing Corp,Gujarat,Vadodara,Construction & Infrastructure,True,75,0.449,0.075,0,1,0,0,0,0,0,0,0,70.8,HIGH
+EST-0341,Delta Engineering Works,Gujarat,Vadodara,"Textile, Garments & Apparel",True,43,0.468,0.729,0,1,0,0,0,1,0,0,0,58.6,MEDIUM
+EST-0342,Sterling Processing Co.,Haryana,Gurugram,Chemical & Hazardous Processing,True,111,0.427,0.326,2,1,1,0,0,0,0,0,0,89.7,HIGH
+EST-0343,Shree Engineering Works,Haryana,Gurugram,Construction & Infrastructure,True,157,0.639,0.226,0,0,0,0,0,0,0,0,0,63.2,MEDIUM
+EST-0344,Kalyan Fabrics & Garments,Tamil Nadu,Sriperumbudur,Warehousing & Supply Chain Logistics,False,80,0.509,0.103,0,0,0,0,0,0,0,0,0,42.5,LOW
+EST-0345,Shakti Processing Co.,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,False,133,0.277,0.153,0,0,0,0,0,0,0,0,0,63.9,MEDIUM
+EST-0346,Bharat Components India,Maharashtra,Thane,"Textile, Garments & Apparel",False,76,0.438,0.525,0,1,0,0,0,0,0,1,0,57.5,MEDIUM
+EST-0347,Delta Components India,Gujarat,Vadodara,Construction & Infrastructure,False,40,0.646,0.288,4,0,0,0,0,0,0,0,1,98.5,HIGH
+EST-0348,Apex Manufacturing Corp,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,False,81,0.38,0.101,0,0,4,1,0,0,0,0,0,55.8,MEDIUM
+EST-0349,Hindustan Manufacturing Corp,Uttar Pradesh,Noida,Construction & Infrastructure,True,437,0.83,0.327,0,0,0,0,0,0,0,0,0,69.5,MEDIUM
+EST-0350,Swastik Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,57,0.665,0.533,0,1,0,0,0,0,0,0,0,48.0,MEDIUM
+EST-0351,Vanguard Enterprises Pvt Ltd,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,58,0.197,0.187,0,1,0,0,0,0,0,3,0,45.0,MEDIUM
+EST-0352,Delta Engineering Works,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,False,79,0.47,0.31,0,4,0,0,0,0,0,0,3,71.1,HIGH
+EST-0353,Navkar Fabrics & Garments,Haryana,Gurugram,Automobile & Auto Components,False,116,0.317,0.292,0,0,0,0,0,0,0,0,0,32.7,LOW
+EST-0354,Bharat Synthetics Ltd,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,177,0.869,0.463,6,0,0,0,0,0,0,0,0,98.5,HIGH
+EST-0355,Kalyan Enterprises Pvt Ltd,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,110,0.595,0.251,0,1,0,0,0,0,0,0,0,47.2,MEDIUM
+EST-0356,Surya Enterprises Pvt Ltd,Haryana,Gurugram,Chemical & Hazardous Processing,False,33,0.367,0.295,0,0,1,0,0,0,0,0,0,67.0,MEDIUM
+EST-0357,Hindustan Manufacturing Corp,Tamil Nadu,Sriperumbudur,Warehousing & Supply Chain Logistics,True,460,0.707,0.246,0,0,0,2,2,0,0,0,0,80.6,HIGH
+EST-0358,Premier Manufacturing Corp,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,117,0.677,0.121,0,0,0,0,0,0,0,0,0,36.6,LOW
+EST-0359,Kalyan Manufacturing Corp,Gujarat,Surat,Chemical & Hazardous Processing,True,69,0.363,0.27,0,0,0,0,0,0,0,0,0,59.4,MEDIUM
+EST-0360,Shakti Components India,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,23,0.533,0.311,0,5,0,0,0,0,0,0,0,90.2,HIGH
+EST-0361,Navkar Fabrics & Garments,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,True,370,0.316,0.193,0,0,0,0,0,0,0,0,0,36.7,LOW
+EST-0362,Shakti Processing Co.,Tamil Nadu,Sriperumbudur,Warehousing & Supply Chain Logistics,True,195,0.348,0.142,0,0,0,0,0,0,0,0,0,43.6,LOW
+EST-0363,Apex Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,180,0.696,0.269,0,8,0,0,0,0,0,0,0,79.7,HIGH
+EST-0364,Sterling Engineering Works,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,True,24,0.383,0.199,5,1,0,0,0,0,0,0,0,77.6,HIGH
+EST-0365,Apex Processing Co.,Gujarat,Surat,Warehousing & Supply Chain Logistics,True,75,0.442,0.179,1,0,0,0,0,0,0,0,0,51.6,MEDIUM
+EST-0366,Swastik Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,73,0.115,0.5,0,0,0,0,0,0,0,0,0,22.0,LOW
+EST-0367,Delta Manufacturing Corp,Haryana,Panipat,Food Processing & Agro Industries,False,27,0.307,0.083,0,0,0,0,0,0,0,0,0,31.9,LOW
+EST-0368,Navkar Fabrics & Garments,Haryana,Gurugram,Construction & Infrastructure,True,74,0.437,0.309,0,2,1,0,0,0,0,4,0,98.5,HIGH
+EST-0369,Vanguard Enterprises Pvt Ltd,Uttar Pradesh,Noida,"Textile, Garments & Apparel",True,61,0.268,0.481,1,1,0,0,0,0,0,0,0,55.9,MEDIUM
+EST-0370,Tata Fabrics & Garments,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,True,52,0.29,0.079,1,0,1,0,0,0,0,0,0,71.2,HIGH
+EST-0371,Hindustan Manufacturing Corp,Haryana,Gurugram,Automobile & Auto Components,True,130,0.458,0.278,0,0,0,0,0,0,0,0,0,33.8,LOW
+EST-0372,Hindustan Components India,Gujarat,Vadodara,Construction & Infrastructure,False,27,0.521,0.089,1,0,0,0,0,0,0,0,0,70.8,HIGH
+EST-0373,Kalyan Components India,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,99,0.9,0.204,2,3,0,0,0,0,0,0,0,97.1,HIGH
+EST-0374,Vanguard Engineering Works,Maharashtra,Pune,Warehousing & Supply Chain Logistics,False,85,0.732,0.215,0,1,0,0,0,0,0,0,0,43.4,LOW
+EST-0375,Hindustan Components India,Maharashtra,Pune,Food Processing & Agro Industries,False,195,0.476,0.111,0,0,0,0,0,0,0,0,0,30.0,LOW
+EST-0376,Zenith Engineering Works,Haryana,Panipat,"Textile, Garments & Apparel",False,489,0.286,0.641,0,0,0,0,0,0,0,0,0,47.1,MEDIUM
+EST-0377,Hindustan Components India,Maharashtra,Pune,Food Processing & Agro Industries,True,67,0.772,0.13,0,2,2,0,0,0,0,0,0,54.1,MEDIUM
+EST-0378,Zenith Fabrics & Garments,Haryana,Panipat,Electronics & Precision Fabrication,True,60,0.651,0.436,1,0,3,0,0,0,0,1,0,55.1,MEDIUM
+EST-0379,Zenith Enterprises Pvt Ltd,Maharashtra,Thane,Construction & Infrastructure,True,57,0.598,0.15,1,0,0,0,0,0,0,0,0,76.8,HIGH
+EST-0380,Bharat Manufacturing Corp,Maharashtra,Thane,Electronics & Precision Fabrication,True,130,0.513,0.654,0,2,0,0,0,0,0,0,0,34.1,LOW
+EST-0381,Kalyan Components India,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,95,0.671,0.584,0,0,0,0,0,0,0,0,0,42.1,LOW
+EST-0382,Sterling Synthetics Ltd,Maharashtra,Thane,Automobile & Auto Components,True,157,0.811,0.261,0,0,1,0,1,0,0,0,0,48.6,MEDIUM
+EST-0383,Shakti Manufacturing Corp,Maharashtra,Thane,Automobile & Auto Components,True,169,0.447,0.183,0,0,1,0,0,0,0,2,0,47.6,MEDIUM
+EST-0384,Swastik Fabrics & Garments,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,True,138,0.323,0.661,0,0,0,0,0,0,0,0,0,27.6,LOW
+EST-0385,Sterling Components India,Tamil Nadu,Coimbatore,Automobile & Auto Components,True,49,0.764,0.212,1,0,1,0,0,0,0,0,0,50.8,MEDIUM
+EST-0386,Pinnacle Enterprises Pvt Ltd,Maharashtra,Pune,Automobile & Auto Components,False,60,0.253,0.261,0,0,1,0,0,0,0,0,0,42.8,LOW
+EST-0387,Surya Processing Co.,Gujarat,Surat,"Textile, Garments & Apparel",False,15,0.314,0.651,0,0,0,0,0,0,0,0,0,44.6,LOW
+EST-0388,Navkar Synthetics Ltd,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,False,115,0.44,0.079,1,2,0,0,0,0,0,0,0,77.1,HIGH
+EST-0389,Premier Fabrics & Garments,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,162,0.765,0.5,1,0,0,0,0,0,0,0,0,36.5,LOW
+EST-0390,Apex Engineering Works,Uttar Pradesh,Noida,Automobile & Auto Components,True,158,0.236,0.117,0,0,0,0,0,0,0,0,0,31.9,LOW
+EST-0391,Hindustan Components India,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,132,0.407,0.193,0,0,0,0,0,0,0,0,0,38.9,LOW
+EST-0392,Tata Industries Ltd.,Haryana,Gurugram,Construction & Infrastructure,True,156,0.445,0.312,0,3,0,0,0,0,0,0,1,87.9,HIGH
+EST-0393,Zenith Components India,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,40,0.224,0.25,0,4,0,0,0,0,0,0,0,61.2,MEDIUM
+EST-0394,Shakti Fabrics & Garments,Gujarat,Vadodara,Automobile & Auto Components,False,83,0.568,0.344,1,0,0,0,0,0,1,1,0,55.5,MEDIUM
+EST-0395,Delta Processing Co.,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,67,0.497,0.188,1,0,1,0,0,0,0,0,0,50.3,MEDIUM
+EST-0396,Hindustan Enterprises Pvt Ltd,Maharashtra,Thane,Electronics & Precision Fabrication,False,143,0.399,0.411,0,0,0,0,0,1,0,0,0,34.3,LOW
+EST-0397,Kalyan Industries Ltd.,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,82,0.304,0.051,0,0,0,0,0,0,0,0,0,38.5,LOW
+EST-0398,Shakti Engineering Works,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,93,0.303,0.145,0,0,0,0,0,0,0,0,0,33.3,LOW
+EST-0399,Pinnacle Engineering Works,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,21,0.211,0.628,0,0,0,0,0,0,0,0,0,41.7,LOW
+EST-0400,Bharat Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,True,42,0.287,0.112,2,0,0,0,0,0,0,0,0,54.3,MEDIUM
+EST-0401,Zenith Industries Ltd.,Gujarat,Surat,Automobile & Auto Components,False,34,0.166,0.232,0,0,0,0,0,0,0,0,0,31.7,LOW
+EST-0402,Swastik Fabrics & Garments,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,45,0.42,0.579,0,0,0,0,0,0,0,0,0,47.1,MEDIUM
+EST-0403,Tata Processing Co.,Gujarat,Surat,"Textile, Garments & Apparel",False,68,0.494,0.47,3,0,0,0,0,0,0,0,1,79.1,HIGH
+EST-0404,Kalyan Industries Ltd.,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,71,0.375,0.053,0,0,1,0,0,0,0,0,0,62.7,MEDIUM
+EST-0405,Swastik Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,110,0.494,0.198,0,0,0,0,0,0,0,0,0,35.6,LOW
+EST-0406,Navkar Manufacturing Corp,Maharashtra,Pune,Construction & Infrastructure,False,187,0.805,0.267,2,1,1,0,0,0,0,0,0,92.0,HIGH
+EST-0407,Bharat Engineering Works,Karnataka,Peenya,Automobile & Auto Components,False,34,0.498,0.161,0,0,0,0,0,0,0,2,0,39.6,LOW
+EST-0408,Kalyan Fabrics & Garments,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,93,0.275,0.241,0,0,0,0,0,0,0,0,0,39.9,LOW
+EST-0409,Navkar Enterprises Pvt Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,True,22,0.421,0.198,1,0,0,0,0,0,0,2,0,78.2,HIGH
+EST-0410,Hindustan Manufacturing Corp,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,42,0.412,0.627,2,0,2,0,0,0,2,0,0,85.2,HIGH
+EST-0411,Pinnacle Industries Ltd.,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,71,0.588,0.103,1,0,0,0,0,0,0,1,0,79.1,HIGH
+EST-0412,Kalyan Enterprises Pvt Ltd,Haryana,Gurugram,Construction & Infrastructure,True,141,0.38,0.051,3,0,0,0,0,0,0,0,0,94.2,HIGH
+EST-0413,Shakti Synthetics Ltd,Uttar Pradesh,Noida,Construction & Infrastructure,False,159,0.288,0.312,0,0,0,0,0,0,0,0,0,67.2,MEDIUM
+EST-0414,Pinnacle Processing Co.,Maharashtra,Thane,Chemical & Hazardous Processing,True,79,0.505,0.14,1,0,0,0,0,0,0,0,0,65.7,MEDIUM
+EST-0415,Vanguard Manufacturing Corp,Haryana,Gurugram,Electronics & Precision Fabrication,False,65,0.603,0.722,0,1,0,0,0,0,0,2,0,37.8,LOW
+EST-0416,Shakti Fabrics & Garments,Gujarat,Vadodara,Construction & Infrastructure,True,60,0.491,0.34,0,5,0,0,0,0,0,0,0,96.3,HIGH
+EST-0417,Navkar Enterprises Pvt Ltd,Gujarat,Surat,Construction & Infrastructure,True,32,0.337,0.05,0,2,0,0,0,0,0,0,0,81.0,HIGH
+EST-0418,Shree Fabrics & Garments,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,37,0.768,0.079,0,1,0,0,0,0,0,0,0,71.4,HIGH
+EST-0419,Shree Fabrics & Garments,Gujarat,Surat,Chemical & Hazardous Processing,True,105,0.365,0.183,4,0,0,0,0,0,0,0,2,98.5,HIGH
+EST-0420,Navkar Engineering Works,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,98,0.9,0.088,0,2,0,0,0,0,0,0,0,44.6,LOW
+EST-0421,Pinnacle Industries Ltd.,Karnataka,Peenya,Construction & Infrastructure,True,21,0.661,0.34,4,0,0,0,0,0,0,0,0,98.5,HIGH
+EST-0422,Vanguard Engineering Works,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,82,0.427,0.304,1,1,0,0,0,0,0,0,0,47.1,MEDIUM
+EST-0423,Navkar Enterprises Pvt Ltd,Haryana,Panipat,Chemical & Hazardous Processing,True,305,0.506,0.177,1,0,1,0,0,1,0,0,0,90.3,HIGH
+EST-0424,Zenith Synthetics Ltd,Gujarat,Surat,Automobile & Auto Components,True,81,0.563,0.219,3,2,0,0,1,0,0,0,0,86.2,HIGH
+EST-0425,Swastik Manufacturing Corp,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,164,0.358,0.633,0,0,0,0,0,0,0,0,0,21.8,LOW
+EST-0426,Kalyan Components India,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,156,0.348,0.241,0,0,0,0,0,0,0,0,0,42.3,LOW
+EST-0427,Bharat Enterprises Pvt Ltd,Maharashtra,Thane,Food Processing & Agro Industries,False,199,0.542,0.323,0,0,0,0,0,0,0,0,0,30.5,LOW
+EST-0428,Shree Processing Co.,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,True,68,0.213,0.481,0,0,0,0,0,0,0,0,0,21.5,LOW
+EST-0429,Shree Engineering Works,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,81,0.522,0.129,0,0,0,0,0,0,0,0,0,63.0,MEDIUM
+EST-0430,Shree Industries Ltd.,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,63,0.528,0.089,0,1,0,0,0,0,0,2,0,75.2,HIGH
+EST-0431,Kalyan Industries Ltd.,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,88,0.535,0.181,0,0,0,0,0,0,0,1,0,37.1,LOW
+EST-0432,Apex Industries Ltd.,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,True,168,0.217,0.231,0,0,0,0,0,0,0,2,0,35.6,LOW
+EST-0433,Sterling Engineering Works,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,72,0.596,0.146,0,0,0,0,0,1,0,0,0,50.2,MEDIUM
+EST-0434,Tata Enterprises Pvt Ltd,Gujarat,Surat,Warehousing & Supply Chain Logistics,True,29,0.731,0.06,0,0,0,0,0,0,0,0,0,37.6,LOW
+EST-0435,Shakti Industries Ltd.,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,103,0.512,0.276,0,0,0,0,0,0,0,0,0,42.5,LOW
+EST-0436,Navkar Processing Co.,Karnataka,Bengaluru Urban,Construction & Infrastructure,False,54,0.446,0.121,0,1,6,0,0,0,0,0,0,98.5,HIGH
+EST-0437,Bharat Enterprises Pvt Ltd,Gujarat,Surat,Electronics & Precision Fabrication,False,35,0.148,0.543,0,2,0,0,0,0,0,1,0,39.1,LOW
+EST-0438,Vanguard Manufacturing Corp,Haryana,Panipat,"Textile, Garments & Apparel",True,21,0.54,0.651,2,0,0,0,0,0,0,0,0,61.6,MEDIUM
+EST-0439,Vanguard Engineering Works,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,54,0.435,0.15,0,0,0,0,0,0,0,2,0,46.3,MEDIUM
+EST-0440,Tata Synthetics Ltd,Maharashtra,Pune,Automobile & Auto Components,False,87,0.567,0.06,0,7,0,0,0,0,0,0,0,76.3,HIGH
+EST-0441,Apex Processing Co.,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,132,0.24,0.119,3,0,0,0,0,0,0,0,0,58.3,MEDIUM
+EST-0442,Surya Engineering Works,Haryana,Gurugram,"Textile, Garments & Apparel",False,160,0.338,0.429,0,0,0,0,0,0,0,0,0,48.0,MEDIUM
+EST-0443,Hindustan Components India,Maharashtra,Pune,"Textile, Garments & Apparel",False,37,0.223,0.446,0,0,0,0,0,0,0,0,0,46.7,MEDIUM
+EST-0444,Pinnacle Enterprises Pvt Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,True,139,0.279,0.193,0,0,0,0,0,1,0,0,0,69.0,MEDIUM
+EST-0445,Kalyan Synthetics Ltd,Uttar Pradesh,Noida,Construction & Infrastructure,True,67,0.443,0.224,0,0,0,1,0,0,0,0,0,69.6,MEDIUM
+EST-0446,Hindustan Synthetics Ltd,Karnataka,Peenya,Chemical & Hazardous Processing,True,57,0.439,0.347,0,0,0,0,0,0,0,1,0,67.7,MEDIUM
+EST-0447,Tata Industries Ltd.,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,74,0.325,0.088,0,0,0,0,0,1,0,0,0,36.7,LOW
+EST-0448,Hindustan Synthetics Ltd,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,460,0.225,0.271,0,1,0,0,0,0,0,0,0,68.5,MEDIUM
+EST-0449,Apex Industries Ltd.,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,33,0.367,0.106,0,1,0,0,0,0,0,0,0,46.9,MEDIUM
+EST-0450,Apex Components India,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,165,0.343,0.707,0,0,0,0,0,0,0,0,0,45.3,MEDIUM
+EST-0451,Vanguard Enterprises Pvt Ltd,Gujarat,Surat,Automobile & Auto Components,False,158,0.4,0.248,0,2,0,0,0,0,0,0,0,43.2,LOW
+EST-0452,Tata Components India,Gujarat,Surat,Food Processing & Agro Industries,False,48,0.321,0.296,0,0,0,0,0,0,0,0,0,28.6,LOW
+EST-0453,Bharat Industries Ltd.,Karnataka,Peenya,Food Processing & Agro Industries,False,132,0.426,0.11,0,0,1,0,0,0,0,0,0,38.5,LOW
+EST-0454,Bharat Enterprises Pvt Ltd,Maharashtra,Pune,Electronics & Precision Fabrication,True,82,0.725,0.685,1,0,0,0,0,0,0,1,0,37.8,LOW
+EST-0455,Kalyan Engineering Works,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,167,0.479,0.223,0,0,0,0,0,0,0,0,0,36.8,LOW
+EST-0456,Hindustan Processing Co.,Gujarat,Vadodara,Electronics & Precision Fabrication,False,67,0.469,0.742,0,0,0,0,0,0,0,0,0,25.5,LOW
+EST-0457,Delta Fabrics & Garments,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,49,0.19,0.13,0,0,0,0,0,0,0,0,0,34.9,LOW
+EST-0458,Shree Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,True,72,0.161,0.704,3,1,0,1,0,0,0,0,0,63.5,MEDIUM
+EST-0459,Pinnacle Synthetics Ltd,Gujarat,Surat,Food Processing & Agro Industries,False,91,0.472,0.113,1,0,0,0,0,0,0,0,0,34.5,LOW
+EST-0460,Tata Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",True,88,0.494,0.479,0,0,2,0,0,0,0,0,0,54.2,MEDIUM
+EST-0461,Tata Enterprises Pvt Ltd,Gujarat,Surat,Food Processing & Agro Industries,False,94,0.36,0.243,0,0,0,0,0,0,0,0,0,30.9,LOW
+EST-0462,Zenith Industries Ltd.,Haryana,Panipat,"Textile, Garments & Apparel",False,43,0.587,0.554,0,0,0,0,0,0,0,0,0,45.2,MEDIUM
+EST-0463,Tata Manufacturing Corp,Karnataka,Peenya,Electronics & Precision Fabrication,False,558,0.332,0.552,0,0,0,0,0,0,0,0,0,34.0,LOW
+EST-0464,Sterling Manufacturing Corp,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,40,0.444,0.201,0,0,0,0,0,0,0,0,0,65.6,MEDIUM
+EST-0465,Delta Processing Co.,Maharashtra,Pune,Electronics & Precision Fabrication,False,79,0.449,0.446,0,0,0,0,0,0,0,0,0,21.1,LOW
+EST-0466,Pinnacle Manufacturing Corp,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,341,0.421,0.634,2,0,0,0,0,0,0,1,0,53.7,MEDIUM
+EST-0467,Swastik Synthetics Ltd,Maharashtra,Pune,Chemical & Hazardous Processing,True,28,0.302,0.105,0,0,0,0,0,0,0,0,0,63.5,MEDIUM
+EST-0468,Tata Manufacturing Corp,Gujarat,Surat,Electronics & Precision Fabrication,False,52,0.306,0.495,4,0,0,0,0,0,0,0,0,56.4,MEDIUM
+EST-0469,Surya Engineering Works,Karnataka,Peenya,Construction & Infrastructure,True,290,0.696,0.215,0,1,0,1,0,0,0,0,0,79.7,HIGH
+EST-0470,Kalyan Industries Ltd.,Gujarat,Vadodara,Chemical & Hazardous Processing,True,60,0.435,0.214,0,1,0,0,0,0,0,1,0,70.8,HIGH
+EST-0471,Kalyan Fabrics & Garments,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,70,0.66,0.229,0,4,0,0,0,0,0,0,0,62.8,MEDIUM
+EST-0472,Premier Industries Ltd.,Haryana,Gurugram,"Textile, Garments & Apparel",False,108,0.301,0.653,0,0,0,0,0,0,0,0,0,44.0,LOW
+EST-0473,Vanguard Enterprises Pvt Ltd,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,64,0.501,0.312,0,0,0,0,0,1,0,0,0,48.9,MEDIUM
+EST-0474,Bharat Components India,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,True,448,0.258,0.629,0,2,3,0,0,0,0,0,0,59.7,MEDIUM
+EST-0475,Shree Synthetics Ltd,Haryana,Panipat,Electronics & Precision Fabrication,False,110,0.332,0.57,0,1,0,0,0,0,0,0,0,30.6,LOW
+EST-0476,Delta Synthetics Ltd,Gujarat,Vadodara,Electronics & Precision Fabrication,False,40,0.625,0.615,0,0,2,0,0,0,0,0,0,37.1,LOW
+EST-0477,Swastik Manufacturing Corp,Maharashtra,Pune,Food Processing & Agro Industries,False,48,0.447,0.209,0,0,0,0,0,0,0,0,0,30.9,LOW
+EST-0478,Premier Industries Ltd.,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,True,30,0.313,0.693,0,0,0,0,0,0,0,0,0,24.0,LOW
+EST-0479,Shakti Fabrics & Garments,Haryana,Panipat,"Textile, Garments & Apparel",False,413,0.399,0.495,0,0,0,0,0,0,0,0,0,46.1,MEDIUM
+EST-0480,Shree Fabrics & Garments,Gujarat,Vadodara,"Textile, Garments & Apparel",False,190,0.419,0.595,0,0,1,0,0,0,0,0,0,51.3,MEDIUM
+EST-0481,Delta Synthetics Ltd,Karnataka,Peenya,Automobile & Auto Components,False,86,0.526,0.237,0,1,0,0,0,0,0,0,0,40.0,LOW
+EST-0482,Kalyan Engineering Works,Maharashtra,Thane,Automobile & Auto Components,False,50,0.662,0.115,0,1,0,0,0,0,0,0,0,41.0,LOW
+EST-0483,Vanguard Components India,Karnataka,Bengaluru Urban,Construction & Infrastructure,False,80,0.632,0.21,0,3,0,0,0,0,0,0,0,80.1,HIGH
+EST-0484,Shree Components India,Karnataka,Peenya,Food Processing & Agro Industries,False,213,0.623,0.273,0,0,0,0,0,0,0,1,0,31.4,LOW
+EST-0485,Pinnacle Manufacturing Corp,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,36,0.424,0.575,1,2,0,0,0,0,0,0,1,67.1,MEDIUM
+EST-0486,Hindustan Industries Ltd.,Haryana,Gurugram,Chemical & Hazardous Processing,True,48,0.636,0.239,2,3,0,0,0,0,0,0,0,92.9,HIGH
+EST-0487,Swastik Enterprises Pvt Ltd,Haryana,Panipat,"Textile, Garments & Apparel",False,36,0.494,0.641,0,0,0,0,1,0,0,0,0,55.5,MEDIUM
+EST-0488,Navkar Processing Co.,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,210,0.603,0.698,0,0,0,0,0,0,0,0,0,48.2,MEDIUM
+EST-0489,Surya Synthetics Ltd,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,86,0.568,0.164,0,0,0,0,0,0,0,0,0,40.6,LOW
+EST-0490,Vanguard Engineering Works,Uttar Pradesh,Noida,Automobile & Auto Components,False,66,0.253,0.074,0,0,0,1,0,0,0,0,0,41.9,LOW
+EST-0491,Premier Manufacturing Corp,Tamil Nadu,Sriperumbudur,Warehousing & Supply Chain Logistics,True,88,0.268,0.189,0,0,1,0,0,0,0,0,0,42.7,LOW
+EST-0492,Bharat Components India,Haryana,Panipat,Chemical & Hazardous Processing,True,110,0.556,0.202,5,3,0,0,0,0,0,0,0,98.5,HIGH
+EST-0493,Delta Manufacturing Corp,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,12,0.379,0.297,0,0,1,0,0,0,0,0,0,67.7,MEDIUM
+EST-0494,Pinnacle Manufacturing Corp,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,38,0.342,0.566,0,1,0,0,0,0,0,0,0,52.8,MEDIUM
+EST-0495,Premier Fabrics & Garments,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,True,68,0.448,0.28,2,1,0,0,0,0,0,0,0,85.9,HIGH
+EST-0496,Vanguard Manufacturing Corp,Maharashtra,Thane,Automobile & Auto Components,False,49,0.646,0.256,0,0,0,0,0,0,0,2,0,39.9,LOW
+EST-0497,Shree Synthetics Ltd,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,110,0.446,0.217,0,0,1,0,0,0,0,0,0,43.9,LOW
+EST-0498,Tata Manufacturing Corp,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,58,0.403,0.33,1,1,0,0,3,0,0,0,0,94.2,HIGH
+EST-0499,Delta Fabrics & Garments,Gujarat,Vadodara,Electronics & Precision Fabrication,False,109,0.334,0.68,0,2,0,0,0,0,0,0,0,36.4,LOW
+EST-0500,Premier Manufacturing Corp,Gujarat,Surat,Construction & Infrastructure,True,103,0.432,0.18,1,2,0,0,0,0,0,0,0,87.7,HIGH
+EST-0501,Surya Engineering Works,Karnataka,Peenya,Chemical & Hazardous Processing,True,134,0.147,0.212,0,0,0,0,0,0,0,2,0,65.7,MEDIUM
+EST-0502,Surya Processing Co.,Gujarat,Vadodara,Automobile & Auto Components,True,156,0.328,0.087,0,1,0,0,0,0,0,0,0,39.9,LOW
+EST-0503,Tata Engineering Works,Gujarat,Vadodara,Construction & Infrastructure,True,61,0.445,0.307,5,0,0,0,0,0,0,0,2,98.5,HIGH
+EST-0504,Apex Manufacturing Corp,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,150,0.423,0.229,2,1,0,0,0,0,0,0,0,86.4,HIGH
+EST-0505,Delta Engineering Works,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,38,0.266,0.317,2,0,0,0,0,0,0,0,0,48.7,MEDIUM
+EST-0506,Delta Processing Co.,Maharashtra,Thane,Automobile & Auto Components,False,86,0.506,0.088,0,1,0,0,0,0,0,0,0,38.0,LOW
+EST-0507,Shree Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,126,0.312,0.649,0,0,0,0,0,0,0,0,0,43.6,LOW
+EST-0508,Surya Industries Ltd.,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,495,0.9,0.301,0,0,0,1,0,0,0,0,0,48.6,MEDIUM
+EST-0509,Premier Enterprises Pvt Ltd,Gujarat,Surat,Food Processing & Agro Industries,False,229,0.427,0.312,0,0,0,0,0,0,0,0,0,30.3,LOW
+EST-0510,Premier Enterprises Pvt Ltd,Maharashtra,Thane,"Textile, Garments & Apparel",False,35,0.309,0.464,0,0,0,0,0,0,0,1,0,49.2,MEDIUM
+EST-0511,Apex Synthetics Ltd,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,98,0.229,0.308,2,0,0,0,0,0,0,0,0,46.2,MEDIUM
+EST-0512,Shakti Processing Co.,Haryana,Gurugram,Food Processing & Agro Industries,False,77,0.459,0.297,0,0,0,1,0,0,0,1,0,34.6,LOW
+EST-0513,Kalyan Enterprises Pvt Ltd,Gujarat,Surat,"Textile, Garments & Apparel",False,180,0.382,0.623,0,0,0,0,0,0,0,1,0,49.3,MEDIUM
+EST-0514,Surya Enterprises Pvt Ltd,Karnataka,Peenya,Construction & Infrastructure,True,157,0.46,0.196,1,2,0,0,0,0,0,0,0,82.0,HIGH
+EST-0515,Swastik Fabrics & Garments,Maharashtra,Thane,Electronics & Precision Fabrication,False,420,0.521,0.65,0,0,0,3,0,0,0,0,0,42.5,LOW
+EST-0516,Kalyan Industries Ltd.,Karnataka,Peenya,Food Processing & Agro Industries,False,116,0.251,0.321,0,1,0,0,0,0,0,0,0,36.2,LOW
+EST-0517,Shakti Industries Ltd.,Haryana,Gurugram,Electronics & Precision Fabrication,False,49,0.33,0.56,0,1,0,0,0,0,0,0,0,29.6,LOW
+EST-0518,Swastik Manufacturing Corp,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,12,0.443,0.303,0,1,0,0,0,0,0,1,0,51.1,MEDIUM
+EST-0519,Delta Manufacturing Corp,Gujarat,Vadodara,Food Processing & Agro Industries,False,130,0.416,0.098,0,0,0,0,0,0,0,0,0,26.6,LOW
+EST-0520,Kalyan Fabrics & Garments,Maharashtra,Thane,Automobile & Auto Components,False,37,0.212,0.313,0,0,0,0,0,0,0,0,0,33.0,LOW
+EST-0521,Swastik Industries Ltd.,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,77,0.346,0.054,0,0,0,0,0,0,0,0,0,39.3,LOW
+EST-0522,Kalyan Components India,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,277,0.384,0.09,0,0,0,2,0,0,0,0,0,42.8,LOW
+EST-0523,Vanguard Synthetics Ltd,Gujarat,Vadodara,Automobile & Auto Components,False,199,0.428,0.181,0,0,0,0,0,0,0,1,0,39.6,LOW
+EST-0524,Delta Components India,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,70,0.262,0.093,0,0,0,0,0,0,0,0,0,38.8,LOW
+EST-0525,Shakti Manufacturing Corp,Karnataka,Peenya,Automobile & Auto Components,False,127,0.284,0.077,0,0,0,0,0,0,0,0,0,32.1,LOW
+EST-0526,Hindustan Fabrics & Garments,Gujarat,Vadodara,"Textile, Garments & Apparel",False,39,0.493,0.745,0,1,0,0,0,0,0,2,0,59.2,MEDIUM
+EST-0527,Kalyan Fabrics & Garments,Maharashtra,Pune,Chemical & Hazardous Processing,False,157,0.341,0.154,0,0,0,0,0,0,0,0,0,63.0,MEDIUM
+EST-0528,Surya Processing Co.,Tamil Nadu,Coimbatore,Food Processing & Agro Industries,False,300,0.404,0.32,0,0,0,0,0,0,0,0,0,34.1,LOW
+EST-0529,Shree Synthetics Ltd,Haryana,Panipat,Automobile & Auto Components,False,52,0.323,0.276,0,0,0,0,0,0,0,0,0,35.2,LOW
+EST-0530,Tata Fabrics & Garments,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,True,50,0.441,0.142,0,0,0,0,0,1,0,0,0,53.2,MEDIUM
+EST-0531,Pinnacle Industries Ltd.,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,85,0.491,0.706,0,0,0,0,0,1,0,0,0,56.7,MEDIUM
+EST-0532,Tata Processing Co.,Maharashtra,Thane,Warehousing & Supply Chain Logistics,True,24,0.479,0.345,0,0,2,0,0,0,0,0,0,49.4,MEDIUM
+EST-0533,Navkar Engineering Works,Karnataka,Peenya,Warehousing & Supply Chain Logistics,True,226,0.276,0.089,0,0,1,0,0,0,0,0,0,48.6,MEDIUM
+EST-0534,Kalyan Fabrics & Garments,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,87,0.266,0.335,0,0,4,0,0,0,0,0,0,57.5,MEDIUM
+EST-0535,Shree Engineering Works,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,70,0.318,0.741,0,0,0,1,0,0,0,0,0,32.2,LOW
+EST-0536,Kalyan Manufacturing Corp,Maharashtra,Pune,Construction & Infrastructure,True,304,0.629,0.23,0,0,0,0,0,0,0,0,0,73.2,HIGH
+EST-0537,Bharat Components India,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,55,0.39,0.6,1,2,0,2,0,0,0,0,0,76.5,HIGH
+EST-0538,Navkar Manufacturing Corp,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,245,0.324,0.415,0,0,0,0,0,0,0,0,0,48.1,MEDIUM
+EST-0539,Premier Processing Co.,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,278,0.564,0.264,0,0,0,0,0,0,0,0,0,47.3,MEDIUM
+EST-0540,Navkar Engineering Works,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,60,0.314,0.174,0,0,0,0,0,0,0,0,0,36.2,LOW
+EST-0541,Zenith Fabrics & Garments,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,243,0.414,0.196,0,0,0,0,0,0,0,0,0,68.0,MEDIUM
+EST-0542,Shree Synthetics Ltd,Gujarat,Vadodara,Electronics & Precision Fabrication,False,216,0.201,0.556,0,0,0,1,0,0,0,2,0,36.3,LOW
+EST-0543,Delta Fabrics & Garments,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,32,0.259,0.056,0,0,0,0,0,0,0,0,0,33.8,LOW
+EST-0544,Sterling Synthetics Ltd,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,50,0.555,0.335,1,0,3,0,1,0,0,0,0,65.4,MEDIUM
+EST-0545,Vanguard Fabrics & Garments,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,58,0.563,0.312,0,1,0,0,0,0,0,0,0,39.9,LOW
+EST-0546,Shakti Components India,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,115,0.331,0.557,0,0,0,0,0,0,0,0,0,27.1,LOW
+EST-0547,Zenith Synthetics Ltd,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,True,18,0.604,0.071,6,0,0,0,0,0,0,0,1,88.5,HIGH
+EST-0548,Bharat Components India,Uttar Pradesh,Kanpur,Automobile & Auto Components,True,141,0.225,0.109,0,0,0,0,0,0,0,0,0,31.1,LOW
+EST-0549,Swastik Manufacturing Corp,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,298,0.354,0.665,0,0,0,0,0,0,0,0,0,48.8,MEDIUM
+EST-0550,Bharat Fabrics & Garments,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,True,55,0.616,0.179,0,0,0,0,0,0,0,0,0,33.3,LOW
+EST-0551,Shree Fabrics & Garments,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,132,0.388,0.118,1,2,0,0,0,0,0,0,0,57.7,MEDIUM
+EST-0552,Kalyan Components India,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,160,0.238,0.717,3,0,0,0,0,0,1,0,0,56.0,MEDIUM
+EST-0553,Delta Components India,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,43,0.748,0.262,0,1,0,0,0,0,0,0,0,46.9,MEDIUM
+EST-0554,Surya Fabrics & Garments,Karnataka,Peenya,Automobile & Auto Components,False,56,0.26,0.161,3,0,0,0,0,0,0,0,0,59.2,MEDIUM
+EST-0555,Tata Manufacturing Corp,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,267,0.628,0.317,3,0,0,0,0,0,0,0,0,72.7,HIGH
+EST-0556,Sterling Industries Ltd.,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",True,77,0.387,0.735,0,0,2,1,0,0,0,0,0,62.1,MEDIUM
+EST-0557,Navkar Engineering Works,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,169,0.151,0.628,0,0,0,0,0,0,0,0,0,27.1,LOW
+EST-0558,Premier Fabrics & Garments,Maharashtra,Thane,Chemical & Hazardous Processing,True,26,0.504,0.093,0,0,0,0,0,0,0,0,0,58.6,MEDIUM
+EST-0559,Apex Manufacturing Corp,Karnataka,Peenya,Automobile & Auto Components,True,76,0.218,0.158,0,0,0,0,0,0,0,0,0,35.4,LOW
+EST-0560,Tata Processing Co.,Maharashtra,Thane,Electronics & Precision Fabrication,True,163,0.466,0.665,0,0,0,0,0,0,0,0,0,23.3,LOW
+EST-0561,Shakti Enterprises Pvt Ltd,Maharashtra,Pune,Warehousing & Supply Chain Logistics,True,29,0.64,0.099,1,0,0,0,0,0,0,0,0,46.6,MEDIUM
+EST-0562,Navkar Processing Co.,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,128,0.652,0.3,0,0,0,0,0,0,0,0,0,38.0,LOW
+EST-0563,Navkar Industries Ltd.,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,49,0.366,0.167,0,0,0,0,0,0,0,0,0,38.5,LOW
+EST-0564,Hindustan Industries Ltd.,Maharashtra,Thane,Food Processing & Agro Industries,False,314,0.304,0.066,0,0,0,0,0,0,0,0,0,33.4,LOW
+EST-0565,Tata Enterprises Pvt Ltd,Gujarat,Surat,Construction & Infrastructure,False,107,0.714,0.311,0,0,1,0,0,0,0,0,0,66.2,MEDIUM
+EST-0566,Premier Components India,Haryana,Panipat,Construction & Infrastructure,False,440,0.735,0.13,0,0,1,0,0,0,0,0,0,75.5,HIGH
+EST-0567,Vanguard Industries Ltd.,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,57,0.794,0.268,0,0,0,0,0,0,0,0,0,68.1,MEDIUM
+EST-0568,Shakti Synthetics Ltd,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,53,0.469,0.317,3,0,0,0,0,0,0,0,1,63.1,MEDIUM
+EST-0569,Shakti Enterprises Pvt Ltd,Haryana,Gurugram,Automobile & Auto Components,False,87,0.381,0.286,0,2,0,0,0,0,0,0,0,44.8,LOW
+EST-0570,Shakti Enterprises Pvt Ltd,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,True,26,0.52,0.341,0,3,0,0,0,0,0,0,2,65.5,MEDIUM
+EST-0571,Navkar Enterprises Pvt Ltd,Maharashtra,Pune,Automobile & Auto Components,False,107,0.239,0.162,1,0,0,0,0,0,0,0,0,42.3,LOW
+EST-0572,Delta Components India,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,404,0.718,0.078,2,0,0,0,0,0,0,0,0,63.6,MEDIUM
+EST-0573,Shakti Enterprises Pvt Ltd,Haryana,Panipat,"Textile, Garments & Apparel",False,255,0.479,0.629,1,0,0,0,0,0,0,0,0,61.2,MEDIUM
+EST-0574,Delta Engineering Works,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,40,0.652,0.334,1,2,1,0,0,0,0,0,0,94.1,HIGH
+EST-0575,Kalyan Engineering Works,Gujarat,Vadodara,Construction & Infrastructure,True,42,0.716,0.287,1,0,0,0,0,0,0,0,0,69.6,MEDIUM
+EST-0576,Vanguard Processing Co.,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,139,0.427,0.212,0,0,0,0,0,0,0,0,0,58.0,MEDIUM
+EST-0577,Sterling Engineering Works,Haryana,Gurugram,Electronics & Precision Fabrication,False,182,0.171,0.654,0,0,0,1,0,0,0,0,0,29.1,LOW
+EST-0578,Zenith Engineering Works,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,99,0.652,0.317,1,0,0,0,0,0,0,0,0,52.1,MEDIUM
+EST-0579,Kalyan Manufacturing Corp,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,77,0.447,0.13,0,0,0,0,0,0,0,1,0,69.1,MEDIUM
+EST-0580,Swastik Components India,Haryana,Gurugram,Chemical & Hazardous Processing,True,110,0.515,0.256,0,0,0,0,0,0,0,0,0,61.1,MEDIUM
+EST-0581,Delta Synthetics Ltd,Gujarat,Vadodara,"Textile, Garments & Apparel",False,39,0.638,0.488,0,0,0,0,0,0,0,0,0,48.9,MEDIUM
+EST-0582,Swastik Components India,Karnataka,Peenya,Electronics & Precision Fabrication,False,106,0.232,0.419,0,0,0,0,0,0,0,0,0,22.6,LOW
+EST-0583,Apex Industries Ltd.,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,127,0.238,0.156,0,0,0,2,0,0,0,0,0,34.1,LOW
+EST-0584,Swastik Processing Co.,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,39,0.233,0.134,1,0,0,0,0,0,1,0,0,48.7,MEDIUM
+EST-0585,Kalyan Industries Ltd.,Haryana,Gurugram,Electronics & Precision Fabrication,False,88,0.375,0.575,0,0,0,0,0,0,0,0,0,26.6,LOW
+EST-0586,Kalyan Engineering Works,Haryana,Gurugram,"Textile, Garments & Apparel",False,43,0.625,0.736,0,0,0,0,0,0,0,0,0,44.6,LOW
+EST-0587,Shakti Fabrics & Garments,Haryana,Gurugram,Automobile & Auto Components,False,60,0.39,0.205,0,0,0,0,0,0,0,0,0,35.4,LOW
+EST-0588,Swastik Processing Co.,Gujarat,Surat,Automobile & Auto Components,False,44,0.578,0.236,0,0,0,0,0,0,0,0,0,34.4,LOW
+EST-0589,Bharat Engineering Works,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,95,0.357,0.594,0,0,1,0,0,0,0,1,0,54.0,MEDIUM
+EST-0590,Surya Manufacturing Corp,Maharashtra,Pune,Construction & Infrastructure,True,255,0.556,0.242,0,0,0,0,0,0,0,0,0,69.2,MEDIUM
+EST-0591,Sterling Components India,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,175,0.461,0.23,0,0,0,0,0,0,0,0,0,62.2,MEDIUM
+EST-0592,Surya Fabrics & Garments,Karnataka,Peenya,Electronics & Precision Fabrication,False,68,0.373,0.446,0,0,0,0,0,0,0,0,0,28.1,LOW
+EST-0593,Navkar Synthetics Ltd,Haryana,Gurugram,Automobile & Auto Components,True,231,0.243,0.053,2,0,0,0,0,0,0,0,0,50.8,MEDIUM
+EST-0594,Sterling Industries Ltd.,Gujarat,Vadodara,Chemical & Hazardous Processing,False,235,0.552,0.214,0,0,0,1,0,0,0,0,0,65.1,MEDIUM
+EST-0595,Tata Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,103,0.359,0.709,0,0,0,3,0,0,0,1,0,63.3,MEDIUM
+EST-0596,Zenith Processing Co.,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,False,14,0.506,0.337,0,0,0,0,0,0,0,0,0,66.7,MEDIUM
+EST-0597,Swastik Engineering Works,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,78,0.512,0.14,0,0,1,0,0,0,0,0,0,46.6,MEDIUM
+EST-0598,Shakti Components India,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,68,0.288,0.181,0,0,3,0,0,0,0,0,0,78.7,HIGH
+EST-0599,Kalyan Components India,Karnataka,Peenya,"Textile, Garments & Apparel",False,166,0.346,0.429,1,0,0,2,0,0,0,0,0,57.5,MEDIUM
+EST-0600,Surya Fabrics & Garments,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,248,0.719,0.346,0,0,0,0,0,0,0,0,0,35.2,LOW
+EST-0601,Surya Enterprises Pvt Ltd,Karnataka,Peenya,Chemical & Hazardous Processing,True,56,0.572,0.135,0,1,0,0,0,0,0,0,0,65.3,MEDIUM
+EST-0602,Navkar Synthetics Ltd,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,37,0.567,0.484,0,3,0,0,0,0,0,0,1,49.2,MEDIUM
+EST-0603,Kalyan Engineering Works,Gujarat,Vadodara,"Textile, Garments & Apparel",False,64,0.536,0.738,0,0,0,0,0,0,0,0,0,48.7,MEDIUM
+EST-0604,Zenith Industries Ltd.,Karnataka,Peenya,Electronics & Precision Fabrication,False,155,0.219,0.449,0,0,0,0,0,0,0,0,0,25.9,LOW
+EST-0605,Hindustan Processing Co.,Gujarat,Vadodara,Automobile & Auto Components,False,48,0.75,0.209,0,0,1,0,2,0,0,4,0,79.7,HIGH
+EST-0606,Bharat Components India,Gujarat,Surat,Chemical & Hazardous Processing,False,65,0.519,0.306,0,0,0,0,0,0,0,0,0,57.9,MEDIUM
+EST-0607,Apex Enterprises Pvt Ltd,Maharashtra,Pune,Construction & Infrastructure,False,149,0.568,0.288,0,1,4,0,0,0,0,0,0,91.5,HIGH
+EST-0608,Tata Industries Ltd.,Gujarat,Vadodara,"Textile, Garments & Apparel",False,109,0.339,0.635,0,0,0,1,0,0,0,0,0,49.4,MEDIUM
+EST-0609,Surya Enterprises Pvt Ltd,Maharashtra,Thane,Automobile & Auto Components,False,14,0.331,0.284,0,1,0,1,0,0,0,0,0,48.6,MEDIUM
+EST-0610,Shree Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,38,0.578,0.167,0,0,0,0,0,0,0,0,0,31.5,LOW
+EST-0611,Delta Processing Co.,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,51,0.231,0.693,0,0,1,0,0,0,0,0,0,50.0,MEDIUM
+EST-0612,Pinnacle Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,98,0.334,0.308,0,0,0,0,0,0,0,0,0,36.6,LOW
+EST-0613,Shree Processing Co.,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,54,0.394,0.079,0,0,0,0,0,0,0,1,0,64.4,MEDIUM
+EST-0614,Shree Fabrics & Garments,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,True,460,0.394,0.433,2,0,0,1,0,0,0,0,0,54.5,MEDIUM
+EST-0615,Pinnacle Manufacturing Corp,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,112,0.555,0.297,0,0,0,0,0,0,0,0,0,34.9,LOW
+EST-0616,Shakti Engineering Works,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,106,0.318,0.235,0,0,0,0,0,0,0,0,0,36.5,LOW
+EST-0617,Hindustan Engineering Works,Karnataka,Peenya,"Textile, Garments & Apparel",True,236,0.328,0.651,0,0,0,0,0,0,0,0,0,43.6,LOW
+EST-0618,Swastik Processing Co.,Haryana,Gurugram,Construction & Infrastructure,True,433,0.457,0.123,0,0,0,1,0,0,0,1,0,75.1,HIGH
+EST-0619,Shakti Industries Ltd.,Gujarat,Surat,"Textile, Garments & Apparel",True,69,0.532,0.702,0,0,0,0,1,0,0,3,0,69.4,MEDIUM
+EST-0620,Hindustan Fabrics & Garments,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,159,0.305,0.407,0,0,0,0,0,0,0,0,0,45.4,MEDIUM
+EST-0621,Zenith Processing Co.,Karnataka,Peenya,Food Processing & Agro Industries,False,220,0.598,0.279,2,0,0,0,0,0,0,0,0,50.1,MEDIUM
+EST-0622,Pinnacle Synthetics Ltd,Gujarat,Vadodara,Automobile & Auto Components,False,77,0.293,0.173,0,0,0,3,0,0,0,0,0,44.8,LOW
+EST-0623,Sterling Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,94,0.614,0.483,2,0,0,0,0,0,0,0,0,63.6,MEDIUM
+EST-0624,Delta Engineering Works,Maharashtra,Pune,Electronics & Precision Fabrication,False,25,0.408,0.458,0,0,0,0,1,0,0,0,0,39.6,LOW
+EST-0625,Navkar Processing Co.,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,25,0.219,0.665,0,0,0,0,0,0,0,0,0,42.4,LOW
+EST-0626,Zenith Components India,Maharashtra,Pune,Food Processing & Agro Industries,True,49,0.338,0.216,0,0,0,0,0,0,0,0,0,33.1,LOW
+EST-0627,Tata Processing Co.,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,False,61,0.363,0.67,0,0,0,0,0,0,0,0,0,22.8,LOW
+EST-0628,Hindustan Processing Co.,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,False,52,0.215,0.065,0,0,0,0,0,0,0,0,0,32.6,LOW
+EST-0629,Delta Engineering Works,Maharashtra,Pune,Construction & Infrastructure,True,111,0.486,0.278,2,0,0,0,0,0,0,0,0,84.5,HIGH
+EST-0630,Shree Engineering Works,Karnataka,Peenya,Automobile & Auto Components,False,70,0.264,0.164,2,0,0,0,0,0,0,0,0,51.8,MEDIUM
+EST-0631,Shree Manufacturing Corp,Haryana,Panipat,Food Processing & Agro Industries,False,12,0.591,0.19,0,0,0,0,0,0,0,0,0,29.0,LOW
+EST-0632,Shakti Manufacturing Corp,Maharashtra,Thane,"Textile, Garments & Apparel",False,198,0.457,0.602,0,0,0,0,0,0,0,0,0,44.7,LOW
+EST-0633,Bharat Manufacturing Corp,Gujarat,Vadodara,Electronics & Precision Fabrication,False,166,0.586,0.657,0,0,0,0,0,0,0,1,0,26.5,LOW
+EST-0634,Kalyan Fabrics & Garments,Uttar Pradesh,Noida,Automobile & Auto Components,True,25,0.326,0.244,0,0,2,0,0,0,0,0,0,44.4,LOW
+EST-0635,Swastik Enterprises Pvt Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,True,76,0.272,0.312,2,0,0,0,0,0,1,0,0,86.3,HIGH
+EST-0636,Navkar Components India,Haryana,Panipat,Construction & Infrastructure,True,130,0.483,0.206,0,2,1,0,0,0,0,0,0,85.9,HIGH
+EST-0637,Tata Engineering Works,Gujarat,Surat,"Textile, Garments & Apparel",False,13,0.408,0.449,0,0,0,0,0,0,0,0,0,42.6,LOW
+EST-0638,Tata Processing Co.,Karnataka,Peenya,Automobile & Auto Components,False,40,0.238,0.337,0,0,0,0,0,0,0,0,0,35.0,LOW
+EST-0639,Bharat Industries Ltd.,Haryana,Gurugram,Electronics & Precision Fabrication,True,173,0.638,0.592,0,0,0,0,0,0,0,0,0,27.6,LOW
+EST-0640,Shakti Industries Ltd.,Karnataka,Peenya,Automobile & Auto Components,False,465,0.45,0.311,0,0,0,0,0,0,0,0,0,37.6,LOW
+EST-0641,Tata Manufacturing Corp,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,26,0.424,0.662,0,0,0,0,0,0,0,1,0,45.4,MEDIUM
+EST-0642,Hindustan Manufacturing Corp,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,40,0.226,0.232,0,0,0,0,0,1,0,2,0,55.1,MEDIUM
+EST-0643,Sterling Industries Ltd.,Gujarat,Surat,Chemical & Hazardous Processing,True,209,0.331,0.218,0,0,0,0,0,0,0,0,0,56.9,MEDIUM
+EST-0644,Bharat Processing Co.,Gujarat,Surat,Food Processing & Agro Industries,False,151,0.571,0.172,1,0,0,0,0,0,0,0,0,39.1,LOW
+EST-0645,Navkar Fabrics & Garments,Maharashtra,Thane,Electronics & Precision Fabrication,False,428,0.282,0.609,0,0,0,0,0,0,0,0,0,31.3,LOW
+EST-0646,Premier Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,182,0.469,0.056,0,1,0,0,0,0,0,0,0,44.4,LOW
+EST-0647,Shakti Components India,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,True,868,0.374,0.546,0,0,0,0,0,0,0,0,0,28.6,LOW
+EST-0648,Sterling Engineering Works,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,273,0.338,0.051,0,0,0,0,0,0,0,0,0,37.4,LOW
+EST-0649,Sterling Manufacturing Corp,Tamil Nadu,Coimbatore,Construction & Infrastructure,False,71,0.516,0.299,0,1,0,0,0,0,0,0,0,73.0,HIGH
+EST-0650,Tata Fabrics & Garments,Gujarat,Surat,Electronics & Precision Fabrication,False,68,0.63,0.699,0,1,1,0,0,0,0,5,0,52.9,MEDIUM
+EST-0651,Tata Enterprises Pvt Ltd,Haryana,Gurugram,Food Processing & Agro Industries,False,38,0.886,0.163,1,1,1,0,0,0,0,0,0,46.6,MEDIUM
+EST-0652,Vanguard Fabrics & Garments,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,True,65,0.159,0.279,0,0,0,0,0,0,0,0,0,59.8,MEDIUM
+EST-0653,Zenith Enterprises Pvt Ltd,Haryana,Gurugram,Automobile & Auto Components,False,138,0.644,0.111,4,0,1,0,0,0,0,0,1,76.3,HIGH
+EST-0654,Zenith Industries Ltd.,Maharashtra,Thane,Automobile & Auto Components,False,65,0.698,0.214,0,0,0,0,0,0,0,0,0,36.8,LOW
+EST-0655,Pinnacle Industries Ltd.,Tamil Nadu,Coimbatore,Electronics & Precision Fabrication,False,34,0.353,0.488,0,0,0,0,0,0,0,0,0,21.1,LOW
+EST-0656,Shree Processing Co.,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,329,0.3,0.101,0,0,0,0,0,0,0,0,0,47.6,MEDIUM
+EST-0657,Hindustan Manufacturing Corp,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,66,0.444,0.591,0,3,0,1,0,0,0,0,1,74.9,HIGH
+EST-0658,Bharat Components India,Maharashtra,Pune,Chemical & Hazardous Processing,True,86,0.295,0.348,0,0,0,0,0,0,0,0,0,59.2,MEDIUM
+EST-0659,Shree Manufacturing Corp,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,19,0.417,0.227,0,0,0,0,0,0,0,0,0,36.3,LOW
+EST-0660,Vanguard Components India,Karnataka,Peenya,Warehousing & Supply Chain Logistics,True,143,0.343,0.204,0,0,0,0,0,0,0,0,0,43.3,LOW
+EST-0661,Premier Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,63,0.537,0.247,1,1,0,0,0,0,0,0,0,55.5,MEDIUM
+EST-0662,Delta Manufacturing Corp,Haryana,Gurugram,Food Processing & Agro Industries,False,143,0.462,0.145,0,0,0,0,0,1,0,4,0,55.0,MEDIUM
+EST-0663,Premier Industries Ltd.,Karnataka,Peenya,Chemical & Hazardous Processing,True,40,0.403,0.168,0,0,0,0,0,0,0,0,0,58.2,MEDIUM
+EST-0664,Vanguard Engineering Works,Haryana,Gurugram,Electronics & Precision Fabrication,False,161,0.24,0.721,1,0,0,1,0,0,0,2,0,43.3,LOW
+EST-0665,Pinnacle Synthetics Ltd,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",True,132,0.348,0.596,0,1,0,0,0,0,0,0,0,51.1,MEDIUM
+EST-0666,Hindustan Processing Co.,Karnataka,Peenya,Automobile & Auto Components,True,96,0.449,0.168,0,2,0,0,0,0,0,0,0,50.6,MEDIUM
+EST-0667,Shakti Processing Co.,Maharashtra,Thane,"Textile, Garments & Apparel",False,202,0.746,0.677,0,1,0,0,0,0,0,0,0,49.2,MEDIUM
+EST-0668,Sterling Components India,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",False,46,0.683,0.514,0,2,0,0,0,0,0,0,0,55.7,MEDIUM
+EST-0669,Swastik Synthetics Ltd,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,146,0.603,0.201,1,0,0,0,1,0,0,0,0,61.2,MEDIUM
+EST-0670,Vanguard Manufacturing Corp,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,268,0.278,0.147,0,0,0,0,0,0,0,0,0,38.3,LOW
+EST-0671,Kalyan Components India,Gujarat,Surat,Electronics & Precision Fabrication,False,79,0.378,0.625,0,0,0,0,0,0,0,0,0,25.2,LOW
+EST-0672,Hindustan Manufacturing Corp,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,48,0.247,0.052,0,0,0,0,0,0,0,0,0,40.1,LOW
+EST-0673,Premier Manufacturing Corp,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,78,0.428,0.309,0,1,0,0,0,0,0,0,0,46.4,MEDIUM
+EST-0674,Kalyan Industries Ltd.,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,88,0.378,0.109,0,0,0,0,0,0,0,0,0,38.4,LOW
+EST-0675,Zenith Manufacturing Corp,Gujarat,Vadodara,"Textile, Garments & Apparel",False,105,0.496,0.605,0,0,0,0,0,0,0,0,0,48.2,MEDIUM
+EST-0676,Navkar Fabrics & Garments,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,64,0.646,0.137,0,0,2,0,0,0,0,0,0,72.6,HIGH
+EST-0677,Bharat Manufacturing Corp,Karnataka,Peenya,Construction & Infrastructure,True,98,0.45,0.323,0,1,0,2,0,0,0,0,0,80.4,HIGH
+EST-0678,Sterling Components India,Maharashtra,Thane,"Textile, Garments & Apparel",True,275,0.245,0.64,1,0,0,0,0,0,0,0,0,59.8,MEDIUM
+EST-0679,Vanguard Components India,Gujarat,Vadodara,"Textile, Garments & Apparel",True,43,0.558,0.521,0,0,0,0,0,0,0,0,0,42.3,LOW
+EST-0680,Sterling Industries Ltd.,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,False,38,0.177,0.233,0,0,0,0,0,0,0,0,0,33.7,LOW
+EST-0681,Surya Industries Ltd.,Haryana,Gurugram,Construction & Infrastructure,True,108,0.507,0.06,0,0,0,0,0,0,0,0,0,62.7,MEDIUM
+EST-0682,Tata Components India,Gujarat,Surat,Food Processing & Agro Industries,True,65,0.237,0.206,2,0,0,0,0,0,0,0,0,47.6,MEDIUM
+EST-0683,Surya Fabrics & Garments,Gujarat,Vadodara,"Textile, Garments & Apparel",False,67,0.351,0.684,0,2,0,0,0,0,0,0,0,57.7,MEDIUM
+EST-0684,Hindustan Engineering Works,Maharashtra,Pune,Electronics & Precision Fabrication,False,46,0.357,0.474,3,0,0,3,0,0,0,0,0,62.5,MEDIUM
+EST-0685,Apex Processing Co.,Maharashtra,Pune,"Textile, Garments & Apparel",True,39,0.393,0.715,0,0,0,0,0,0,0,1,0,47.3,MEDIUM
+EST-0686,Hindustan Industries Ltd.,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,513,0.387,0.318,0,1,0,0,0,0,0,0,0,45.8,MEDIUM
+EST-0687,Swastik Processing Co.,Maharashtra,Thane,"Textile, Garments & Apparel",False,73,0.62,0.409,0,0,0,0,0,0,0,0,0,45.4,MEDIUM
+EST-0688,Sterling Processing Co.,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,19,0.245,0.08,1,3,0,2,0,0,0,0,0,67.1,MEDIUM
+EST-0689,Shakti Manufacturing Corp,Maharashtra,Pune,Food Processing & Agro Industries,False,16,0.357,0.111,0,9,0,0,0,0,0,1,1,96.4,HIGH
+EST-0690,Shakti Manufacturing Corp,Haryana,Gurugram,Construction & Infrastructure,True,18,0.769,0.344,1,0,0,0,0,0,0,0,0,69.7,MEDIUM
+EST-0691,Vanguard Enterprises Pvt Ltd,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,237,0.496,0.25,0,0,1,0,0,0,0,0,0,68.3,MEDIUM
+EST-0692,Delta Engineering Works,Karnataka,Peenya,Food Processing & Agro Industries,False,106,0.544,0.138,0,0,0,0,0,0,0,0,0,27.5,LOW
+EST-0693,Navkar Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,True,300,0.736,0.346,0,1,0,0,0,0,0,0,0,48.3,MEDIUM
+EST-0694,Bharat Fabrics & Garments,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,144,0.599,0.284,0,0,0,0,0,0,0,0,0,43.7,LOW
+EST-0695,Bharat Enterprises Pvt Ltd,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,186,0.552,0.221,1,0,2,0,0,0,1,0,0,55.5,MEDIUM
+EST-0696,Kalyan Enterprises Pvt Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,False,260,0.319,0.1,0,0,0,0,0,0,0,0,0,69.0,MEDIUM
+EST-0697,Apex Fabrics & Garments,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,29,0.323,0.156,2,0,0,0,0,0,0,0,0,53.9,MEDIUM
+EST-0698,Kalyan Manufacturing Corp,Haryana,Panipat,Food Processing & Agro Industries,False,59,0.283,0.214,0,0,0,0,0,0,0,0,0,28.7,LOW
+EST-0699,Zenith Synthetics Ltd,Haryana,Gurugram,"Textile, Garments & Apparel",False,95,0.9,0.736,0,0,0,0,0,0,0,0,0,48.9,MEDIUM
+EST-0700,Shree Components India,Karnataka,Bengaluru Urban,Construction & Infrastructure,False,27,0.647,0.193,0,0,0,0,0,0,0,0,0,66.6,MEDIUM
+EST-0701,Swastik Fabrics & Garments,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,80,0.271,0.132,0,2,0,0,0,0,0,0,0,68.5,MEDIUM
+EST-0702,Swastik Industries Ltd.,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,388,0.685,0.581,0,0,0,0,0,0,0,0,0,50.4,MEDIUM
+EST-0703,Vanguard Components India,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,153,0.438,0.148,0,0,0,0,0,0,0,0,0,42.2,LOW
+EST-0704,Kalyan Industries Ltd.,Gujarat,Vadodara,"Textile, Garments & Apparel",True,64,0.582,0.472,0,0,1,0,0,0,0,0,0,48.4,MEDIUM
+EST-0705,Swastik Manufacturing Corp,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,318,0.381,0.296,0,3,0,0,0,0,0,0,2,95.1,HIGH
+EST-0706,Bharat Components India,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,31,0.76,0.645,0,1,0,0,0,0,0,0,0,49.4,MEDIUM
+EST-0707,Delta Processing Co.,Haryana,Panipat,Construction & Infrastructure,True,59,0.303,0.295,2,0,0,1,0,0,0,0,0,85.8,HIGH
+EST-0708,Surya Engineering Works,Haryana,Panipat,Food Processing & Agro Industries,False,157,0.678,0.294,1,0,0,0,0,0,0,0,0,37.6,LOW
+EST-0709,Premier Synthetics Ltd,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,62,0.329,0.201,0,1,0,0,0,0,0,0,0,42.2,LOW
+EST-0710,Surya Engineering Works,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,42,0.438,0.332,0,0,0,0,0,0,0,0,0,41.2,LOW
+EST-0711,Zenith Processing Co.,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,44,0.409,0.156,0,0,1,0,0,0,0,0,0,42.6,LOW
+EST-0712,Vanguard Synthetics Ltd,Haryana,Gurugram,Food Processing & Agro Industries,True,154,0.352,0.054,0,0,0,0,0,0,0,0,0,29.2,LOW
+EST-0713,Navkar Enterprises Pvt Ltd,Haryana,Panipat,Food Processing & Agro Industries,True,174,0.311,0.113,0,0,0,0,0,0,0,0,0,32.0,LOW
+EST-0714,Pinnacle Engineering Works,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,103,0.401,0.224,0,0,0,0,0,0,0,3,0,51.8,MEDIUM
+EST-0715,Delta Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",True,44,0.573,0.609,0,0,3,0,0,0,0,0,0,60.5,MEDIUM
+EST-0716,Hindustan Processing Co.,Maharashtra,Thane,"Textile, Garments & Apparel",False,48,0.632,0.441,0,0,0,0,0,0,0,0,0,45.8,MEDIUM
+EST-0717,Delta Components India,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,24,0.37,0.654,0,0,2,0,0,0,0,0,0,33.2,LOW
+EST-0718,Surya Engineering Works,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,51,0.355,0.187,0,0,1,0,0,0,0,1,0,47.7,MEDIUM
+EST-0719,Shakti Components India,Uttar Pradesh,Kanpur,Automobile & Auto Components,True,71,0.57,0.077,0,0,0,0,0,0,0,0,0,35.7,LOW
+EST-0720,Apex Industries Ltd.,Karnataka,Peenya,Construction & Infrastructure,True,52,0.496,0.268,0,0,0,0,0,0,0,0,0,65.5,MEDIUM
+EST-0721,Delta Enterprises Pvt Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,59,0.396,0.163,0,0,0,0,0,0,0,0,0,33.7,LOW
+EST-0722,Zenith Components India,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,88,0.248,0.144,0,0,0,0,0,0,0,0,0,30.8,LOW
+EST-0723,Surya Fabrics & Garments,Maharashtra,Thane,Automobile & Auto Components,False,69,0.278,0.072,1,0,0,0,0,0,0,0,0,44.9,LOW
+EST-0724,Apex Synthetics Ltd,Gujarat,Vadodara,Construction & Infrastructure,True,67,0.463,0.05,0,0,1,0,0,0,0,0,0,72.6,HIGH
+EST-0725,Delta Manufacturing Corp,Gujarat,Surat,Electronics & Precision Fabrication,False,86,0.743,0.57,0,0,0,0,0,2,0,2,0,53.3,MEDIUM
+EST-0726,Delta Enterprises Pvt Ltd,Gujarat,Vadodara,Automobile & Auto Components,False,30,0.722,0.342,0,0,0,1,0,1,0,0,0,46.8,MEDIUM
+EST-0727,Surya Engineering Works,Haryana,Panipat,Automobile & Auto Components,False,23,0.33,0.246,0,0,0,0,0,0,0,0,0,37.4,LOW
+EST-0728,Shakti Engineering Works,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,201,0.387,0.27,0,0,0,0,0,0,0,0,0,61.7,MEDIUM
+EST-0729,Shree Industries Ltd.,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,49,0.268,0.74,0,0,0,0,0,0,0,1,0,26.2,LOW
+EST-0730,Kalyan Fabrics & Garments,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,280,0.491,0.125,1,0,1,0,0,0,0,2,0,61.8,MEDIUM
+EST-0731,Apex Processing Co.,Gujarat,Vadodara,Chemical & Hazardous Processing,True,133,0.318,0.053,4,0,0,0,0,0,3,0,2,98.5,HIGH
+EST-0732,Kalyan Enterprises Pvt Ltd,Haryana,Panipat,Electronics & Precision Fabrication,True,130,0.594,0.64,1,1,0,0,0,0,0,0,0,43.5,LOW
+EST-0733,Surya Manufacturing Corp,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,71,0.739,0.175,0,0,0,0,1,0,0,0,0,53.5,MEDIUM
+EST-0734,Pinnacle Industries Ltd.,Gujarat,Surat,Construction & Infrastructure,False,74,0.414,0.228,0,0,0,0,0,0,0,0,0,61.4,MEDIUM
+EST-0735,Tata Fabrics & Garments,Haryana,Gurugram,Chemical & Hazardous Processing,True,157,0.246,0.202,0,0,0,0,0,0,0,0,0,63.9,MEDIUM
+EST-0736,Zenith Synthetics Ltd,Gujarat,Vadodara,Food Processing & Agro Industries,False,33,0.754,0.06,1,0,0,0,0,0,0,0,0,38.0,LOW
+EST-0737,Vanguard Processing Co.,Gujarat,Surat,Automobile & Auto Components,True,81,0.327,0.346,0,0,0,0,0,0,0,0,0,32.3,LOW
+EST-0738,Bharat Enterprises Pvt Ltd,Gujarat,Vadodara,Electronics & Precision Fabrication,False,41,0.253,0.489,0,0,0,0,0,0,0,0,0,23.6,LOW
+EST-0739,Bharat Industries Ltd.,Maharashtra,Thane,Automobile & Auto Components,False,109,0.33,0.054,0,0,0,0,0,0,0,1,0,37.7,LOW
+EST-0740,Premier Synthetics Ltd,Haryana,Panipat,Chemical & Hazardous Processing,True,18,0.598,0.122,0,0,0,0,0,0,0,0,0,59.7,MEDIUM
+EST-0741,Surya Industries Ltd.,Maharashtra,Pune,Warehousing & Supply Chain Logistics,True,16,0.427,0.232,0,3,0,0,0,0,0,0,0,57.5,MEDIUM
+EST-0742,Pinnacle Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,False,98,0.277,0.263,0,0,0,0,0,0,0,0,0,62.9,MEDIUM
+EST-0743,Kalyan Manufacturing Corp,Maharashtra,Thane,Food Processing & Agro Industries,False,83,0.341,0.066,0,0,0,0,0,0,0,0,0,27.2,LOW
+EST-0744,Swastik Fabrics & Garments,Gujarat,Surat,Automobile & Auto Components,True,79,0.255,0.176,0,1,0,0,0,0,0,0,0,44.5,LOW
+EST-0745,Vanguard Manufacturing Corp,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,31,0.336,0.666,0,2,0,0,0,2,0,1,0,81.8,HIGH
+EST-0746,Premier Synthetics Ltd,Haryana,Panipat,Construction & Infrastructure,True,56,0.391,0.347,1,0,0,0,0,0,2,0,0,93.1,HIGH
+EST-0747,Bharat Fabrics & Garments,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,88,0.551,0.332,0,0,0,0,0,0,0,2,0,46.0,MEDIUM
+EST-0748,Vanguard Components India,Maharashtra,Pune,Construction & Infrastructure,True,83,0.403,0.247,0,0,0,0,0,0,0,0,0,64.0,MEDIUM
+EST-0749,Surya Manufacturing Corp,Haryana,Panipat,"Textile, Garments & Apparel",False,60,0.309,0.633,0,0,0,0,0,0,0,0,0,41.8,LOW
+EST-0750,Apex Processing Co.,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,408,0.212,0.654,0,0,0,0,0,0,0,0,0,32.4,LOW
+EST-0751,Navkar Processing Co.,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,66,0.436,0.293,0,0,0,0,0,0,0,0,0,39.0,LOW
+EST-0752,Kalyan Fabrics & Garments,Haryana,Panipat,Electronics & Precision Fabrication,False,81,0.31,0.517,3,0,0,0,0,0,0,0,1,54.6,MEDIUM
+EST-0753,Tata Fabrics & Garments,Maharashtra,Thane,Construction & Infrastructure,True,42,0.285,0.332,0,0,0,1,0,0,0,0,0,68.6,MEDIUM
+EST-0754,Vanguard Industries Ltd.,Maharashtra,Thane,Electronics & Precision Fabrication,False,35,0.393,0.734,0,0,2,0,0,0,0,0,0,33.5,LOW
+EST-0755,Apex Processing Co.,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,92,0.258,0.443,0,0,0,0,0,0,0,0,0,21.7,LOW
+EST-0756,Pinnacle Manufacturing Corp,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,196,0.341,0.199,0,0,0,0,0,0,0,0,0,59.3,MEDIUM
+EST-0757,Surya Engineering Works,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,True,244,0.478,0.051,0,0,0,0,0,0,0,0,0,36.2,LOW
+EST-0758,Apex Industries Ltd.,Gujarat,Vadodara,Chemical & Hazardous Processing,True,153,0.287,0.086,0,0,0,1,0,0,0,0,0,65.0,MEDIUM
+EST-0759,Zenith Industries Ltd.,Maharashtra,Thane,Construction & Infrastructure,True,47,0.417,0.266,0,1,0,0,0,0,0,0,0,69.8,MEDIUM
+EST-0760,Tata Engineering Works,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,44,0.514,0.136,0,0,0,0,0,0,0,0,0,36.7,LOW
+EST-0761,Delta Components India,Gujarat,Vadodara,Automobile & Auto Components,False,25,0.322,0.164,0,0,0,0,0,0,0,2,0,44.4,LOW
+EST-0762,Shree Processing Co.,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,377,0.447,0.567,1,0,0,0,2,0,0,0,0,84.5,HIGH
+EST-0763,Surya Synthetics Ltd,Gujarat,Surat,Chemical & Hazardous Processing,True,106,0.317,0.156,0,0,0,0,0,0,0,0,0,62.7,MEDIUM
+EST-0764,Delta Engineering Works,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,86,0.467,0.51,0,0,0,0,0,0,0,0,0,24.2,LOW
+EST-0765,Navkar Components India,Maharashtra,Pune,Food Processing & Agro Industries,True,76,0.783,0.221,0,0,0,0,0,0,0,0,0,33.3,LOW
+EST-0766,Shakti Fabrics & Garments,Gujarat,Vadodara,Chemical & Hazardous Processing,True,96,0.542,0.05,0,0,1,0,0,0,0,0,0,65.6,MEDIUM
+EST-0767,Kalyan Processing Co.,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,92,0.678,0.197,0,2,1,0,2,0,0,0,0,98.5,HIGH
+EST-0768,Shakti Synthetics Ltd,Haryana,Panipat,Warehousing & Supply Chain Logistics,True,28,0.397,0.111,0,0,0,0,0,0,0,0,0,40.6,LOW
+EST-0769,Vanguard Enterprises Pvt Ltd,Gujarat,Vadodara,"Textile, Garments & Apparel",False,44,0.437,0.495,1,0,0,0,0,0,0,0,0,55.6,MEDIUM
+EST-0770,Navkar Processing Co.,Haryana,Panipat,Construction & Infrastructure,False,478,0.369,0.257,2,0,0,0,0,0,1,0,0,95.5,HIGH
+EST-0771,Premier Processing Co.,Karnataka,Peenya,"Textile, Garments & Apparel",False,94,0.627,0.563,0,0,0,0,0,0,0,0,0,43.3,LOW
+EST-0772,Pinnacle Components India,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,59,0.247,0.333,0,0,0,0,0,0,0,0,0,30.8,LOW
+EST-0773,Vanguard Fabrics & Garments,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,44,0.741,0.637,0,0,0,0,0,0,0,0,0,28.5,LOW
+EST-0774,Swastik Enterprises Pvt Ltd,Karnataka,Peenya,Warehousing & Supply Chain Logistics,True,54,0.408,0.063,3,0,0,0,0,0,0,0,0,63.5,MEDIUM
+EST-0775,Swastik Components India,Maharashtra,Pune,Chemical & Hazardous Processing,True,185,0.373,0.082,0,2,0,0,0,0,0,0,0,70.7,HIGH
+EST-0776,Delta Industries Ltd.,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,93,0.39,0.536,0,0,0,0,0,0,0,1,0,26.3,LOW
+EST-0777,Surya Industries Ltd.,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,155,0.401,0.224,0,0,0,0,0,0,0,1,0,47.9,MEDIUM
+EST-0778,Surya Fabrics & Garments,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,53,0.501,0.19,0,0,1,0,0,0,0,0,0,68.6,MEDIUM
+EST-0779,Pinnacle Manufacturing Corp,Haryana,Gurugram,Construction & Infrastructure,False,72,0.502,0.053,0,0,0,0,0,0,0,0,0,62.0,MEDIUM
+EST-0780,Premier Synthetics Ltd,Haryana,Gurugram,Electronics & Precision Fabrication,False,149,0.501,0.42,0,3,0,0,0,0,0,0,0,46.3,MEDIUM
+EST-0781,Surya Fabrics & Garments,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,26,0.635,0.099,0,2,1,0,0,0,0,0,0,51.7,MEDIUM
+EST-0782,Delta Processing Co.,Maharashtra,Thane,Electronics & Precision Fabrication,True,57,0.416,0.418,1,3,1,0,0,0,0,0,1,62.2,MEDIUM
+EST-0783,Kalyan Components India,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,True,137,0.375,0.281,0,0,0,0,0,0,0,0,0,60.4,MEDIUM
+EST-0784,Apex Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,False,75,0.287,0.095,4,0,0,0,0,0,0,0,0,61.1,MEDIUM
+EST-0785,Swastik Engineering Works,Haryana,Panipat,Construction & Infrastructure,True,38,0.602,0.163,3,1,0,0,0,0,0,0,0,98.5,HIGH
+EST-0786,Delta Synthetics Ltd,Maharashtra,Pune,Chemical & Hazardous Processing,True,21,0.142,0.255,2,2,0,0,0,0,0,0,0,92.0,HIGH
+EST-0787,Shakti Engineering Works,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,True,43,0.348,0.093,0,0,0,0,0,0,0,0,0,63.4,MEDIUM
+EST-0788,Apex Manufacturing Corp,Haryana,Gurugram,"Textile, Garments & Apparel",False,98,0.593,0.684,0,1,1,0,0,0,0,0,0,54.7,MEDIUM
+EST-0789,Hindustan Engineering Works,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",True,208,0.293,0.455,0,2,2,0,0,0,0,0,0,70.1,HIGH
+EST-0790,Surya Components India,Uttar Pradesh,Kanpur,Chemical & Hazardous Processing,False,93,0.52,0.142,2,1,2,0,0,0,0,0,0,95.2,HIGH
+EST-0791,Kalyan Fabrics & Garments,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,240,0.55,0.248,0,0,0,0,0,0,0,0,0,43.8,LOW
+EST-0792,Delta Enterprises Pvt Ltd,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,52,0.616,0.079,1,1,2,0,0,0,0,0,0,66.5,MEDIUM
+EST-0793,Tata Components India,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,49,0.209,0.32,0,0,0,0,0,0,0,0,0,61.3,MEDIUM
+EST-0794,Apex Industries Ltd.,Karnataka,Peenya,Electronics & Precision Fabrication,False,69,0.387,0.462,0,0,0,0,0,0,0,0,0,28.1,LOW
+EST-0795,Delta Components India,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,62,0.387,0.539,0,1,0,0,0,0,0,0,0,52.7,MEDIUM
+EST-0796,Vanguard Synthetics Ltd,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,238,0.297,0.172,0,0,0,0,0,0,0,0,0,32.3,LOW
+EST-0797,Hindustan Fabrics & Garments,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,54,0.622,0.258,1,1,1,0,0,0,1,0,0,59.1,MEDIUM
+EST-0798,Kalyan Components India,Haryana,Gurugram,Chemical & Hazardous Processing,True,219,0.38,0.336,0,0,0,0,0,0,0,0,0,60.6,MEDIUM
+EST-0799,Premier Fabrics & Garments,Karnataka,Peenya,Automobile & Auto Components,False,101,0.446,0.222,0,1,0,0,0,0,0,0,0,43.8,LOW
+EST-0800,Swastik Enterprises Pvt Ltd,Gujarat,Surat,Construction & Infrastructure,True,111,0.418,0.239,2,1,0,0,0,0,0,0,0,84.1,HIGH
+EST-0801,Apex Manufacturing Corp,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,26,0.346,0.081,0,0,0,0,0,0,0,0,0,37.5,LOW
+EST-0802,Delta Fabrics & Garments,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",True,542,0.471,0.736,0,0,0,0,0,0,0,0,0,53.0,MEDIUM
+EST-0803,Tata Industries Ltd.,Karnataka,Peenya,Chemical & Hazardous Processing,True,67,0.453,0.278,0,0,0,0,1,0,0,0,0,69.6,MEDIUM
+EST-0804,Hindustan Industries Ltd.,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,True,21,0.34,0.162,0,2,2,0,0,0,0,0,0,60.5,MEDIUM
+EST-0805,Zenith Manufacturing Corp,Haryana,Gurugram,Electronics & Precision Fabrication,False,103,0.474,0.575,0,0,0,0,0,0,0,0,0,27.6,LOW
+EST-0806,Vanguard Synthetics Ltd,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,212,0.222,0.067,0,0,0,0,0,0,0,1,0,33.8,LOW
+EST-0807,Premier Processing Co.,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,91,0.359,0.46,0,1,0,0,0,0,0,3,0,61.6,MEDIUM
+EST-0808,Shree Processing Co.,Gujarat,Vadodara,Food Processing & Agro Industries,True,31,0.332,0.191,0,0,0,0,0,0,0,0,0,31.9,LOW
+EST-0809,Premier Enterprises Pvt Ltd,Maharashtra,Thane,Electronics & Precision Fabrication,False,60,0.489,0.471,0,0,0,0,0,0,0,0,0,28.3,LOW
+EST-0810,Apex Processing Co.,Tamil Nadu,Coimbatore,Construction & Infrastructure,False,88,0.694,0.109,1,1,0,0,0,0,0,1,0,85.8,HIGH
+EST-0811,Hindustan Synthetics Ltd,Maharashtra,Pune,Automobile & Auto Components,False,66,0.6,0.293,0,0,0,0,0,0,0,0,0,34.4,LOW
+EST-0812,Bharat Industries Ltd.,Gujarat,Vadodara,Automobile & Auto Components,False,24,0.408,0.329,0,1,0,0,0,0,0,0,0,39.2,LOW
+EST-0813,Navkar Processing Co.,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,100,0.58,0.582,0,0,0,0,0,0,0,0,0,25.9,LOW
+EST-0814,Shree Manufacturing Corp,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,43,0.36,0.724,0,0,0,0,0,0,0,0,0,24.1,LOW
+EST-0815,Shree Manufacturing Corp,Karnataka,Bengaluru Urban,Automobile & Auto Components,True,202,0.614,0.346,1,4,0,0,1,0,0,0,0,82.3,HIGH
+EST-0816,Premier Industries Ltd.,Maharashtra,Thane,Construction & Infrastructure,False,65,0.555,0.144,0,0,0,0,0,0,0,0,0,62.6,MEDIUM
+EST-0817,Bharat Enterprises Pvt Ltd,Uttar Pradesh,Noida,Construction & Infrastructure,True,39,0.287,0.345,1,0,0,0,0,0,0,0,0,76.3,HIGH
+EST-0818,Apex Fabrics & Garments,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,12,0.757,0.259,0,0,0,0,0,0,0,0,0,35.5,LOW
+EST-0819,Vanguard Industries Ltd.,Tamil Nadu,Sriperumbudur,Chemical & Hazardous Processing,True,180,0.358,0.245,0,0,0,0,0,0,0,0,0,59.1,MEDIUM
+EST-0820,Apex Manufacturing Corp,Uttar Pradesh,Noida,Food Processing & Agro Industries,True,77,0.267,0.125,0,0,2,0,0,1,0,0,0,51.6,MEDIUM
+EST-0821,Tata Synthetics Ltd,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,False,108,0.689,0.214,5,0,0,0,0,0,0,0,0,82.7,HIGH
+EST-0822,Pinnacle Engineering Works,Karnataka,Peenya,"Textile, Garments & Apparel",False,352,0.268,0.721,0,0,0,0,0,0,0,0,0,48.2,MEDIUM
+EST-0823,Premier Fabrics & Garments,Karnataka,Peenya,Food Processing & Agro Industries,False,18,0.633,0.243,1,0,0,0,0,0,0,0,0,36.1,LOW
+EST-0824,Shree Processing Co.,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,36,0.29,0.135,0,0,0,1,0,0,0,0,0,35.1,LOW
+EST-0825,Zenith Manufacturing Corp,Haryana,Gurugram,Automobile & Auto Components,False,64,0.207,0.09,0,1,0,0,0,0,0,0,0,39.2,LOW
+EST-0826,Shree Industries Ltd.,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,151,0.193,0.453,0,2,0,0,0,0,0,0,0,39.3,LOW
+EST-0827,Bharat Fabrics & Garments,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,396,0.254,0.061,1,0,0,0,0,0,0,2,0,83.7,HIGH
+EST-0828,Pinnacle Engineering Works,Maharashtra,Pune,Food Processing & Agro Industries,False,36,0.212,0.059,0,0,0,2,0,0,0,1,0,39.7,LOW
+EST-0829,Tata Industries Ltd.,Haryana,Panipat,Automobile & Auto Components,True,106,0.283,0.192,0,0,0,1,0,0,0,0,0,35.9,LOW
+EST-0830,Zenith Enterprises Pvt Ltd,Haryana,Panipat,Automobile & Auto Components,False,78,0.265,0.286,0,0,0,0,0,0,0,0,0,37.0,LOW
+EST-0831,Bharat Fabrics & Garments,Tamil Nadu,Coimbatore,Warehousing & Supply Chain Logistics,False,16,0.443,0.105,0,0,0,0,0,0,0,0,0,36.2,LOW
+EST-0832,Swastik Synthetics Ltd,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,171,0.369,0.588,0,1,0,0,0,0,0,0,0,51.3,MEDIUM
+EST-0833,Delta Components India,Haryana,Gurugram,Chemical & Hazardous Processing,True,84,0.705,0.144,1,3,0,0,0,0,0,0,0,84.9,HIGH
+EST-0834,Tata Components India,Maharashtra,Pune,Construction & Infrastructure,True,146,0.47,0.203,5,0,4,0,0,0,0,0,0,98.5,HIGH
+EST-0835,Surya Industries Ltd.,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,59,0.248,0.273,0,0,0,0,0,0,0,0,0,40.5,LOW
+EST-0836,Swastik Enterprises Pvt Ltd,Maharashtra,Thane,Automobile & Auto Components,True,182,0.593,0.256,1,0,0,0,0,0,0,0,0,45.9,MEDIUM
+EST-0837,Shree Components India,Gujarat,Vadodara,Chemical & Hazardous Processing,True,78,0.163,0.205,0,0,1,0,0,0,0,0,0,63.5,MEDIUM
+EST-0838,Sterling Fabrics & Garments,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,60,0.144,0.071,1,0,0,0,0,0,0,1,0,40.7,LOW
+EST-0839,Premier Manufacturing Corp,Haryana,Gurugram,Construction & Infrastructure,True,115,0.39,0.257,0,0,0,0,0,0,0,0,0,63.8,MEDIUM
+EST-0840,Swastik Synthetics Ltd,Maharashtra,Thane,Construction & Infrastructure,False,246,0.504,0.329,0,0,0,0,0,0,0,0,0,64.3,MEDIUM
+EST-0841,Zenith Synthetics Ltd,Maharashtra,Thane,Warehousing & Supply Chain Logistics,True,765,0.286,0.178,0,1,0,0,0,0,0,3,0,60.0,MEDIUM
+EST-0842,Shakti Enterprises Pvt Ltd,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,63,0.408,0.179,0,1,0,0,0,0,0,0,0,49.8,MEDIUM
+EST-0843,Zenith Manufacturing Corp,Gujarat,Surat,Warehousing & Supply Chain Logistics,True,270,0.745,0.16,0,0,0,0,0,0,0,0,0,48.7,MEDIUM
+EST-0844,Shakti Manufacturing Corp,Maharashtra,Thane,Construction & Infrastructure,True,39,0.588,0.186,0,2,0,0,0,0,0,0,0,75.2,HIGH
+EST-0845,Premier Components India,Maharashtra,Thane,Food Processing & Agro Industries,False,204,0.309,0.249,0,0,0,2,0,0,0,0,0,37.9,LOW
+EST-0846,Surya Engineering Works,Gujarat,Surat,"Textile, Garments & Apparel",False,56,0.218,0.592,0,0,0,0,0,0,0,0,0,42.3,LOW
+EST-0847,Zenith Industries Ltd.,Gujarat,Surat,Food Processing & Agro Industries,False,51,0.638,0.209,0,1,0,0,0,0,0,0,0,38.5,LOW
+EST-0848,Swastik Components India,Uttar Pradesh,Kanpur,Automobile & Auto Components,True,28,0.79,0.143,0,2,3,0,0,0,0,0,0,58.0,MEDIUM
+EST-0849,Surya Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,194,0.458,0.215,0,4,2,0,0,0,0,0,0,98.5,HIGH
+EST-0850,Hindustan Processing Co.,Haryana,Panipat,Warehousing & Supply Chain Logistics,True,192,0.54,0.097,0,2,0,0,0,0,0,0,0,50.3,MEDIUM
+EST-0851,Pinnacle Synthetics Ltd,Uttar Pradesh,Noida,Construction & Infrastructure,True,425,0.605,0.1,3,2,0,0,0,0,0,0,0,98.5,HIGH
+EST-0852,Surya Manufacturing Corp,Haryana,Panipat,Electronics & Precision Fabrication,False,481,0.514,0.442,0,0,0,0,0,0,0,0,0,31.4,LOW
+EST-0853,Sterling Synthetics Ltd,Uttar Pradesh,Kanpur,Food Processing & Agro Industries,True,15,0.217,0.169,5,1,0,0,0,0,0,0,0,78.3,HIGH
+EST-0854,Premier Synthetics Ltd,Haryana,Gurugram,Electronics & Precision Fabrication,True,15,0.261,0.431,0,0,0,0,0,0,0,2,0,35.5,LOW
+EST-0855,Swastik Manufacturing Corp,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,54,0.256,0.59,0,0,0,0,0,0,0,0,0,21.4,LOW
+EST-0856,Shree Components India,Maharashtra,Thane,Chemical & Hazardous Processing,True,77,0.497,0.124,0,0,0,0,0,0,0,0,0,58.2,MEDIUM
+EST-0857,Swastik Manufacturing Corp,Haryana,Panipat,Construction & Infrastructure,True,75,0.561,0.151,0,0,1,0,0,0,0,0,0,72.1,HIGH
+EST-0858,Hindustan Synthetics Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,64,0.375,0.118,0,0,0,0,0,0,0,0,0,29.4,LOW
+EST-0859,Surya Industries Ltd.,Haryana,Panipat,Construction & Infrastructure,True,56,0.42,0.292,0,8,0,0,0,0,0,0,0,98.5,HIGH
+EST-0860,Zenith Processing Co.,Maharashtra,Pune,Electronics & Precision Fabrication,False,59,0.558,0.457,0,0,0,0,0,0,0,0,0,29.0,LOW
+EST-0861,Shakti Fabrics & Garments,Haryana,Panipat,Construction & Infrastructure,False,31,0.454,0.262,0,0,0,0,0,0,0,1,0,68.4,MEDIUM
+EST-0862,Delta Industries Ltd.,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,True,53,0.276,0.638,1,0,0,0,0,0,0,0,0,33.3,LOW
+EST-0863,Shree Synthetics Ltd,Karnataka,Peenya,Construction & Infrastructure,False,105,0.649,0.173,0,0,0,0,0,0,0,0,0,65.7,MEDIUM
+EST-0864,Swastik Manufacturing Corp,Maharashtra,Pune,"Textile, Garments & Apparel",False,213,0.526,0.625,0,0,0,0,0,0,0,0,0,44.4,LOW
+EST-0865,Navkar Manufacturing Corp,Maharashtra,Pune,Electronics & Precision Fabrication,True,118,0.268,0.531,0,0,0,0,0,0,0,1,0,31.0,LOW
+EST-0866,Bharat Enterprises Pvt Ltd,Karnataka,Peenya,Electronics & Precision Fabrication,False,37,0.191,0.407,6,0,1,0,0,0,0,0,0,79.0,HIGH
+EST-0867,Vanguard Enterprises Pvt Ltd,Gujarat,Surat,Construction & Infrastructure,True,209,0.811,0.212,0,0,0,0,0,0,0,0,0,65.4,MEDIUM
+EST-0868,Vanguard Engineering Works,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,13,0.663,0.085,0,4,0,0,0,0,0,0,0,66.9,MEDIUM
+EST-0869,Navkar Synthetics Ltd,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,20,0.244,0.14,1,0,0,0,0,0,1,2,0,67.3,MEDIUM
+EST-0870,Zenith Manufacturing Corp,Karnataka,Peenya,Automobile & Auto Components,True,169,0.538,0.32,0,0,0,1,0,0,0,3,0,47.9,MEDIUM
+EST-0871,Pinnacle Fabrics & Garments,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,33,0.343,0.596,0,0,0,0,0,0,0,0,0,44.4,LOW
+EST-0872,Bharat Synthetics Ltd,Maharashtra,Pune,Electronics & Precision Fabrication,False,116,0.317,0.603,0,0,0,0,0,0,0,0,0,22.1,LOW
+EST-0873,Tata Enterprises Pvt Ltd,Haryana,Panipat,Construction & Infrastructure,True,78,0.412,0.31,0,3,5,0,0,0,0,0,0,98.5,HIGH
+EST-0874,Swastik Processing Co.,Haryana,Gurugram,Electronics & Precision Fabrication,False,36,0.179,0.549,0,0,0,0,0,0,0,1,0,27.2,LOW
+EST-0875,Hindustan Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",False,61,0.459,0.505,0,2,0,0,0,0,0,0,0,54.0,MEDIUM
+EST-0876,Swastik Manufacturing Corp,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,True,102,0.518,0.179,0,0,0,0,0,0,0,0,0,40.9,LOW
+EST-0877,Pinnacle Processing Co.,Maharashtra,Pune,"Textile, Garments & Apparel",False,209,0.403,0.675,0,0,0,0,0,0,0,1,0,46.1,MEDIUM
+EST-0878,Swastik Components India,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,75,0.275,0.146,0,0,0,0,0,0,0,0,0,31.1,LOW
+EST-0879,Zenith Synthetics Ltd,Maharashtra,Thane,Food Processing & Agro Industries,False,220,0.294,0.173,0,0,1,0,0,0,0,0,0,32.4,LOW
+EST-0880,Bharat Components India,Maharashtra,Pune,Electronics & Precision Fabrication,False,32,0.262,0.52,0,0,0,0,0,0,0,0,0,21.2,LOW
+EST-0881,Shree Industries Ltd.,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,118,0.32,0.139,0,0,0,0,0,0,0,0,0,27.1,LOW
+EST-0882,Apex Synthetics Ltd,Haryana,Panipat,Warehousing & Supply Chain Logistics,False,63,0.86,0.311,0,4,1,0,0,0,0,0,1,75.4,HIGH
+EST-0883,Tata Components India,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,16,0.302,0.686,1,0,0,0,0,0,0,0,0,36.7,LOW
+EST-0884,Tata Fabrics & Garments,Maharashtra,Pune,Construction & Infrastructure,False,98,0.631,0.308,1,0,0,0,0,0,0,0,0,74.0,HIGH
+EST-0885,Swastik Fabrics & Garments,Haryana,Panipat,Chemical & Hazardous Processing,True,23,0.269,0.167,1,0,2,0,0,0,1,0,0,82.8,HIGH
+EST-0886,Zenith Engineering Works,Uttar Pradesh,Kanpur,Construction & Infrastructure,True,88,0.625,0.316,5,0,0,0,1,0,0,0,0,98.5,HIGH
+EST-0887,Hindustan Fabrics & Garments,Uttar Pradesh,Noida,Construction & Infrastructure,False,35,0.628,0.075,0,0,0,0,0,0,0,0,0,62.1,MEDIUM
+EST-0888,Vanguard Components India,Haryana,Gurugram,Electronics & Precision Fabrication,False,122,0.194,0.613,0,0,0,1,0,0,0,0,0,30.2,LOW
+EST-0889,Bharat Fabrics & Garments,Karnataka,Bengaluru Urban,Construction & Infrastructure,False,242,0.762,0.183,0,0,0,0,0,0,0,0,0,64.8,MEDIUM
+EST-0890,Surya Manufacturing Corp,Maharashtra,Thane,Food Processing & Agro Industries,False,147,0.461,0.055,0,0,0,0,0,0,0,0,0,32.6,LOW
+EST-0891,Tata Components India,Haryana,Gurugram,Construction & Infrastructure,True,21,0.449,0.346,3,0,0,0,0,0,0,0,0,88.6,HIGH
+EST-0892,Shree Components India,Karnataka,Bengaluru Urban,Construction & Infrastructure,True,131,0.371,0.099,0,0,0,0,0,0,0,0,0,62.4,MEDIUM
+EST-0893,Shree Manufacturing Corp,Karnataka,Bengaluru Urban,Electronics & Precision Fabrication,False,78,0.391,0.562,0,0,0,0,0,0,0,0,0,22.3,LOW
+EST-0894,Vanguard Enterprises Pvt Ltd,Tamil Nadu,Sriperumbudur,Warehousing & Supply Chain Logistics,False,113,0.525,0.158,0,0,0,0,0,0,0,0,0,37.5,LOW
+EST-0895,Zenith Fabrics & Garments,Gujarat,Vadodara,Chemical & Hazardous Processing,True,132,0.498,0.297,2,1,0,0,0,0,0,0,0,85.9,HIGH
+EST-0896,Kalyan Fabrics & Garments,Maharashtra,Pune,Automobile & Auto Components,False,308,0.262,0.11,0,0,0,0,0,0,0,0,0,36.4,LOW
+EST-0897,Apex Enterprises Pvt Ltd,Maharashtra,Pune,Food Processing & Agro Industries,False,72,0.58,0.139,1,0,2,0,0,0,0,0,0,46.0,MEDIUM
+EST-0898,Swastik Enterprises Pvt Ltd,Uttar Pradesh,Noida,Construction & Infrastructure,True,21,0.562,0.308,1,0,0,0,0,0,0,0,0,72.9,HIGH
+EST-0899,Swastik Fabrics & Garments,Uttar Pradesh,Noida,Chemical & Hazardous Processing,True,12,0.539,0.296,0,2,1,0,0,0,0,0,0,73.1,HIGH
+EST-0900,Vanguard Processing Co.,Maharashtra,Thane,"Textile, Garments & Apparel",False,90,0.89,0.627,0,0,0,0,0,0,0,0,0,47.1,MEDIUM
+EST-0901,Shree Processing Co.,Gujarat,Surat,Food Processing & Agro Industries,False,550,0.161,0.302,0,0,1,0,0,0,0,0,0,43.5,LOW
+EST-0902,Surya Engineering Works,Haryana,Gurugram,Construction & Infrastructure,True,26,0.741,0.089,1,4,0,0,0,0,0,0,0,98.5,HIGH
+EST-0903,Shakti Components India,Maharashtra,Pune,Construction & Infrastructure,False,26,0.721,0.231,0,0,0,0,0,0,0,0,0,66.7,MEDIUM
+EST-0904,Zenith Synthetics Ltd,Haryana,Panipat,Food Processing & Agro Industries,False,238,0.481,0.292,0,0,0,0,0,2,0,0,0,53.2,MEDIUM
+EST-0905,Apex Processing Co.,Gujarat,Surat,Chemical & Hazardous Processing,True,159,0.53,0.311,0,0,0,0,0,0,0,0,0,60.3,MEDIUM
+EST-0906,Shakti Synthetics Ltd,Tamil Nadu,Coimbatore,Automobile & Auto Components,True,179,0.751,0.149,0,0,0,0,0,0,0,0,0,37.4,LOW
+EST-0907,Kalyan Manufacturing Corp,Karnataka,Peenya,Chemical & Hazardous Processing,False,331,0.56,0.076,0,3,0,0,0,0,0,0,0,85.1,HIGH
+EST-0908,Navkar Industries Ltd.,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,20,0.419,0.247,0,0,0,0,0,0,0,0,0,43.8,LOW
+EST-0909,Shakti Enterprises Pvt Ltd,Maharashtra,Pune,"Textile, Garments & Apparel",False,394,0.219,0.604,0,0,0,0,0,0,0,0,0,52.5,MEDIUM
+EST-0910,Premier Fabrics & Garments,Gujarat,Surat,Chemical & Hazardous Processing,True,45,0.183,0.191,2,0,0,0,0,0,0,0,0,80.8,HIGH
+EST-0911,Vanguard Manufacturing Corp,Maharashtra,Thane,Construction & Infrastructure,True,300,0.546,0.072,0,0,0,0,1,0,0,1,0,85.1,HIGH
+EST-0912,Hindustan Components India,Gujarat,Vadodara,"Textile, Garments & Apparel",False,22,0.404,0.666,0,0,0,1,0,0,0,0,0,51.1,MEDIUM
+EST-0913,Apex Engineering Works,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,103,0.41,0.056,0,0,0,0,0,0,0,0,0,41.7,LOW
+EST-0914,Tata Engineering Works,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,54,0.674,0.715,0,0,0,0,0,0,0,0,0,21.3,LOW
+EST-0915,Hindustan Enterprises Pvt Ltd,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,100,0.271,0.293,0,0,0,0,0,0,0,0,0,32.9,LOW
+EST-0916,Hindustan Components India,Uttar Pradesh,Noida,Automobile & Auto Components,True,307,0.158,0.193,0,0,0,0,0,0,0,0,0,41.4,LOW
+EST-0917,Surya Engineering Works,Uttar Pradesh,Noida,Electronics & Precision Fabrication,False,24,0.399,0.677,0,0,0,0,0,0,0,0,0,23.9,LOW
+EST-0918,Kalyan Enterprises Pvt Ltd,Maharashtra,Pune,"Textile, Garments & Apparel",True,134,0.473,0.536,0,0,0,0,0,0,0,0,0,48.1,MEDIUM
+EST-0919,Shakti Fabrics & Garments,Maharashtra,Thane,Warehousing & Supply Chain Logistics,False,301,0.249,0.121,0,0,0,0,0,0,0,0,0,46.6,MEDIUM
+EST-0920,Hindustan Manufacturing Corp,Gujarat,Vadodara,"Textile, Garments & Apparel",True,119,0.875,0.621,0,0,0,0,0,0,0,0,0,45.5,MEDIUM
+EST-0921,Hindustan Components India,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,57,0.59,0.172,0,0,0,0,0,0,0,0,0,33.8,LOW
+EST-0922,Shakti Manufacturing Corp,Haryana,Gurugram,Automobile & Auto Components,False,50,0.44,0.326,0,0,0,0,0,0,0,0,0,36.1,LOW
+EST-0923,Delta Enterprises Pvt Ltd,Maharashtra,Thane,Construction & Infrastructure,True,61,0.7,0.113,0,0,0,0,0,0,0,2,0,76.3,HIGH
+EST-0924,Pinnacle Processing Co.,Karnataka,Peenya,Automobile & Auto Components,False,14,0.277,0.304,0,0,0,0,0,0,0,0,0,33.1,LOW
+EST-0925,Premier Components India,Uttar Pradesh,Noida,Food Processing & Agro Industries,False,87,0.216,0.193,0,0,0,0,0,0,0,0,0,27.3,LOW
+EST-0926,Shakti Processing Co.,Karnataka,Peenya,Chemical & Hazardous Processing,True,51,0.515,0.09,0,0,0,0,0,0,0,0,0,62.5,MEDIUM
+EST-0927,Zenith Fabrics & Garments,Haryana,Panipat,Construction & Infrastructure,True,32,0.62,0.121,1,8,1,1,0,0,0,0,0,98.5,HIGH
+EST-0928,Delta Synthetics Ltd,Karnataka,Peenya,Automobile & Auto Components,False,57,0.667,0.116,1,0,1,0,0,0,0,0,0,46.1,MEDIUM
+EST-0929,Apex Components India,Maharashtra,Thane,Construction & Infrastructure,True,66,0.474,0.151,1,0,0,0,0,0,0,0,0,69.6,MEDIUM
+EST-0930,Shakti Processing Co.,Uttar Pradesh,Noida,Electronics & Precision Fabrication,True,155,0.234,0.405,1,0,0,0,0,0,0,0,0,35.9,LOW
+EST-0931,Shree Fabrics & Garments,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,94,0.554,0.226,0,0,0,0,0,0,0,0,0,36.6,LOW
+EST-0932,Shakti Industries Ltd.,Karnataka,Peenya,Warehousing & Supply Chain Logistics,False,114,0.382,0.112,0,0,0,0,0,0,0,0,0,43.1,LOW
+EST-0933,Hindustan Manufacturing Corp,Maharashtra,Thane,"Textile, Garments & Apparel",False,175,0.437,0.515,3,0,0,0,0,0,0,0,0,70.7,HIGH
+EST-0934,Navkar Manufacturing Corp,Gujarat,Surat,Construction & Infrastructure,True,35,0.446,0.208,0,0,0,0,0,0,0,0,0,61.4,MEDIUM
+EST-0935,Tata Fabrics & Garments,Uttar Pradesh,Kanpur,Automobile & Auto Components,False,97,0.556,0.131,1,0,0,0,0,0,0,0,0,44.5,LOW
+EST-0936,Tata Components India,Haryana,Panipat,"Textile, Garments & Apparel",True,94,0.289,0.557,0,0,1,0,0,0,0,1,0,57.1,MEDIUM
+EST-0937,Zenith Fabrics & Garments,Gujarat,Vadodara,Automobile & Auto Components,True,76,0.369,0.293,0,0,0,0,0,0,0,0,0,31.5,LOW
+EST-0938,Delta Fabrics & Garments,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,149,0.419,0.145,0,0,0,1,0,0,0,0,0,35.1,LOW
+EST-0939,Apex Synthetics Ltd,Maharashtra,Pune,"Textile, Garments & Apparel",False,169,0.294,0.424,0,0,0,0,0,0,0,0,0,48.4,MEDIUM
+EST-0940,Surya Fabrics & Garments,Karnataka,Peenya,Construction & Infrastructure,True,61,0.466,0.145,0,0,1,0,0,0,0,0,0,71.1,HIGH
+EST-0941,Swastik Industries Ltd.,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,318,0.367,0.094,0,0,0,0,0,0,0,0,0,38.8,LOW
+EST-0942,Swastik Industries Ltd.,Tamil Nadu,Coimbatore,Chemical & Hazardous Processing,True,60,0.296,0.136,0,4,0,1,0,0,0,0,0,89.8,HIGH
+EST-0943,Surya Synthetics Ltd,Tamil Nadu,Sriperumbudur,Automobile & Auto Components,False,194,0.597,0.123,0,2,1,0,0,0,0,0,0,54.7,MEDIUM
+EST-0944,Tata Enterprises Pvt Ltd,Gujarat,Surat,Food Processing & Agro Industries,False,203,0.332,0.243,0,4,0,0,0,0,0,0,0,52.4,MEDIUM
+EST-0945,Sterling Synthetics Ltd,Tamil Nadu,Coimbatore,Construction & Infrastructure,True,95,0.779,0.246,1,0,0,0,0,0,0,0,0,72.0,HIGH
+EST-0946,Premier Industries Ltd.,Gujarat,Surat,Electronics & Precision Fabrication,False,142,0.628,0.584,0,0,0,0,0,0,0,0,0,23.8,LOW
+EST-0947,Delta Industries Ltd.,Maharashtra,Thane,Chemical & Hazardous Processing,True,91,0.494,0.215,1,0,0,0,0,0,0,0,0,69.8,MEDIUM
+EST-0948,Pinnacle Enterprises Pvt Ltd,Maharashtra,Pune,Warehousing & Supply Chain Logistics,True,116,0.399,0.079,0,0,2,0,0,0,0,0,0,50.8,MEDIUM
+EST-0949,Premier Manufacturing Corp,Maharashtra,Thane,Automobile & Auto Components,False,12,0.299,0.326,0,0,0,0,0,0,0,0,0,36.8,LOW
+EST-0950,Pinnacle Synthetics Ltd,Tamil Nadu,Sriperumbudur,"Textile, Garments & Apparel",True,79,0.351,0.415,0,1,0,0,0,0,0,0,0,48.8,MEDIUM
+EST-0951,Swastik Fabrics & Garments,Gujarat,Surat,Warehousing & Supply Chain Logistics,False,28,0.395,0.195,3,0,0,0,0,0,0,0,0,69.0,MEDIUM
+EST-0952,Shree Industries Ltd.,Karnataka,Bengaluru Urban,Food Processing & Agro Industries,False,100,0.424,0.283,0,0,0,0,0,0,0,0,0,31.8,LOW
+EST-0953,Bharat Enterprises Pvt Ltd,Haryana,Gurugram,Chemical & Hazardous Processing,True,16,0.395,0.086,0,0,0,0,0,0,0,0,0,56.8,MEDIUM
+EST-0954,Tata Industries Ltd.,Haryana,Gurugram,Food Processing & Agro Industries,False,55,0.25,0.14,0,0,0,0,0,0,0,0,0,29.5,LOW
+EST-0955,Premier Engineering Works,Haryana,Gurugram,Automobile & Auto Components,False,19,0.465,0.24,0,1,2,0,0,0,0,0,0,51.1,MEDIUM
+EST-0956,Shree Fabrics & Garments,Maharashtra,Thane,Construction & Infrastructure,True,148,0.751,0.295,1,0,0,0,0,0,0,0,0,77.3,HIGH
+EST-0957,Surya Components India,Maharashtra,Pune,Electronics & Precision Fabrication,False,110,0.3,0.545,0,6,0,0,0,0,0,0,1,63.1,MEDIUM
+EST-0958,Vanguard Fabrics & Garments,Tamil Nadu,Coimbatore,"Textile, Garments & Apparel",True,117,0.649,0.507,0,0,0,0,0,0,0,0,0,48.3,MEDIUM
+EST-0959,Surya Components India,Haryana,Gurugram,Chemical & Hazardous Processing,True,136,0.494,0.285,4,1,1,0,0,0,0,0,0,98.5,HIGH
+EST-0960,Pinnacle Industries Ltd.,Tamil Nadu,Sriperumbudur,Electronics & Precision Fabrication,False,62,0.248,0.463,0,0,0,0,0,0,0,0,0,26.9,LOW
+EST-0961,Delta Fabrics & Garments,Maharashtra,Thane,Chemical & Hazardous Processing,True,94,0.218,0.19,0,0,0,0,0,0,0,0,0,59.4,MEDIUM
+EST-0962,Apex Synthetics Ltd,Karnataka,Bengaluru Urban,"Textile, Garments & Apparel",False,81,0.669,0.43,0,0,0,0,0,0,0,0,0,41.4,LOW
+EST-0963,Pinnacle Components India,Uttar Pradesh,Noida,Construction & Infrastructure,True,52,0.299,0.247,2,4,1,0,0,0,2,0,0,98.5,HIGH
+EST-0964,Pinnacle Manufacturing Corp,Uttar Pradesh,Kanpur,Automobile & Auto Components,True,12,0.435,0.272,0,6,0,0,0,0,0,0,0,67.3,MEDIUM
+EST-0965,Surya Manufacturing Corp,Gujarat,Vadodara,"Textile, Garments & Apparel",False,104,0.496,0.416,1,0,0,0,0,0,0,1,0,55.5,MEDIUM
+EST-0966,Navkar Synthetics Ltd,Haryana,Gurugram,Warehousing & Supply Chain Logistics,False,37,0.374,0.051,0,0,0,0,0,0,0,0,0,39.6,LOW
+EST-0967,Vanguard Fabrics & Garments,Uttar Pradesh,Noida,Construction & Infrastructure,True,137,0.457,0.282,0,5,0,0,0,0,0,0,1,98.5,HIGH
+EST-0968,Shakti Components India,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,54,0.282,0.098,0,0,0,0,0,0,0,0,0,36.3,LOW
+EST-0969,Shakti Manufacturing Corp,Gujarat,Vadodara,"Textile, Garments & Apparel",False,221,0.245,0.536,0,0,0,0,0,0,0,0,0,48.6,MEDIUM
+EST-0970,Vanguard Synthetics Ltd,Uttar Pradesh,Kanpur,Warehousing & Supply Chain Logistics,False,40,0.731,0.168,0,0,0,0,0,0,0,0,0,36.6,LOW
+EST-0971,Vanguard Enterprises Pvt Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,True,83,0.638,0.1,0,0,0,0,0,0,0,0,0,60.4,MEDIUM
+EST-0972,Swastik Engineering Works,Tamil Nadu,Coimbatore,Construction & Infrastructure,True,260,0.723,0.243,0,0,0,0,0,0,0,0,0,73.3,HIGH
+EST-0973,Hindustan Processing Co.,Tamil Nadu,Sriperumbudur,Food Processing & Agro Industries,False,292,0.147,0.249,0,0,0,0,0,0,0,0,0,36.0,LOW
+EST-0974,Bharat Components India,Haryana,Panipat,Warehousing & Supply Chain Logistics,True,147,0.483,0.101,0,0,0,0,0,0,0,0,0,43.8,LOW
+EST-0975,Shakti Processing Co.,Tamil Nadu,Sriperumbudur,Construction & Infrastructure,True,108,0.804,0.289,2,0,0,0,0,0,0,0,0,80.3,HIGH
+EST-0976,Shree Industries Ltd.,Uttar Pradesh,Noida,Warehousing & Supply Chain Logistics,False,31,0.416,0.315,0,0,0,0,2,0,0,0,0,62.0,MEDIUM
+EST-0977,Tata Fabrics & Garments,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,82,0.559,0.259,0,0,0,0,0,0,0,0,0,31.5,LOW
+EST-0978,Delta Enterprises Pvt Ltd,Gujarat,Vadodara,Electronics & Precision Fabrication,False,131,0.374,0.506,0,0,2,0,0,0,0,0,0,37.7,LOW
+EST-0979,Navkar Synthetics Ltd,Haryana,Panipat,Electronics & Precision Fabrication,False,29,0.544,0.503,1,1,2,0,0,2,0,0,0,66.7,MEDIUM
+EST-0980,Apex Enterprises Pvt Ltd,Gujarat,Vadodara,Chemical & Hazardous Processing,True,113,0.295,0.106,1,0,7,0,0,0,0,0,0,98.5,HIGH
+EST-0981,Shree Processing Co.,Uttar Pradesh,Kanpur,Electronics & Precision Fabrication,False,110,0.437,0.499,0,0,0,0,0,0,0,0,0,24.5,LOW
+EST-0982,Kalyan Engineering Works,Gujarat,Vadodara,Warehousing & Supply Chain Logistics,True,33,0.334,0.187,0,0,0,0,0,0,0,0,0,44.0,LOW
+EST-0983,Vanguard Industries Ltd.,Gujarat,Surat,Automobile & Auto Components,False,255,0.317,0.081,4,0,0,0,0,0,0,0,0,74.3,HIGH
+EST-0984,Shakti Manufacturing Corp,Maharashtra,Pune,Construction & Infrastructure,True,16,0.9,0.094,0,0,0,6,0,0,0,0,0,90.8,HIGH
+EST-0985,Premier Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Chemical & Hazardous Processing,True,26,0.338,0.28,0,2,0,0,0,0,0,0,0,75.7,HIGH
+EST-0986,Premier Engineering Works,Karnataka,Bengaluru Urban,Automobile & Auto Components,False,12,0.347,0.286,0,0,0,0,0,0,0,0,0,36.9,LOW
+EST-0987,Apex Manufacturing Corp,Uttar Pradesh,Noida,"Textile, Garments & Apparel",False,23,0.327,0.451,1,0,0,1,0,0,0,0,0,53.6,MEDIUM
+EST-0988,Pinnacle Synthetics Ltd,Gujarat,Vadodara,Food Processing & Agro Industries,False,98,0.406,0.3,0,1,0,0,0,0,0,0,0,32.4,LOW
+EST-0989,Premier Engineering Works,Gujarat,Vadodara,Construction & Infrastructure,True,16,0.615,0.249,1,0,0,0,0,0,0,0,0,71.9,HIGH
+EST-0990,Delta Manufacturing Corp,Gujarat,Surat,Construction & Infrastructure,True,12,0.4,0.102,0,0,0,0,0,0,0,2,0,72.2,HIGH
+EST-0991,Pinnacle Synthetics Ltd,Maharashtra,Thane,Chemical & Hazardous Processing,True,55,0.17,0.054,0,7,1,0,0,0,0,0,0,98.5,HIGH
+EST-0992,Surya Components India,Maharashtra,Thane,Chemical & Hazardous Processing,False,46,0.307,0.235,0,0,0,0,0,0,0,0,0,59.7,MEDIUM
+EST-0993,Sterling Engineering Works,Tamil Nadu,Coimbatore,Automobile & Auto Components,False,303,0.238,0.346,0,0,0,0,0,0,0,0,0,43.5,LOW
+EST-0994,Zenith Manufacturing Corp,Gujarat,Vadodara,Automobile & Auto Components,True,93,0.379,0.075,0,1,0,0,0,0,0,0,0,42.7,LOW
+EST-0995,Delta Enterprises Pvt Ltd,Uttar Pradesh,Noida,Chemical & Hazardous Processing,False,84,0.304,0.32,0,0,0,0,0,0,0,0,0,61.2,MEDIUM
+EST-0996,Shree Fabrics & Garments,Haryana,Panipat,Construction & Infrastructure,False,57,0.54,0.324,0,0,0,0,0,0,0,0,0,64.8,MEDIUM
+EST-0997,Surya Industries Ltd.,Haryana,Gurugram,Automobile & Auto Components,True,133,0.52,0.072,0,0,0,0,0,0,0,0,0,34.8,LOW
+EST-0998,Pinnacle Engineering Works,Haryana,Gurugram,"Textile, Garments & Apparel",False,41,0.687,0.687,0,0,0,0,0,0,0,0,0,41.2,LOW
+EST-0999,Premier Synthetics Ltd,Uttar Pradesh,Kanpur,"Textile, Garments & Apparel",False,138,0.376,0.426,0,0,0,0,0,0,0,2,0,55.0,MEDIUM
+EST-1000,Swastik Enterprises Pvt Ltd,Karnataka,Bengaluru Urban,Warehousing & Supply Chain Logistics,False,79,0.683,0.319,0,0,0,0,0,0,0,0,0,39.1,LOW

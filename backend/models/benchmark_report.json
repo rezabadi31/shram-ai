@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "model_name": "XGBoost v3.2 (Histogram GBDT)",
+      "algorithm": "Gradient Boosted Decision Trees",
+      "roc_auc": 0.9801,
+      "precision": 0.9062,
+      "recall": 0.8529,
+      "f1_score": 0.8788,
+      "rmse": 5.432,
+      "r2_score": 0.9176,
+      "training_time_ms": 1547.5,
+      "is_champion": true
+    },
+    {
+      "model_name": "Random Forest (100 Trees Bagging)",
+      "algorithm": "Random Forest Ensemble",
+      "roc_auc": 0.9628,
+      "precision": 0.9032,
+      "recall": 0.8235,
+      "f1_score": 0.8615,
+      "rmse": 6.61,
+      "r2_score": 0.8779,
+      "training_time_ms": 1379.8,
+      "is_champion": false
+    },
+    {
+      "model_name": "L2 Logistic Regression (Baseline)",
+      "algorithm": "Regularized Generalized Linear Model",
+      "roc_auc": 0.9801,
+      "precision": 0.9032,
+      "recall": 0.8235,
+      "f1_score": 0.8615,
+      "rmse": 7.103,
+      "r2_score": 0.859,
+      "training_time_ms": 100.1,
+      "is_champion": false
+    }
+  ],
+  "champion_model": "XGBoost v3.2 (Histogram GBDT)",
+  "total_training_samples": 800,
+  "total_testing_samples": 200,
+  "benchmark_timestamp": "2026-09-04 10:49:50"
+}

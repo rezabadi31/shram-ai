@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "code_id": "ir_2020",
+    "title": "The Industrial Relations Code, 2020",
+    "act_number": "Act No. 35 of 2020",
+    "enactment_year": 2020,
+    "total_chapters": 14,
+    "total_sections": 104,
+    "primary_objective": "Consolidates and amends laws relating to Trade Unions, conditions of employment in industrial establishments, investigation and settlement of industrial disputes.",
+    "enforcing_spheres": ["Central Labour Sphere", "State Industrial Tribunals"],
+    "repealed_acts": [
+      "The Trade Unions Act, 1926",
+      "The Industrial Employment (Standing Orders) Act, 1946",
+      "The Industrial Disputes Act, 1947"
+    ],
+    "mandatory_registers": [
+      "Register of Trade Unions",
+      "Certified Standing Orders Record",
+      "Notice of Change / Retrenchment Records"
+    ]
+  },
+  "sections": [
+    {
+      "code_id": "ir_2020",
+      "code_name": "The Industrial Relations Code, 2020",
+      "chapter_number": "Chapter II",
+      "chapter_title": "Bi-partite Forums",
+      "section_number": "Section 3",
+      "title": "Works Committee",
+      "statutory_text": "In the case of any industrial establishment in which one hundred or more workers are employed or have been employed on any day in the preceding twelve months, the appropriate Government may by general or special order require the employer to constitute in the prescribed manner a Works Committee consisting of representatives of employers and workers engaged in the establishment.",
+      "keywords": ["works committee", "bipartite forum", "industrial peace", "100 workers"],
+      "thresholds": {
+        "criterion": "Establishment headcount",
+        "applicability_limit": "100 or more workers",
+        "enforcing_authority": "Conciliation Officer / Assistant Labour Commissioner"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹50,000",
+        "subsequent_offense": "Fine up to ₹1,00,000",
+        "imprisonment_term": null,
+        "compoundable": true
+      },
+      "mandatory_registers": ["Works Committee Minutes Register"],
+      "citation": "The Industrial Relations Code, 2020, Sec. 3"
+    },
+    {
+      "code_id": "ir_2020",
+      "code_name": "The Industrial Relations Code, 2020",
+      "chapter_number": "Chapter IV",
+      "chapter_title": "Standing Orders",
+      "section_number": "Section 28",
+      "title": "Application of this Chapter and Standing Orders",
+      "statutory_text": "The provisions of this Chapter shall apply to every industrial establishment wherein three hundred or more workers are employed, or were employed on any day of the preceding twelve months. Employers must prepare draft standing orders covering classification of workers, shift working, attendance, termination, and suspension procedures.",
+      "keywords": ["standing orders", "certified standing orders", "300 workers", "service conditions", "misconduct"],
+      "thresholds": {
+        "criterion": "Industrial establishment workforce count",
+        "applicability_limit": "300 or more workers",
+        "enforcing_authority": "Certifying Officer / Regional Labour Commissioner"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹1,00,000 to ₹2,00,000",
+        "subsequent_offense": "Fine up to ₹2,00,000 or imprisonment up to 3 months",
+        "imprisonment_term": "3 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Certified Standing Orders Register"],
+      "citation": "The Industrial Relations Code, 2020, Sec. 28"
+    },
+    {
+      "code_id": "ir_2020",
+      "code_name": "The Industrial Relations Code, 2020",
+      "chapter_number": "Chapter VIII",
+      "chapter_title": "Strikes and Lock-outs",
+      "section_number": "Section 62",
+      "title": "Prohibition of Strikes and Lock-outs",
+      "statutory_text": "No person employed in an industrial establishment shall go on strike without giving to the employer notice of strike within sixty days before striking, or within fourteen days of giving such notice, or during the pendency of conciliation proceedings before a conciliation officer and seven days after the conclusion of such proceedings.",
+      "keywords": ["strike", "lockout", "14 days notice", "conciliation", "illegal strike"],
+      "thresholds": {
+        "criterion": "All industrial establishments",
+        "applicability_limit": "Universal notice requirement (14 days min, 60 days max)",
+        "enforcing_authority": "Conciliation Officer / Industrial Tribunal"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹1,000 to ₹10,000 or imprisonment up to 1 month",
+        "subsequent_offense": "Fine up to ₹50,000",
+        "imprisonment_term": "1 month",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Notice of Strike / Lock-out Register"],
+      "citation": "The Industrial Relations Code, 2020, Sec. 62"
+    },
+    {
+      "code_id": "ir_2020",
+      "code_name": "The Industrial Relations Code, 2020",
+      "chapter_number": "Chapter IX",
+      "chapter_title": "Lay-off, Retrenchment and Closure",
+      "section_number": "Section 70",
+      "title": "Conditions Precedent to Retrenchment of Workers",
+      "statutory_text": "No worker employed in any industrial establishment who has been in continuous service for not less than one year under an employer shall be retrenched until the worker has been given one month notice in writing indicating reasons for retrenchment or wages in lieu thereof, and compensation which shall be equivalent to fifteen days average pay for every completed year of continuous service.",
+      "keywords": ["retrenchment", "severance pay", "15 days average pay", "one month notice", "continuous service"],
+      "thresholds": {
+        "criterion": "Workers with continuous service of 1 year or more",
+        "applicability_limit": "15 days wage per completed year",
+        "enforcing_authority": "Deputy Labour Commissioner"
+      },
+      "penalties": {
+        "first_offense_fine": "Up to ₹1,00,000",
+        "subsequent_offense": "Fine up to ₹2,00,000 or imprisonment up to 6 months",
+        "imprisonment_term": "6 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Retrenchment Compensation Payout Register"],
+      "citation": "The Industrial Relations Code, 2020, Sec. 70"
+    }
+  ]
+}

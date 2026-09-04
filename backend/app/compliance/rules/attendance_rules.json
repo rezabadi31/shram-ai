@@ -1,0 +1,13 @@
+[
+  {
+    "rule_id": "ATTN-001",
+    "name": "Mandatory Muster Roll Maintenance",
+    "category": "Attendance",
+    "description": "Establishment muster roll must record work days, leave days, and overtime for all registered workers.",
+    "severity": "MEDIUM",
+    "statutory_reference": "Occupational Safety, Health and Working Conditions Code 2020, Section 33",
+    "conditions": [
+      { "field": "attendance_days", "operator": "not_empty" }
+    ]
+  }
+]

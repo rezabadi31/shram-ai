@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: shram-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ENVIRONMENT
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: FRONTEND_URL
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: shram-postgres
+          property: connectionString
+
+databases:
+  - name: shram-postgres
+    databaseName: shram_production
+    user: shram_admin
+    plan: free
+

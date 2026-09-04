@@ -1,0 +1,65 @@
+[
+  {
+    "rule_id": "MIN_WAGE_001",
+    "name": "Statutory Minimum Wage Rate Floor Check",
+    "category": "WAGES",
+    "severity": "HIGH",
+    "statutory_reference": "Code on Wages, 2019, Section 6 & Section 8",
+    "authority": "Chief Labour Commissioner (Central)",
+    "description": "Verifies that every employee's daily wage rate is equal to or greater than the statutory floor wage (minimum ₹450/day)."
+  },
+  {
+    "rule_id": "OVERTIME_001",
+    "name": "Statutory Overtime Double Rate Verification",
+    "category": "WAGES",
+    "severity": "HIGH",
+    "statutory_reference": "Code on Wages, 2019, Section 14",
+    "authority": "Inspector-cum-Facilitator",
+    "description": "Verifies that all overtime hours are remunerated at not less than twice the normal hourly wage rate."
+  },
+  {
+    "rule_id": "DEDUCTION_CAP_001",
+    "name": "Statutory Maximum 50% Deduction Ceiling",
+    "category": "WAGES",
+    "severity": "HIGH",
+    "statutory_reference": "Code on Wages, 2019, Section 18(3)",
+    "authority": "Inspector-cum-Facilitator",
+    "description": "Verifies that aggregate statutory deductions do not exceed 50% of total gross wages earned in any wage period."
+  },
+  {
+    "rule_id": "MAX_HOURS_001",
+    "name": "Maximum Daily (8 hrs) and Weekly (48 hrs) Hours Ceiling",
+    "category": "HOURS_AND_ATTENDANCE",
+    "severity": "MEDIUM",
+    "statutory_reference": "OSHWC Code, 2020, Section 25",
+    "authority": "Directorate of Industrial Safety & Health (DISH)",
+    "description": "Ensures no worker is required or allowed to work for more than 8 hours in any day or 48 hours in any week without compensatory rest and overtime authorization."
+  },
+  {
+    "rule_id": "WAGE_PERIOD_001",
+    "name": "Timely Wage Disbursement within Statutory Deadline",
+    "category": "WAGES",
+    "severity": "MEDIUM",
+    "statutory_reference": "Code on Wages, 2019, Section 17",
+    "authority": "Inspector-cum-Facilitator",
+    "description": "Verifies that wages are disbursed before the expiry of the seventh day or tenth day of the succeeding month."
+  },
+  {
+    "rule_id": "MANDATORY_REGISTERS_001",
+    "name": "Mandatory Statutory Registers Maintenance (Form A, B, D)",
+    "category": "REGISTERS_AND_RETURNS",
+    "severity": "HIGH",
+    "statutory_reference": "Code on Wages, 2019, Section 50",
+    "authority": "Labour Enforcement Officer",
+    "description": "Ensures establishment maintains Form A (Register of Employees), Form B (Register of Wages), and Form D (Muster Roll / Attendance)."
+  },
+  {
+    "rule_id": "SAFETY_COMMITTEE_001",
+    "name": "Mandatory Bi-partite Safety Committee Constitution",
+    "category": "SAFETY_AND_HEALTH",
+    "severity": "HIGH",
+    "statutory_reference": "OSHWC Code, 2020, Section 22",
+    "authority": "Chief Inspector of Factories",
+    "description": "Verifies that factories employing 250+ workers (or 100+ for hazardous manufacturing) constitute an active Safety Committee with equal worker representation."
+  }
+]

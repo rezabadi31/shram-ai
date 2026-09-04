@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "code_id": "oshwc_2020",
+    "title": "The Occupational Safety, Health and Working Conditions Code, 2020",
+    "act_number": "Act No. 37 of 2020",
+    "enactment_year": 2020,
+    "total_chapters": 14,
+    "total_sections": 143,
+    "primary_objective": "Consolidates and amends laws regulating the occupational safety, health and working conditions of persons employed in an establishment, covering factories, mines, dock work, and contract labour.",
+    "enforcing_spheres": ["Directorate General Factory Advice Service and Labour Institutes (DGFASLI)", "State Directorate of Industrial Safety & Health (DISH)"],
+    "repealed_acts": [
+      "The Factories Act, 1948",
+      "The Mines Act, 1952",
+      "The Dock Workers (Safety, Health and Welfare) Act, 1986",
+      "The Building and Other Construction Workers Act, 1996",
+      "The Plantations Labour Act, 1951",
+      "The Contract Labour (Regulation and Abolition) Act, 1970",
+      "The Inter-State Migrant Workmen Act, 1979",
+      "The Working Journalists Act, 1955",
+      "The Motor Transport Workers Act, 1961",
+      "The Beedi and Cigar Workers Act, 1966"
+    ],
+    "mandatory_registers": [
+      "Form 18 - Notice of Accident / Dangerous Occurrence",
+      "Safety Committee Minutes Register",
+      "Annual Health Examination Register",
+      "Contractor License Register"
+    ]
+  },
+  "sections": [
+    {
+      "code_id": "oshwc_2020",
+      "code_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "chapter_number": "Chapter I",
+      "chapter_title": "Preliminary & Definitions",
+      "section_number": "Section 2(w)",
+      "title": "Definition of Factory",
+      "statutory_text": "Factory means any premises where twenty or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on with the aid of power; or forty or more workers where manufacturing is carried on without the aid of power.",
+      "keywords": ["factory definition", "20 workers with power", "40 workers without power", "manufacturing process"],
+      "thresholds": {
+        "criterion": "Worker headcount in manufacturing premises",
+        "applicability_limit": "20 workers (with power) / 40 workers (without power)",
+        "enforcing_authority": "Chief Inspector of Factories / DISH"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹2,00,000 to ₹3,00,000",
+        "subsequent_offense": "Imprisonment up to 2 years and fine up to ₹5,00,000",
+        "imprisonment_term": "2 years",
+        "compoundable": false
+      },
+      "mandatory_registers": ["Factory License Register", "Form A Register"],
+      "citation": "The OSHWC Code, 2020, Sec. 2(w)"
+    },
+    {
+      "code_id": "oshwc_2020",
+      "code_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "chapter_number": "Chapter IV",
+      "chapter_title": "Occupational Safety and Health",
+      "section_number": "Section 22",
+      "title": "Safety Committee and Safety Officers",
+      "statutory_text": "In every factory wherein two hundred and fifty or more workers are ordinarily employed, or in which hazardous process is carried on wherein one hundred or more workers are employed, the employer shall constitute in the prescribed manner a Safety Committee consisting of equal representatives of employer and workers to promote safety cooperation. Every factory employing 500+ workers must appoint a qualified Safety Officer.",
+      "keywords": ["safety committee", "safety officer", "250 workers", "hazardous process 100 workers", "equal representation"],
+      "thresholds": {
+        "criterion": "Factory workforce headcount",
+        "applicability_limit": "250+ workers (or 100+ for hazardous manufacturing)",
+        "enforcing_authority": "Inspector-cum-Facilitator / Safety Directorate"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹1,00,000 to ₹2,00,000",
+        "subsequent_offense": "Fine up to ₹3,00,000 or imprisonment up to 6 months",
+        "imprisonment_term": "6 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Safety Committee Minutes & Action Plan Register", "Safety Audit Log"],
+      "citation": "The OSHWC Code, 2020, Sec. 22"
+    },
+    {
+      "code_id": "oshwc_2020",
+      "code_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "chapter_number": "Chapter VI",
+      "chapter_title": "Working Hours and Annual Leave with Wages",
+      "section_number": "Section 25",
+      "title": "Daily and Weekly Working Hours and Spread-over",
+      "statutory_text": "No worker shall be required or allowed to work in any establishment for more than eight hours in any day or for more than forty-eight hours in any week. The periods of work of adult workers shall be so fixed that no period shall exceed five hours before an interval of rest of at least half an hour. Spread-over including rest interval shall not exceed twelve hours in any day.",
+      "keywords": ["working hours", "8 hours per day", "48 hours per week", "rest interval", "spreadover 12 hours"],
+      "thresholds": {
+        "criterion": "Daily and weekly working hours ceiling",
+        "applicability_limit": "8 hours/day, 48 hours/week maximum",
+        "enforcing_authority": "Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹50,000",
+        "subsequent_offense": "Fine up to ₹1,00,000 or imprisonment up to 3 months",
+        "imprisonment_term": "3 months",
+        "compoundable": true
+      },
+      "mandatory_registers": ["Form D - Muster Roll / Attendance Register"],
+      "citation": "The OSHWC Code, 2020, Sec. 25"
+    },
+    {
+      "code_id": "oshwc_2020",
+      "code_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "chapter_number": "Chapter V",
+      "chapter_title": "Health, Safety and Working Conditions",
+      "section_number": "Section 24",
+      "title": "Welfare Facilities (Canteens, Crèches, First Aid)",
+      "statutory_text": "Every establishment employing one hundred or more workers shall provide and maintain an adequate canteen facility. Every establishment employing fifty or more workers shall provide and maintain a suitable crèche for the use of children under the age of six years. First aid boxes equipped with prescribed contents must be maintained at the rate of one for every fifty workers.",
+      "keywords": ["canteen 100 workers", "crèche 50 workers", "welfare facilities", "first aid box 50 workers"],
+      "thresholds": {
+        "criterion": "Establishment worker count for welfare facilities",
+        "applicability_limit": "Canteen: 100+ workers | Crèche: 50+ workers | First Aid: 1 per 50 workers",
+        "enforcing_authority": "Inspector-cum-Facilitator"
+      },
+      "penalties": {
+        "first_offense_fine": "Fine up to ₹50,000 to ₹1,00,000",
+        "subsequent_offense": "Fine up to ₹2,00,000",
+        "imprisonment_term": null,
+        "compoundable": true
+      },
+      "mandatory_registers": ["Canteen Audit Log", "Crèche Attendance Register"],
+      "citation": "The OSHWC Code, 2020, Sec. 24"
+    }
+  ]
+}
